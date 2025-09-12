@@ -29,10 +29,10 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']  # Allow all hosts for development
 
 # CSRF trusted origins for development
-CSRF_TRUSTED_ORIGINS = [
-    'https://work-1-vgrggshdjmezrwkq.prod-runtime.all-hands.dev',
-    'https://work-2-vgrggshdjmezrwkq.prod-runtime.all-hands.dev',
-]
+# CSRF_TRUSTED_ORIGINS = [
+#     'https://work-1-vgrggshdjmezrwkq.prod-runtime.all-hands.dev',
+#     'https://work-2-vgrggshdjmezrwkq.prod-runtime.all-hands.dev',
+# ]
 
 # Cart session settings
 CART_SESSION_ID = 'cart'
