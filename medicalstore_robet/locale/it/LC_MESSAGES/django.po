@@ -1,0 +1,2670 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24 09:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pages/models.py:7
+msgid "Site Name"
+msgstr "Nome del Sito"
+
+#: pages/models.py:8
+msgid "Tagline"
+msgstr "Slogan"
+
+#: pages/models.py:11
+msgid "Email"
+msgstr "Email"
+
+#: pages/models.py:12
+msgid "Phone"
+msgstr "Telefono"
+
+#: pages/models.py:13
+msgid "Address"
+msgstr "Indirizzo"
+
+#: pages/models.py:16
+msgid "Facebook URL"
+msgstr "URL Facebook"
+
+#: pages/models.py:17
+msgid "Twitter URL"
+msgstr "URL Twitter"
+
+#: pages/models.py:18
+msgid "Instagram URL"
+msgstr "URL Instagram"
+
+#: pages/models.py:21
+msgid "Business Hours"
+msgstr "Orari di Apertura"
+
+#: pages/models.py:22
+msgid "About Text"
+msgstr "Testo Chi Siamo"
+
+#: pages/models.py:25 templates/base.html:214
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: pages/models.py:26
+msgid "Terms of Service"
+msgstr "Termini di Servizio"
+
+#: pages/models.py:29 pages/models.py:30
+msgid "Site Settings"
+msgstr "Impostazioni Sito"
+
+#: templates/base.html:10
+msgid ""
+"natural medical products, cannabis, CBD, hemp, organic medicine, herbal "
+"remedies"
+msgstr ""
+"prodotti medici naturali, cannabis, CBD, canapa, medicina biologica, "
+"rimedi erboristici"
+
+#: templates/base.html:78
+msgid ""
+"We use cookies to improve your experience. By continuing to use our site, "
+"you accept our use of cookies."
+msgstr ""
+"Utilizziamo i cookie per migliorare la tua esperienza. Continuando a "
+"utilizzare il nostro sito, accetti il nostro uso dei cookie."
+
+#: templates/base.html:79
+msgid "Learn more"
+msgstr "Scopri di più"
+
+#: templates/base.html:82
+msgid "Accept"
+msgstr "Accetta"
+
+#: templates/base.html:102
+msgid "Search products..."
+msgstr "Cerca prodotti..."
+
+#: templates/base.html:114 templates/base.html:203
+msgid "Products"
+msgstr "Prodotti"
+
+#: templates/base.html:115
+msgid "About"
+msgstr "Chi Siamo"
+
+#: templates/base.html:116 templates/base.html:205
+msgid "Contact"
+msgstr "Contatti"
+
+#: templates/base.html:157
+msgid "Profile"
+msgstr "Profilo"
+
+#: templates/base.html:158
+msgid "Order History"
+msgstr "Cronologia Ordini"
+
+#: templates/base.html:159
+msgid "Logout"
+msgstr "Esci"
+
+#: templates/base.html:163
+msgid "Login"
+msgstr "Accedi"
+
+#: templates/base.html:164
+msgid "Register"
+msgstr "Registrati"
+
+#: templates/base.html:201
+msgid "Quick Links"
+msgstr "Link Rapidi"
+
+#: templates/base.html:204
+msgid "About Us"
+msgstr "Chi Siamo"
+
+#: templates/base.html:206
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/base.html:211
+msgid "Legal"
+msgstr "Legale"
+
+#: templates/base.html:213
+msgid "Legal Notice"
+msgstr "Note Legali"
+
+#: templates/base.html:219
+msgid "Contact Info"
+msgstr "Informazioni Contatti"
+
+#: templates/base.html:229
+msgid "All rights reserved."
+msgstr "Tutti i diritti riservati."
+
+#: templates/base.html:231
+msgid "Medical Disclaimer:"
+msgstr "Avviso Medico:"
+
+#: templates/base.html:231
+msgid ""
+"The information provided is for educational purposes only and should not "
+"replace professional medical advice."
+msgstr ""
+"Le informazioni fornite sono solo a scopo educativo e non sostituiscono il "
+"consiglio medico professionale."
+
+msgid "Professional Medical Products"
+msgstr "Prodotti Medici Professionali"
+
+msgid "Discover our comprehensive range of medical products with detailed composition, usage instructions, and proven health benefits."
+msgstr "Scopri la nostra gamma completa di prodotti medici con composizione dettagliata, istruzioni per l'uso e benefici per la salute comprovati."
+
+msgid "Explore Products"
+msgstr "Esplora Prodotti"
+
+msgid "Product Categories"
+msgstr "Categorie Prodotti"
+
+msgid "View Products"
+msgstr "Vedi Prodotti"
+
+msgid "No categories available yet."
+msgstr "Nessuna categoria disponibile al momento."
+
+msgid "Featured Products"
+msgstr "Prodotti in Evidenza"
+
+msgid "View Details"
+msgstr "Vedi Dettagli"
+
+msgid "No featured products available yet."
+msgstr "Nessun prodotto in evidenza disponibile al momento."
+
+msgid "View All Products"
+msgstr "Vedi Tutti i Prodotti"
+
+msgid "Why Choose Our Products?"
+msgstr "Perché Scegliere i Nostri Prodotti?"
+
+msgid "Scientific Composition"
+msgstr "Composizione Scientifica"
+
+msgid "Detailed information about key elements and ingredients in each product."
+msgstr "Informazioni dettagliate sugli elementi chiave e ingredienti in ogni prodotto."
+
+msgid "Usage Instructions"
+msgstr "Istruzioni per l'Uso"
+
+msgid "Clear, professional guidance on how to use each medical product safely."
+msgstr "Linee guida chiare e professionali su come usare ogni prodotto medico in sicurezza."
+
+msgid "Health Benefits"
+msgstr "Benefici per la Salute"
+
+msgid "Comprehensive information about the health benefits of each product."
+msgstr "Informazioni complete sui benefici per la salute di ogni prodotto."
+
+msgid "Why Choose Our Cannabis Products?"
+msgstr "Perché Scegliere i Nostri Prodotti a Base di Cannabis?"
+
+msgid "Premium Quality"
+msgstr "Qualità Premium"
+
+msgid "Lab-tested cannabis products with certified potency and purity. Grown organically without pesticides."
+msgstr "Prodotti a base di cannabis testati in laboratorio con potenza e purezza certificate. Coltivati biologicamente senza pesticidi."
+
+msgid "Therapeutic Effects"
+msgstr "Effetti Terapeutici"
+
+msgid "May help with pain relief, anxiety reduction, sleep improvement, and appetite stimulation based on clinical studies."
+msgstr "Può aiutare con sollievo dal dolore, riduzione dell'ansia, miglioramento del sonno e stimolazione dell'appetito secondo studi clinici."
+
+msgid "Precise Formulations"
+msgstr "Formulazioni Precise"
+
+msgid "Accurate CBD:THC ratios tailored for specific conditions. Full-spectrum products with terpenes for enhanced effects."
+msgstr "Rapporti CBD:THC precisi per condizioni specifiche. Prodotti full-spectrum con terpeni per effetti potenziati."
+
+msgid "Medical Support"
+msgstr "Supporto Medico"
+
+msgid "Dosage guidance from healthcare professionals. Product recommendations based on your medical needs."
+msgstr "Linee guida sul dosaggio da professionisti sanitari. Raccomandazioni di prodotti basate sulle tue esigenze mediche."
+
+msgid "Important Medical Information"
+msgstr "Informazioni Mediche Importanti"
+
+msgid "Cannabis products may interact with medications. Consult your physician before use, especially if you have heart conditions, psychiatric disorders, or are pregnant/nursing. Start with low doses and monitor effects."
+msgstr "I prodotti a base di cannabis possono interagire con i farmaci. Consulta il tuo medico prima dell'uso, specialmente se hai problemi cardiaci, disturbi psichiatrici o sei incinta/allatti. Inizia con dosi basse e monitora gli effetti."
+
+msgid "Filter Products"
+msgstr "Filtra Prodotti"
+
+msgid "Price Range"
+msgstr "Fascia di Prezzo"
+
+msgid "Min Price"
+msgstr "Prezzo Min"
+
+msgid "Max Price"
+msgstr "Prezzo Max"
+
+msgid "CBD:THC Ratio"
+msgstr "Rapporto CBD:THC"
+
+msgid "All Ratios"
+msgstr "Tutti i Rapporti"
+
+msgid "High CBD (20:1)"
+msgstr "Alto CBD (20:1)"
+
+msgid "Balanced (1:1)"
+msgstr "Bilanciato (1:1)"
+
+msgid "High THC (1:20)"
+msgstr "Alto THC (1:20)"
+
+msgid "Consumption Method"
+msgstr "Metodo di Consumo"
+
+msgid "Flower"
+msgstr "Fiore"
+
+msgid "Oils & Tinctures"
+msgstr "Oli & Tinture"
+
+msgid "Edibles"
+msgstr "Edibili"
+
+msgid "Apply Filters"
+msgstr "Applica Filtri"
+
+msgid "Clear Filters"
+msgstr "Cancella Filtri"
+
+msgid "Medical Information"
+msgstr "Informazioni Mediche"
+
+msgid "Dosage Advice:"
+msgstr "Consigli sul Dosaggio:"
+
+msgid "Start with low doses (2.5-5mg THC) and wait 2 hours before consuming more."
+msgstr "Inizia con dosi basse (2,5-5mg THC) e aspetta 2 ore prima di consumarne ancora."
+
+msgid "Effects Timeline:"
+msgstr "Tempistica Effetti:"
+
+msgid "Inhalation: 5-15 minutes onset. Edibles: 30-90 minutes onset. Effects last 2-6 hours."
+msgstr "Inalazione: effetto in 5-15 minuti. Edibili: effetto in 30-90 minuti. Effetti durano 2-6 ore."
+
+msgid "Storage:"
+msgstr "Conservazione:"
+
+msgid "Store in cool, dark place. Keep away from children and pets."
+msgstr "Conserva in luogo fresco e buio. Tenere lontano da bambini e animali."
+
+msgid "Products in"
+msgstr "Prodotti in"
+
+msgid "products found"
+msgstr "prodotti trovati"
+
+msgid "Out of Stock"
+msgstr "Esaurito"
+
+msgid "In Stock"
+msgstr "Disponibile"
+
+msgid "No products found"
+msgstr "Nessun prodotto trovato"
+
+msgid "No products match your current filters. Try adjusting your price range."
+msgstr "Nessun prodotto corrisponde ai tuoi filtri attuali. Prova a modificare la fascia di prezzo."
+
+msgid "This category doesn't have any products yet."
+msgstr "Questa categoria non ha ancora prodotti."
+
+msgid "Browse All Products"
+msgstr "Sfoglia Tutti i Prodotti"
+
+msgid "Previous"
+msgstr "Precedente"
+
+msgid "Next"
+msgstr "Successivo"
+
+msgid "Therapeutic Uses"
+msgstr "Usi Terapeutici"
+
+msgid "Pain Management"
+msgstr "Gestione del Dolore"
+
+msgid "May help with chronic pain, arthritis, and neuropathic pain."
+msgstr "Può aiutare con dolore cronico, artrite e dolore neuropatico."
+
+msgid "Mental Health"
+msgstr "Salute Mentale"
+
+msgid "Potential benefits for anxiety, PTSD, and depression (consult doctor)."
+msgstr "Potenziali benefici per ansia, PTSD e depressione (consultare medico)."
+
+msgid "Sleep Disorders"
+msgstr "Disturbi del Sonno"
+
+msgid "May improve sleep quality for insomnia patients."
+msgstr "Può migliorare la qualità del sonno per pazienti con insonnia."
+
+msgid "Filters"
+msgstr "Filtri"
+
+msgid "Categories"
+msgstr "Categorie"
+
+msgid "All Categories"
+msgstr "Tutte le Categorie"
+
+msgid "Strain Type"
+msgstr "Tipo di Varietà"
+
+msgid "CBD Dominant (>20:1)"
+msgstr "Dominante CBD (>20:1)"
+
+msgid "THC Dominant (1:20)"
+msgstr "Dominante THC (1:20)"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Dosage Guide"
+msgstr "Guida al Dosaggio"
+
+msgid "Start with 2.5-5mg THC, wait 2 hours before redosing. Consult your physician for personalized advice."
+msgstr "Inizia con 2,5-5mg THC, aspetta 2 ore prima di ridosare. Consulta il tuo medico per consigli personalizzati."
+
+msgid "Effects Duration"
+msgstr "Durata Effetti"
+
+msgid "Inhalation: 2-4 hours. Edibles: 4-8 hours. Topicals: 2-5 hours."
+msgstr "Inalazione: 2-4 ore. Edibili: 4-8 ore. Topici: 2-5 ore."
+
+msgid "Safety Notice"
+msgstr "Avviso di Sicurezza"
+
+msgid "Not recommended for pregnant/nursing women or those with heart conditions. May interact with medications."
+msgstr "Non raccomandato per donne incinte/allattanti o persone con problemi cardiaci. Può interagire con farmaci."
+
+msgid "Search Results for"
+msgstr "Risultati Ricerca per"
+
+msgid "All Products"
+msgstr "Tutti i Prodotti"
+
+msgid "Benefits:"
+msgstr "Benefici:"
+
+msgid "Details"
+msgstr "Dettagli"
+
+msgid "Low Stock"
+msgstr "Scorte Limitare"
+
+msgid "Try adjusting your search criteria or browse all products."
+msgstr "Prova a modificare i criteri di ricerca o sfoglia tutti i prodotti."
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Strain"
+msgstr "Varietà"
+
+msgid "Key Benefits"
+msgstr "Principali Benefici"
+
+msgid "Quantity"
+msgstr "Quantità"
+
+msgid "Add to Cart"
+msgstr "Aggiungi al Carrello"
+
+msgid "Dosage:"
+msgstr "Dosaggio:"
+
+msgid "Start with low doses (2.5-5mg THC). Wait 2 hours before consuming more."
+msgstr "Inizia con dosi basse (2,5-5mg THC). Aspetta 2 ore prima di consumarne ancora."
+
+msgid "Effects:"
+msgstr "Effetti:"
+
+msgid "Onset in 5-15 minutes when inhaled, 30-90 minutes when ingested. Effects last 2-6 hours."
+msgstr "Effetto in 5-15 minuti se inalato, 30-90 minuti se ingerito. Effetti durano 2-6 ore."
+
+msgid "Warning:"
+msgstr "Avvertimento:"
+
+msgid "Description"
+msgstr "Descrizione"
+
+msgid "Composition"
+msgstr "Composizione"
+
+msgid "How to Use"
+msgstr "Come Usare"
+
+msgid "Production"
+msgstr "Produzione"
+
+msgid "Benefits"
+msgstr "Benefici"
+
+msgid "Product Description"
+msgstr "Descrizione Prodotto"
+
+msgid "Strain Characteristics"
+msgstr "Caratteristiche Varietà"
+
+msgid "Effects"
+msgstr "Effetti"
+
+msgid "Energetic, uplifting, cerebral"
+msgstr "Energetico, euforizzante, cerebrale"
+
+msgid "Relaxing, sedating, body-focused"
+msgstr "Rilassante, sedativo, corporeo"
+
+msgid "Balanced, hybrid effects"
+msgstr "Effetti bilanciati, ibridi"
+
+msgid "Aroma"
+msgstr "Aroma"
+
+msgid "Earthy, herbal notes"
+msgstr "Note terrose, erbacee"
+
+msgid "Best For"
+msgstr "Ideale Per"
+
+msgid "Daytime use, creativity, focus"
+msgstr "Uso diurno, creatività, concentrazione"
+
+msgid "Evening use, relaxation, sleep"
+msgstr "Uso serale, relax, sonno"
+
+msgid "Versatile use throughout day"
+msgstr "Uso versatile tutto il giorno"
+
+msgid "Composition & Ingredients"
+msgstr "Composizione & Ingredienti"
+
+msgid "Terpene Profile"
+msgstr "Profilo Terpeni"
+
+msgid "Safety Information"
+msgstr "Informazioni Sicurezza"
+
+msgid "Start with low doses, especially if new to cannabis"
+msgstr "Inizia con dosi basse, specialmente se nuovo alla cannabis"
+
+msgid "Do not operate heavy machinery after use"
+msgstr "Non usare macchinari pesanti dopo l'uso"
+
+msgid "Keep out of reach of children and pets"
+msgstr "Tenere fuori dalla portata di bambini e animali"
+
+msgid "Store in a cool, dark place"
+msgstr "Conservare in luogo fresco e buio"
+
+msgid "Consult your doctor if taking other medications"
+msgstr "Consultare il medico se si assumono altri farmaci"
+
+msgid "Production Method"
+msgstr "Metodo di Produzione"
+
+msgid "Quality Assurance"
+msgstr "Garanzia Qualità"
+
+msgid "Testing"
+msgstr "Test"
+
+msgid "Lab-tested for potency and contaminants"
+msgstr "Testato in laboratorio per potenza e contaminanti"
+
+msgid "Growing Method"
+msgstr "Metodo di Coltivazione"
+
+msgid "Organically grown without pesticides"
+msgstr "Coltivato biologicamente senza pesticidi"
+
+msgid "Therapeutic Applications"
+msgstr "Applicazioni Terapeutiche"
+
+msgid "Physical"
+msgstr "Fisico"
+
+msgid "Pain relief"
+msgstr "Sollievo dal dolore"
+
+msgid "Muscle relaxation"
+msgstr "Rilassamento muscolare"
+
+msgid "Appetite stimulation"
+msgstr "Stimolazione appetito"
+
+msgid "Mental"
+msgstr "Mentale"
+
+msgid "Anxiety reduction"
+msgstr "Riduzione ansia"
+
+msgid "Stress relief"
+msgstr "Riduzione stress"
+
+msgid "Mood elevation"
+msgstr "Miglioramento umore"
+
+msgid "Other"
+msgstr "Altro"
+
+msgid "Sleep improvement"
+msgstr "Miglioramento sonno"
+
+msgid "Neuroprotective effects"
+msgstr "Effetti neuroprotettivi"
+
+msgid "Anti-inflammatory"
+msgstr "Anti-infiammatorio"
+
+msgid "Related Products"
+msgstr "Prodotti Correlati"
+
+msgid "Shopping Cart"
+msgstr "Carrello"
+
+msgid "Important Information"
+msgstr "Informazioni Importanti"
+
+msgid "All cannabis products are for adults 18+ only. By proceeding to checkout, you confirm you meet the legal age requirement in your jurisdiction."
+msgstr "Tutti i prodotti a base di cannabis sono solo per adulti 18+. Procedendo al checkout, confermi di soddisfare i requisiti di età legale nella tua giurisdizione."
+
+msgid "Update"
+msgstr "Aggiorna"
+
+msgid "Remove item"
+msgstr "Rimuovi articolo"
+
+msgid "Order Summary"
+msgstr "Riepilogo Ordine"
+
+msgid "Items"
+msgstr "Articoli"
+
+msgid "Shipping"
+msgstr "Spedizione"
+
+msgid "Free"
+msgstr "Gratis"
+
+msgid "Total"
+msgstr "Totale"
+
+msgid "Proceed to Checkout"
+msgstr "Procedi al Checkout"
+
+msgid "Continue Shopping"
+msgstr "Continua lo Shopping"
+
+msgid "I confirm that I am 18 years of age or older and agree to the"
+msgstr "Confermo di avere almeno 18 anni e accetto i"
+
+msgid "Your cart is empty"
+msgstr "Il tuo carrello è vuoto"
+
+msgid "Add some medical cannabis products to get started!"
+msgstr "Aggiungi alcuni prodotti a base di cannabis medica per iniziare!"
+
+msgid "Browse Products"
+msgstr "Sfoglia Prodotti"
+
+msgid "Medical Use Information"
+msgstr "Informazioni Uso Medico"
+
+msgid "For medical cannabis patients, please note:"
+msgstr "Per pazienti di cannabis medica, si prega di notare:"
+
+msgid "Consult with your physician about proper dosing"
+msgstr "Consulta il tuo medico per il dosaggio corretto"
+
+msgid "Start with low doses and increase gradually"
+msgstr "Inizia con dosi basse e aumenta gradualmente"
+
+msgid "Be aware of potential drug interactions"
+msgstr "Sii consapevole delle possibili interazioni farmacologiche"
+
+msgid "Store products securely away from children/pets"
+msgstr "Conserva i prodotti in sicurezza lontano da bambini/animali"
+
+msgid "Effects may vary based on individual physiology"
+msgstr "Gli effetti possono variare in base alla fisiologia individuale"
+
+msgid "I Understand"
+msgstr "Ho Capito"
+
+msgid "Please confirm you are 18+ to proceed with checkout"
+msgstr "Conferma di avere almeno 18 anni per procedere al checkout"
+
+msgid "Checkout"
+msgstr "Checkout"
+
+msgid "First Name"
+msgstr "Nome"
+
+msgid "Last Name"
+msgstr "Cognome"
+
+msgid "Postal Code"
+msgstr "Codice Postale"
+
+msgid "City"
+msgstr "Città"
+
+msgid "Country"
+msgstr "Paese"
+
+msgid "Start with low doses (2.5-5mg THC). Effects may take 30-90 minutes when ingested."
+msgstr "Inizia con dosi basse (2,5-5mg THC). Gli effetti possono richiedere 30-90 minuti se ingeriti."
+
+msgid "Keep in a cool, dark place. Store securely away from children and pets."
+msgstr "Conserva in luogo fresco e buio. Conservare in sicurezza lontano da bambini e animali."
+
+msgid "Payment Method"
+msgstr "Metodo di Pagamento"
+
+msgid "Credit/Debit Card"
+msgstr "Carta di Credito/Debito"
+
+msgid "Secure payment processing via our PCI-compliant payment gateway."
+msgstr "Elaborazione pagamenti sicura tramite il nostro gateway di pagamento conforme PCI."
+
+msgid "Place Order"
+msgstr "Invia Ordine"
+
+msgid "Qty"
+msgstr "Qtà"
+
+msgid "Subtotal"
+msgstr "Subtotale"
+
+msgid "Tax"
+msgstr "Tasse"
+
+msgid "These products are not intended to diagnose, treat, cure or prevent any disease. Consult your healthcare provider before use."
+msgstr "Questi prodotti non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Consultare il proprio medico prima dell'uso."
+
+msgid "Delivery Information"
+msgstr "Informazioni Consegna"
+
+msgid "Discreet packaging for all orders"
+msgstr "Confezione discreta per tutti gli ordini"
+
+msgid "Adult signature required upon delivery"
+msgstr "Firma adulto richiesta alla consegna"
+
+msgid "No returns on cannabis products"
+msgstr "Nessun reso per prodotti a base di cannabis"
+
+msgid "You must confirm you are 18+ to place an order"
+msgstr "Devi confermare di avere almeno 18 anni per effettuare un ordine"
+
+msgid "Order Confirmed!"
+msgstr "Ordine Confermato!"
+
+msgid "Thank you for your order. We'll send you a confirmation email shortly."
+msgstr "Grazie per il tuo ordine. Ti invieremo un'email di conferma a breve."
+
+msgid "Order Details"
+msgstr "Dettagli Ordine"
+
+msgid "Order Number"
+msgstr "Numero Ordine"
+
+msgid "Order Date"
+msgstr "Data Ordine"
+
+msgid "Status"
+msgstr "Stato"
+
+msgid "Total Amount"
+msgstr "Importo Totale"
+
+msgid "Order Items"
+msgstr "Articoli Ordinati"
+
+msgid "each"
+msgstr "ciascuno"
+
+msgid "What's Next?"
+msgstr "Cosa Succede Ora?"
+
+msgid "You'll receive an order confirmation email at"
+msgstr "Riceverai un'email di conferma ordine a"
+
+msgid "We'll prepare your discreet package within 1-2 business days"
+msgstr "Prepareremo il tuo pacco discreto entro 1-2 giorni lavorativi"
+
+msgid "Adult signature required upon delivery (18+ only)"
+msgstr "Firma adulto richiesta alla consegna (solo 18+)"
+
+msgid "Contact us if you have any questions about your order"
+msgstr "Contattaci per qualsiasi domanda sul tuo ordine"
+
+msgid "Dosage Guidance:"
+msgstr "Guida al Dosaggio:"
+
+msgid "Start with low doses (2.5-5mg THC). Wait at least 2 hours before consuming more."
+msgstr "Inizia con dosi basse (2,5-5mg THC). Aspetta almeno 2 ore prima di consumarne ancora."
+
+msgid "Inhalation: effects in 5-15 minutes. Edibles: effects in 30-90 minutes. Duration: 2-6 hours."
+msgstr "Inalazione: effetti in 5-15 minuti. Edibili: effetti in 30-90 minuti. Durata: 2-6 ore."
+
+msgid "Safety:"
+msgstr "Sicurezza:"
+
+msgid "Do not drive or operate machinery after use. May interact with medications."
+msgstr "Non guidare o usare macchinari dopo l'uso. Può interagire con farmaci."
+
+msgid "These products are not intended to diagnose, treat, cure or prevent any disease. Consult your healthcare provider before use, especially if you have medical conditions or take medications."
+msgstr "Questi prodotti non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Consultare il medico prima dell'uso, specialmente se si hanno condizioni mediche o si assumono farmaci."
+
+msgid "View Order History"
+msgstr "Vedi Cronologia Ordini"
+
+msgid "Order"
+msgstr "Ordine"
+
+msgid "Items Ordered"
+msgstr "Articoli Ordinati"
+
+msgid "Usage Reminder"
+msgstr "Promemoria Uso"
+
+msgid "Store products securely away from children and pets"
+msgstr "Conserva i prodotti in sicurezza lontano da bambini e animali"
+
+msgid "Consult your physician with any questions"
+msgstr "Consulta il tuo medico per qualsiasi domanda"
+
+msgid "Order placed on"
+msgstr "Ordine effettuato il"
+
+msgid "Cancel Order"
+msgstr "Annulla Ordine"
+
+msgid "Contact Support"
+msgstr "Contatta Supporto"
+
+msgid "No orders yet"
+msgstr "Nessun ordine ancora"
+
+msgid "You haven't placed any orders yet. Start shopping to see your order history here!"
+msgstr "Non hai ancora effettuato ordini. Inizia a fare acquisti per vedere qui la tua cronologia ordini!"
+
+msgid "My Profile"
+msgstr "Mio Profilo"
+
+msgid "Profile Information"
+msgstr "Informazioni Profilo"
+
+msgid "Medical Profile"
+msgstr "Profilo Medico"
+
+msgid "Security Settings"
+msgstr "Impostazioni Sicurezza"
+
+msgid "Medical Resources"
+msgstr "Risorse Mediche"
+
+msgid "Cannabis Dosage Guide"
+msgstr "Guida al Dosaggio Cannabis"
+
+msgid "Medical Research"
+msgstr "Ricerca Medica"
+
+msgid "Find a Doctor"
+msgstr "Trova un Medico"
+
+msgid "Email Address"
+msgstr "Indirizzo Email"
+
+msgid "Username"
+msgstr "Nome Utente"
+
+msgid "Username cannot be changed"
+msgstr "Nome utente non modificabile"
+
+msgid "Subscribe to cannabis research and product updates"
+msgstr "Iscriviti a ricerche cannabis e aggiornamenti prodotti"
+
+msgid "Update Profile"
+msgstr "Aggiorna Profilo"
+
+msgid "Medical Conditions (optional)"
+msgstr "Condizioni Mediche (opzionale)"
+
+msgid "For personalized product recommendations"
+msgstr "Per raccomandazioni prodotti personalizzate"
+
+msgid "Experience Level with Cannabis"
+msgstr "Livello Esperienza con Cannabis"
+
+msgid "Select your experience level"
+msgstr "Seleziona il tuo livello di esperienza"
+
+msgid "Beginner (first time user)"
+msgstr "Principiante (primo uso)"
+
+msgid "Intermediate (occasional use)"
+msgstr "Intermedio (uso occasionale)"
+
+msgid "Experienced (regular medical user)"
+msgstr "Esperto (utente medico regolare)"
+
+msgid "I am a registered medical cannabis patient"
+msgstr "Sono un paziente registrato di cannabis medica"
+
+msgid "Save Medical Profile"
+msgstr "Salva Profilo Medico"
+
+msgid "Account Summary"
+msgstr "Riepilogo Account"
+
+msgid "Total Orders"
+msgstr "Ordini Totali"
+
+msgid "Total Spent"
+msgstr "Totale Speso"
+
+msgid "Member Since"
+msgstr "Membro Dal"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Last changed: Never"
+msgstr "Ultima modifica: Mai"
+
+msgid "Change Password"
+msgstr "Cambia Password"
+
+msgid "Two-Factor Authentication"
+msgstr "Autenticazione a Due Fattori"
+
+msgid "Not enabled"
+msgstr "Non abilitata"
+
+msgid "Enable 2FA"
+msgstr "Abilita 2FA"
+
+msgid "Login Sessions"
+msgstr "Sessioni di Accesso"
+
+msgid "Manage active sessions"
+msgstr "Gestisci sessioni attive"
+
+msgid "View Sessions"
+msgstr "Vedi Sessioni"
+
+msgid "Welcome Back"
+msgstr "Bentornato"
+
+msgid "Sign in to your cannabis account"
+msgstr "Accedi al tuo account cannabis"
+
+msgid "Please correct the errors below."
+msgstr "Correggi gli errori qui sotto."
+
+msgid "Username or Email"
+msgstr "Nome Utente o Email"
+
+msgid "Remember me"
+msgstr "Ricordami"
+
+msgid "Forgot password?"
+msgstr "Password dimenticata?"
+
+msgid "I confirm that I am 18 years of age or older"
+msgstr "Confermo di avere almeno 18 anni"
+
+msgid "Sign In"
+msgstr "Accedi"
+
+msgid "Don't have an account?"
+msgstr "Non hai un account?"
+
+msgid "Sign up here"
+msgstr "Registrati qui"
+
+msgid "Or continue as guest"
+msgstr "O continua come ospite"
+
+msgid "Continue as Guest"
+msgstr "Continua come Ospite"
+
+msgid "All cannabis products are for adults 18+ only"
+msgstr "Tutti i prodotti cannabis sono solo per adulti 18+"
+
+msgid "Consult your physician before using cannabis products"
+msgstr "Consulta il tuo medico prima di usare prodotti cannabis"
+
+msgid "These products are not intended to diagnose, treat, cure or prevent any disease. By signing in, you acknowledge you understand our products should not replace professional medical advice."
+msgstr "Questi prodotti non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Accedendo, riconosci che i nostri prodotti non sostituiscono il parere medico professionale."
+
+msgid "You must confirm you are 18+ to access this site"
+msgstr "Devi confermare di avere almeno 18 anni per accedere a questo sito"
+
+msgid "Create Account"
+msgstr "Crea Account"
+
+msgid "Join CannabiCare for exclusive access to premium cannabis products"
+msgstr "Unisciti a CannabiCare per accesso esclusivo a prodotti cannabis premium"
+
+msgid "Password must be at least 8 characters long and contain letters and numbers."
+msgstr "La password deve essere lunga almeno 8 caratteri e contenere lettere e numeri."
+
+msgid "Confirm Password"
+msgstr "Conferma Password"
+
+msgid "I agree to the <a href=\"%(url)s\">Terms of Service</a> and <a href=\"%(url)s\">Privacy Policy</a>"
+msgstr "Accetto i <a href=\"%(url)s\">Termini di Servizio</a> e l'<a href=\"%(url)s\">Informativa sulla Privacy</a>"
+
+msgid "I confirm that I am at least 18 years of age"
+msgstr "Confermo di avere almeno 18 anni"
+
+msgid "I understand cannabis products are for adult use only and should be kept away from children"
+msgstr "Capisco che i prodotti cannabis sono solo per adulti e devono essere tenuti lontano dai bambini"
+
+msgid "I would like to receive updates about new cannabis strains and products (optional)"
+msgstr "Vorrei ricevere aggiornamenti su nuove varietà e prodotti cannabis (opzionale)"
+
+msgid "Already have an account?"
+msgstr "Hai già un account?"
+
+msgid "Sign in here"
+msgstr "Accedi qui"
+
+msgid "Why Register With Us?"
+msgstr "Perché Registrarsi da Noi?"
+
+msgid "Access to premium cannabis strains and CBD products"
+msgstr "Accesso a varietà cannabis premium e prodotti CBD"
+
+msgid "Exclusive member discounts and early access to sales"
+msgstr "Sconti esclusivi per membri e accesso anticipato alle vendite"
+
+msgid "Grower's corner with cultivation tips and resources"
+msgstr "Angolo coltivatori con consigli e risorse"
+
+msgid "Medical cannabis information and research updates"
+msgstr "Informazioni cannabis medica e aggiornamenti ricerca"
+
+msgid "Fast, discreet delivery options"
+msgstr "Opzioni di consegna veloce e discreta"
+
+msgid "I agree to the"
+msgstr "Accetto i"
+
+msgid "and"
+msgstr "e"
+
+msgid "Company Information"
+msgstr "Informazioni Azienda"
+
+msgid "Simplified Joint Stock Company (SAS)"
+msgstr "Società per Azioni Semplificata (SAS)"
+
+msgid "Registration Number:"
+msgstr "Numero di Registrazione:"
+
+msgid "VAT Number:"
+msgstr "Partita IVA:"
+
+msgid "Share Capital:"
+msgstr "Capitale Sociale:"
+
+msgid "Registered Office:"
+msgstr "Sede Legale:"
+
+msgid "Phone:"
+msgstr "Telefono:"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Cannabis License:"
+msgstr "Licenza Cannabis:"
+
+msgid "Website Information"
+msgstr "Informazioni Sito Web"
+
+msgid "Website:"
+msgstr "Sito Web:"
+
+msgid "Publication Director:"
+msgstr "Direttore Pubblicazione:"
+
+msgid "Web Development:"
+msgstr "Sviluppo Web:"
+
+msgid "Hosting Provider:"
+msgstr "Provider Hosting:"
+
+msgid "Terms of Use"
+msgstr "Termini di Utilizzo"
+
+msgid "Acceptance of Terms"
+msgstr "Accettazione Termini"
+
+msgid "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+msgstr "Accedendo e utilizzando questo sito, accetti e acconsenti a essere vincolato dai termini e dalle disposizioni di questo accordo. Se non accetti di rispettare quanto sopra, non utilizzare questo servizio."
+
+msgid "Cannabis Product Disclaimer"
+msgstr "Dichiarazione di Non Responsabilità Prodotti Cannabis"
+
+msgid "All cannabis products sold on this website contain less than 0.2% THC in compliance with French and EU regulations. These products are not intended to diagnose, treat, cure or prevent any disease. The information provided is for educational purposes only regarding the potential benefits of CBD and other cannabis compounds."
+msgstr "Tutti i prodotti cannabis venduti su questo sito contengono meno dello 0,2% di THC in conformità con le normative francesi e UE. Questi prodotti non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Le informazioni fornite sono solo a scopo educativo riguardo ai potenziali benefici di CBD e altri composti della cannabis."
+
+msgid "Age Restriction"
+msgstr "Restrizione d'Età"
+
+msgid "You must be at least 18 years old to access this website and purchase our products. By using this site, you confirm that you meet the minimum age requirement."
+msgstr "Devi avere almeno 18 anni per accedere a questo sito e acquistare i nostri prodotti. Utilizzando questo sito, confermi di soddisfare il requisito di età minima."
+
+msgid "Product Information"
+msgstr "Informazioni Prodotto"
+
+msgid "While we strive to provide accurate information about our cannabis products, including CBD content and laboratory test results, we make no representations about the completeness or accuracy of this information. Product effects may vary between individuals."
+msgstr "Sebbene ci sforziamo di fornire informazioni accurate sui nostri prodotti cannabis, inclusi contenuto di CBD e risultati di test di laboratorio, non garantiamo la completezza o l'accuratezza di queste informazioni. Gli effetti dei prodotti possono variare tra gli individui."
+
+msgid "Use License"
+msgstr "Licenza d'Uso"
+
+msgid "Permission is granted to temporarily download one copy of the materials on GreenMed Store's website for personal, non-commercial transitory viewing only. This license prohibits:"
+msgstr "È concessa l'autorizzazione a scaricare temporaneamente una copia dei materiali sul sito web di GreenMed Store solo per visualizzazione personale e non commerciale. Questa licenza vieta:"
+
+msgid "modification or copying of cannabis-related educational materials"
+msgstr "la modifica o copia di materiali educativi relativi alla cannabis"
+
+msgid "commercial use of product images or descriptions"
+msgstr "l'uso commerciale di immagini o descrizioni di prodotti"
+
+msgid "attempting to reverse engineer any software"
+msgstr "tentativi di reverse engineering di qualsiasi software"
+
+msgid "removing copyright or proprietary notations"
+msgstr "la rimozione di notazioni di copyright o proprietà"
+
+msgid "Intellectual Property"
+msgstr "Proprietà Intellettuale"
+
+msgid "All cannabis strain names, product formulations, and educational content are protected by intellectual property laws. The 'GreenMed Store' name and logo are registered trademarks."
+msgstr "Tutti i nomi di varietà di cannabis, formulazioni di prodotti e contenuti educativi sono protetti dalle leggi sulla proprietà intellettuale. Il nome e il logo 'GreenMed Store' sono marchi registrati."
+
+msgid "Our proprietary cannabis cultivation techniques, extraction methods, and product formulations are trade secrets protected under French and EU law."
+msgstr "Le nostre tecniche di coltivazione della cannabis, metodi di estrazione e formulazioni di prodotti sono segreti commerciali protetti dalla legge francese e UE."
+
+msgid "Limitation of Liability"
+msgstr "Limitazione di Responsabilità"
+
+msgid "GreenMed Store shall not be liable for any damages arising from use of our cannabis products or website content. We expressly disclaim responsibility for any adverse effects, interactions with medications, or consequences of improper product use."
+msgstr "GreenMed Store non sarà responsabile per alcun danno derivante dall'uso dei nostri prodotti cannabis o contenuti del sito web. Decliniamo espressamente ogni responsabilità per effetti avversi, interazioni con farmaci o conseguenze di un uso improprio del prodotto."
+
+msgid "As cannabis laws vary by jurisdiction, we cannot guarantee the legal status of our products in your location. It is your responsibility to comply with local regulations."
+msgstr "Poiché le leggi sulla cannabis variano a seconda della giurisdizione, non possiamo garantire lo stato legale dei nostri prodotti nella tua località. È tua responsabilità conformarti alle normative locali."
+
+msgid "Governing Law"
+msgstr "Legge Applicabile"
+
+msgid "These terms are governed by French law, specifically regarding cannabis regulations under Article R. 5132-86 of the Public Health Code. Any disputes will be resolved in Lyon courts."
+msgstr "Questi termini sono regolati dalla legge francese, in particolare per quanto riguarda le normative sulla cannabis ai sensi dell'articolo R. 5132-86 del Codice della Sanità Pubblica. Eventuali controversie saranno risolte nei tribunali di Lione."
+
+msgid "Contact Information"
+msgstr "Informazioni di Contatto"
+
+msgid "For legal inquiries regarding our cannabis products:"
+msgstr "Per richieste legali relative ai nostri prodotti cannabis:"
+
+msgid "Address:"
+msgstr "Indirizzo:"
+
+msgid "Last Updated:"
+msgstr "Ultimo Aggiornamento:"
+
+msgid "This legal notice was updated on January 1, 2024 in compliance with current cannabis regulations. Changes to French or EU cannabis laws may prompt revisions."
+msgstr "Questo avviso legale è stato aggiornato il 1° gennaio 2024 in conformità con le attuali normative sulla cannabis. Modifiche alle leggi francesi o UE sulla cannabis potrebbero richiedere revisioni."
+
+msgid "Introduction"
+msgstr "Introduzione"
+
+msgid "At GreenMed Store, we prioritize your privacy and the security of your personal information, especially when purchasing cannabis-related products. This Privacy Policy explains how we collect, use, and protect your data when you visit our website or purchase our CBD and cannabis products."
+msgstr "In GreenMed Store, diamo priorità alla tua privacy e alla sicurezza delle tue informazioni personali, specialmente quando acquisti prodotti correlati alla cannabis. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo e proteggiamo i tuoi dati quando visiti il nostro sito web o acquisti i nostri prodotti CBD e cannabis."
+
+msgid "This policy complies with GDPR, French data protection laws (Loi Informatique et Libertés), and cannabis industry regulations."
+msgstr "Questa politica è conforme al GDPR, alle leggi francesi sulla protezione dei dati (Loi Informatique et Libertés) e alle normative del settore cannabis."
+
+msgid "Information We Collect"
+msgstr "Informazioni che Raccogliamo"
+
+msgid "Personal Information"
+msgstr "Informazioni Personali"
+
+msgid "We collect the following for legal cannabis purchases:"
+msgstr "Raccogliamo quanto segue per acquisti legali di cannabis:"
+
+msgid "Name, contact details (email, phone, address)"
+msgstr "Nome, dettagli di contatto (email, telefono, indirizzo)"
+
+msgid "Age verification information (to confirm you're 18+)"
+msgstr "Informazioni di verifica dell'età (per confermare che hai 18+ anni)"
+
+msgid "Payment information (processed securely by certified providers)"
+msgstr "Informazioni di pagamento (elaborate in modo sicuro da provider certificati)"
+
+msgid "Purchase history of cannabis/CBD products"
+msgstr "Cronologia acquisti di prodotti cannabis/CBD"
+
+msgid "Medical cannabis authorization (if applicable)"
+msgstr "Autorizzazione alla cannabis medica (se applicabile)"
+
+msgid "Technical Information"
+msgstr "Informazioni Tecniche"
+
+msgid "We automatically collect:"
+msgstr "Raccogliamo automaticamente:"
+
+msgid "IP address and browsing data"
+msgstr "Indirizzo IP e dati di navigazione"
+
+msgid "Device information"
+msgstr "Informazioni sul dispositivo"
+
+msgid "Cookies for site functionality (see our Cookie Policy)"
+msgstr "Cookie per la funzionalità del sito (vedi la nostra Cookie Policy)"
+
+msgid "How We Use Your Information"
+msgstr "Come Utilizziamo le Tue Informazioni"
+
+msgid "We use your data responsibly for:"
+msgstr "Utilizziamo i tuoi dati in modo responsabile per:"
+
+msgid "Legal Compliance:"
+msgstr "Conformità Legale:"
+
+msgid "Age verification and cannabis purchase records as required by law"
+msgstr "Verifica dell'età e registri di acquisto di cannabis come richiesto dalla legge"
+
+msgid "Order Processing:"
+msgstr "Elaborazione Ordini:"
+
+msgid "Secure processing of cannabis product orders"
+msgstr "Elaborazione sicura degli ordini di prodotti cannabis"
+
+msgid "Customer Support:"
+msgstr "Supporto Clienti:"
+
+msgid "Responding to cannabis product inquiries"
+msgstr "Rispondere alle richieste sui prodotti cannabis"
+
+msgid "Product Safety:"
+msgstr "Sicurezza del Prodotto:"
+
+msgid "Tracking for quality control and recalls if needed"
+msgstr "Monitoraggio per il controllo qualità e richiami se necessari"
+
+msgid "Legal Requirements:"
+msgstr "Requisiti Legali:"
+
+msgid "Maintaining required cannabis purchase records"
+msgstr "Mantenimento dei registri di acquisto di cannabis richiesti"
+
+msgid "Legal Basis for Processing"
+msgstr "Base Legale per l'Elaborazione"
+
+msgid "Under GDPR, we process data based on:"
+msgstr "Ai sensi del GDPR, elaboriamo i dati in base a:"
+
+msgid "Legal Obligation:"
+msgstr "Obbligo Legale:"
+
+msgid "For cannabis purchase records and age verification"
+msgstr "Per i registri di acquisto di cannabis e la verifica dell'età"
+
+msgid "Contract:"
+msgstr "Contratto:"
+
+msgid "To fulfill your cannabis product orders"
+msgstr "Per evadere i tuoi ordini di prodotti cannabis"
+
+msgid "Consent:"
+msgstr "Consenso:"
+
+msgid "For marketing communications (opt-in)"
+msgstr "Per le comunicazioni di marketing (opt-in)"
+
+msgid "Information Sharing"
+msgstr "Condivisione delle Informazioni"
+
+msgid "We may share information with:"
+msgstr "Possiamo condividere informazioni con:"
+
+msgid "Payment Processors:"
+msgstr "Processori di Pagamento:"
+
+msgid "Certified providers for secure transactions"
+msgstr "Provider certificati per transazioni sicure"
+
+msgid "Shipping Providers:"
+msgstr "Provider di Spedizione:"
+
+msgid "Discreet delivery of cannabis products"
+msgstr "Consegna discreta di prodotti cannabis"
+
+msgid "Regulatory Authorities:"
+msgstr "Autorità di Regolamentazione:"
+
+msgid "When required by cannabis laws"
+msgstr "Quando richiesto dalle leggi sulla cannabis"
+
+msgid "Medical Professionals:"
+msgstr "Professionisti Medici:"
+
+msgid "Only with explicit consent for medical cannabis"
+msgstr "Solo con esplicito consenso per la cannabis medica"
+
+msgid "We never sell your cannabis purchase history to third parties."
+msgstr "Non vendiamo mai la tua cronologia di acquisti di cannabis a terzi."
+
+msgid "Your Rights (GDPR)"
+msgstr "I Tuoi Diritti (GDPR)"
+
+msgid "You have the right to:"
+msgstr "Hai il diritto di:"
+
+msgid "Access your personal data"
+msgstr "Accedere ai tuoi dati personali"
+
+msgid "Correct inaccurate information"
+msgstr "Correggere informazioni inesatte"
+
+msgid "Request deletion (where not required by cannabis laws)"
+msgstr "Richiedere la cancellazione (dove non richiesto dalle leggi sulla cannabis)"
+
+msgid "Restrict processing"
+msgstr "Limitare l'elaborazione"
+
+msgid "Data portability"
+msgstr "Portabilità dei dati"
+
+msgid "Object to processing"
+msgstr "Opporti all'elaborazione"
+
+msgid "Withdraw consent"
+msgstr "Revocare il consenso"
+
+msgid "Note: Cannabis purchase records may be retained as required by law."
+msgstr "Nota: i registri di acquisto di cannabis possono essere conservati come richiesto dalla legge."
+
+msgid "Data Security"
+msgstr "Sicurezza dei Dati"
+
+msgid "We implement strict security measures for cannabis purchases:"
+msgstr "Implementiamo rigorose misure di sicurezza per gli acquisti di cannabis:"
+
+msgid "End-to-end encryption for all transactions"
+msgstr "Crittografia end-to-end per tutte le transazioni"
+
+msgid "Secure storage with limited access"
+msgstr "Archiviazione sicura con accesso limitato"
+
+msgid "Regular security audits"
+msgstr "Audit di sicurezza regolari"
+
+msgid "Employee confidentiality agreements"
+msgstr "Accordi di riservatezza dei dipendenti"
+
+msgid "Data Retention"
+msgstr "Conservazione dei Dati"
+
+msgid "We retain data as required by cannabis regulations:"
+msgstr "Conserviamo i dati come richiesto dalle normative sulla cannabis:"
+
+msgid "Purchase records: 10 years (French cannabis law requirement)"
+msgstr "Registri di acquisto: 10 anni (requisito della legge francese sulla cannabis)"
+
+msgid "Account information: Until account closure + legal period"
+msgstr "Informazioni sull'account: fino alla chiusura dell'account + periodo legale"
+
+msgid "Marketing data: Until consent withdrawal"
+msgstr "Dati di marketing: fino al ritiro del consenso"
+
+msgid "Age Verification"
+msgstr "Verifica dell'Età"
+
+msgid "We strictly verify that all customers are at least 18 years old. By using our site, you confirm you meet the legal age requirement for cannabis purchases in your jurisdiction."
+msgstr "Verifichiamo rigorosamente che tutti i clienti abbiano almeno 18 anni. Utilizzando il nostro sito, confermi di soddisfare il requisito di età legale per gli acquisti di cannabis nella tua giurisdizione."
+
+msgid "For privacy concerns regarding cannabis purchases:"
+msgstr "Per problemi di privacy relativi agli acquisti di cannabis:"
+
+msgid "Data Protection Officer:"
+msgstr "Responsabile della Protezione dei Dati:"
+
+msgid "Jean-Luc Rousseau"
+msgstr "Jean-Luc Rousseau"
+
+msgid "You may also contact the CNIL (French Data Protection Authority) if you have concerns about our processing of your cannabis purchase data."
+msgstr "Puoi anche contattare la CNIL (Autorità francese per la protezione dei dati) se hai preoccupazioni riguardo alla nostra elaborazione dei tuoi dati di acquisto di cannabis."
+
+msgid "This policy was updated on January 1, 2024 to comply with current cannabis regulations. Changes will be communicated to account holders."
+msgstr "Questa politica è stata aggiornata il 1° gennaio 2024 per conformarsi alle attuali normative sulla cannabis. Le modifiche saranno comunicate ai titolari degli account."
+
+msgid "Frequently Asked Questions"
+msgstr "Domande Frequenti"
+
+msgid "General Questions"
+msgstr "Domande Generali"
+
+msgid "What is GreenMed Store?"
+msgstr "Cos'è GreenMed Store?"
+
+msgid "GreenMed Store is a premium cannabis and CBD marketplace offering lab-tested products with detailed information about cannabinoid content, terpene profiles, cultivation methods, and potential wellness benefits. We focus on transparency and product quality."
+msgstr "GreenMed Store è un mercato premium di cannabis e CBD che offre prodotti testati in laboratorio con informazioni dettagliate sul contenuto di cannabinoidi, profili terpenici, metodi di coltivazione e potenziali benefici per il benessere. Ci concentriamo sulla trasparenza e sulla qualità del prodotto."
+
+msgid "Who can purchase cannabis products?"
+msgstr "Chi può acquistare prodotti a base di cannabis?"
+
+msgid "You must be at least 18 years old to purchase our CBD products and 18+ for THC-containing products where legally available. Some products may require medical authorization depending on your location."
+msgstr "Devi avere almeno 18 anni per acquistare i nostri prodotti CBD e 18+ per i prodotti contenenti THC dove legalmente disponibili. Alcuni prodotti potrebbero richiedere l'autorizzazione medica a seconda della tua posizione."
+
+msgid "Are your products legal?"
+msgstr "I vostri prodotti sono legali?"
+
+msgid "All our products comply with French and EU regulations, containing less than 0.2% THC. We verify the legal status in your region before shipping. Medical cannabis products require proper authorization."
+msgstr "Tutti i nostri prodotti sono conformi alle normative francesi e UE, contenendo meno dello 0,2% di THC. Verifichiamo lo stato legale nella tua regione prima della spedizione. I prodotti a base di cannabis medica richiedono la giusta autorizzazione."
+
+msgid "How do you test your cannabis products?"
+msgstr "Come testate i vostri prodotti a base di cannabis?"
+
+msgid "All products undergo third-party laboratory testing for cannabinoid potency, terpene profiles, and contaminants (pesticides, heavy metals, microbes). Certificates of Analysis (COAs) are available for every batch."
+msgstr "Tutti i prodotti vengono sottoposti a test di laboratorio di terze parti per la potenza dei cannabinoidi, i profili terpenici e i contaminanti (pesticidi, metalli pesanti, microbi). I Certificati di Analisi (COA) sono disponibili per ogni lotto."
+
+msgid "What's the difference between CBD and THC?"
+msgstr "Qual è la differenza tra CBD e THC?"
+
+msgid "CBD (cannabidiol) is non-intoxicating and legal in France when containing less than 0.2% THC. THC (tetrahydrocannabinol) is psychoactive and only available with medical authorization. Our products clearly indicate their cannabinoid content."
+msgstr "Il CBD (cannabidiolo) non è psicoattivo ed è legale in Francia quando contiene meno dello 0,2% di THC. Il THC (tetraidrocannabinolo) è psicoattivo e disponibile solo con autorizzazione medica. I nostri prodotti indicano chiaramente il loro contenuto di cannabinoidi."
+
+msgid "What are terpenes and why are they important?"
+msgstr "Cosa sono i terpeni e perché sono importanti?"
+
+msgid "Terpenes are aromatic compounds that influence cannabis effects and flavors. Different strains have unique terpene profiles that contribute to their therapeutic properties and sensory experience."
+msgstr "I terpeni sono composti aromatici che influenzano gli effetti e i sapori della cannabis. Diverse varietà hanno profili terpenici unici che contribuiscono alle loro proprietà terapeutiche e all'esperienza sensoriale."
+
+msgid "Ordering & Shipping"
+msgstr "Ordini & Spedizioni"
+
+msgid "Do I need medical authorization to order?"
+msgstr "Ho bisogno dell'autorizzazione medica per ordinare?"
+
+msgid "Our CBD products (under 0.2% THC) don't require authorization. For medical cannabis products with higher THC content, valid medical documentation is required as per French regulations."
+msgstr "I nostri prodotti CBD (meno dello 0,2% di THC) non richiedono autorizzazione. Per i prodotti a base di cannabis medica con un contenuto più elevato di THC, è necessaria una documentazione medica valida secondo le normative francesi."
+
+msgid "How discreet is your packaging?"
+msgstr "Quanto è discreto il vostro imballaggio?"
+
+msgid "All orders are shipped in plain, unmarked packaging without any cannabis-related branding. We use odor-proof materials for complete discretion."
+msgstr "Tutti gli ordini vengono spediti in imballaggi anonimi senza alcun marchio legato alla cannabis. Utilizziamo materiali anti-odore per una completa discrezione."
+
+msgid "Can I track my cannabis order?"
+msgstr "Posso tracciare il mio ordine di cannabis?"
+
+msgid "Yes, you'll receive discreet tracking information via email. Our delivery partners are trained to handle cannabis products appropriately."
+msgstr "Sì, riceverai informazioni di tracciamento discrete via email. I nostri partner di consegna sono formati per gestire i prodotti a base di cannabis in modo appropriato."
+
+msgid "Safety & Usage"
+msgstr "Sicurezza & Utilizzo"
+
+msgid "How should I dose cannabis products?"
+msgstr "Come devo dosare i prodotti a base di cannabis?"
+
+msgid "Start with low doses, especially with THC products. Wait at least 2 hours before consuming more. Our products include suggested serving sizes, but individual tolerance varies. Consult a healthcare provider for medical use."
+msgstr "Inizia con dosi basse, specialmente con i prodotti a base di THC. Aspetta almeno 2 ore prima di consumarne ancora. I nostri prodotti includono dimensioni di porzione suggerite, ma la tolleranza individuale varia. Consulta un operatore sanitario per uso medico."
+
+msgid "Can cannabis interact with medications?"
+msgstr "La cannabis può interagire con i farmaci?"
+
+msgid "Yes, cannabis may interact with certain medications, especially blood thinners, antidepressants, and sedatives. Always consult your doctor before combining cannabis with other treatments."
+msgstr "Sì, la cannabis può interagire con alcuni farmaci, in particolare fluidificanti del sangue, antidepressivi e sedativi. Consulta sempre il tuo medico prima di combinare la cannabis con altri trattamenti."
+
+msgid "How should I store cannabis products?"
+msgstr "Come devo conservare i prodotti a base di cannabis?"
+
+msgid "Store in a cool, dark place (under 21°C) away from children and pets. Keep flowers in airtight containers. Most products have 6-12 month shelf life when stored properly."
+msgstr "Conserva in un luogo fresco e buio (sotto i 21°C) lontano da bambini e animali domestici. Conserva i fiori in contenitori ermetici. La maggior parte dei prodotti ha una durata di conservazione di 6-12 mesi se conservati correttamente."
+
+msgid "Returns & Support"
+msgstr "Resi & Supporto"
+
+msgid "What is your return policy for cannabis products?"
+msgstr "Qual è la vostra politica di reso per i prodotti a base di cannabis?"
+
+msgid "Due to legal restrictions, opened cannabis products cannot be returned. Unopened products in original packaging may be returned within 14 days. Medical cannabis products are non-returnable."
+msgstr "A causa di restrizioni legali, i prodotti a base di cannabis aperti non possono essere restituiti. I prodotti non aperti nell'imballaggio originale possono essere restituiti entro 14 giorni. I prodotti a base di cannabis medica non sono restituibili."
+
+msgid "How can I contact customer support?"
+msgstr "Come posso contattare l'assistenza clienti?"
+
+msgid "Our cannabis specialists are available via email, encrypted chat, or phone. We respond within 24 hours on weekdays. For medical cannabis questions, we have a dedicated support line."
+msgstr "I nostri specialisti di cannabis sono disponibili via email, chat crittografata o telefono. Rispondiamo entro 24 ore nei giorni feriali. Per domande sulla cannabis medica, abbiamo una linea di supporto dedicata."
+
+msgid "Do you provide cannabis consultation services?"
+msgstr "Fornite servizi di consulenza sulla cannabis?"
+
+msgid "We offer general product guidance but cannot provide medical advice. For therapeutic use, we recommend consulting with a cannabis-certified healthcare provider."
+msgstr "Offriamo una guida generale sui prodotti ma non possiamo fornire consulenza medica. Per uso terapeutico, consigliamo di consultare un operatore sanitario certificato per la cannabis."
+
+msgid "Important Cannabis Disclaimer"
+msgstr "Importante Dichiarazione di Non Responsabilità sulla Cannabis"
+
+msgid "Cannabis products may cause drowsiness, dry mouth, or temporary changes in perception. Do not operate vehicles or machinery after consumption. Keep out of reach of children. These statements have not been evaluated by health authorities. Our products are not intended to diagnose, treat, cure or prevent any disease."
+msgstr "I prodotti a base di cannabis possono causare sonnolenza, secchezza delle fauci o cambiamenti temporanei nella percezione. Non guidare veicoli o utilizzare macchinari dopo il consumo. Tenere fuori dalla portata dei bambini. Queste affermazioni non sono state valutate dalle autorità sanitarie. I nostri prodotti non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia."
+
+msgid "Still have questions about cannabis?"
+msgstr "Hai ancora domande sulla cannabis?"
+
+msgid "Contact Our Cannabis Specialists"
+msgstr "Contatta i Nostri Specialisti di Cannabis"
+
+msgid "Connect with our cannabis experts and customer care team"
+msgstr "Connettiti con i nostri esperti di cannabis e il team di assistenza clienti"
+
+msgid "Send us a Message"
+msgstr "Inviaci un Messaggio"
+
+msgid "Phone Number"
+msgstr "Numero di Telefono"
+
+msgid "Subject"
+msgstr "Oggetto"
+
+msgid "Select a subject"
+msgstr "Seleziona un oggetto"
+
+msgid "Cannabis Product Inquiry"
+msgstr "Richiesta di Informazioni su Prodotti Cannabis"
+
+msgid "Order Support"
+msgstr "Supporto Ordine"
+
+msgid "Medical Cannabis Questions"
+msgstr "Domande sulla Cannabis Medica"
+
+msgid "Cultivation Advice"
+msgstr "Consigli sulla Coltivazione"
+
+msgid "Wholesale/Business Inquiry"
+msgstr "Richiesta all'Ingrosso/Commerciale"
+
+msgid "General Question"
+msgstr "Domanda Generale"
+
+msgid "Message"
+msgstr "Messaggio"
+
+msgid "Please provide details about your cannabis-related inquiry..."
+msgstr "Fornisci dettagli sulla tua richiesta relativa alla cannabis..."
+
+msgid "I consent to the processing of my personal data for the purpose of responding to my cannabis-related inquiry. *"
+msgstr "Acconsento al trattamento dei miei dati personali per rispondere alla mia richiesta relativa alla cannabis. *"
+
+msgid "I confirm that I am at least 18 years old *"
+msgstr "Confermo di avere almeno 18 anni *"
+
+msgid "Send Message"
+msgstr "Invia Messaggio"
+
+msgid "420 Cannabis Avenue"
+msgstr "420 Viale della Cannabis"
+
+msgid "Lyon, France 69002"
+msgstr "Lione, Francia 69002"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "Mon-Fri: 9:00 AM - 6:00 PM CET"
+msgstr "Lun-Ven: 9:00 - 18:00 CET"
+
+msgid "We respond within 24 hours"
+msgstr "Rispondiamo entro 24 ore"
+
+msgid "Monday - Friday: 9:00 AM - 6:00 PM"
+msgstr "Lunedì - Venerdì: 9:00 - 18:00"
+
+msgid "Saturday: 10:00 AM - 4:00 PM"
+msgstr "Sabato: 10:00 - 16:00"
+
+msgid "Sunday: Closed"
+msgstr "Domenica: Chiuso"
+
+msgid "Central European Time (CET)"
+msgstr "Ora dell'Europa Centrale (CET)"
+
+msgid "Cannabis Emergency"
+msgstr "Emergenza Cannabis"
+
+msgid "If you or someone else is experiencing adverse effects from cannabis, seek medical attention immediately."
+msgstr "Se tu o qualcun altro state sperimentando effetti avversi dalla cannabis, cercate immediatamente assistenza medica."
+
+msgid "Emergency Numbers:"
+msgstr "Numeri di Emergenza:"
+
+msgid "France: 15 (SAMU) or 112 (European Emergency)"
+msgstr "Francia: 15 (SAMU) o 112 (Emergenza Europea)"
+
+msgid "Other countries: Contact your local emergency services"
+msgstr "Altri paesi: Contatta i servizi di emergenza locali"
+
+msgid "Cannabis Support"
+msgstr "Supporto Cannabis"
+
+msgid "Our team includes cannabis specialists who can provide guidance on product selection, dosing, and consumption methods."
+msgstr "Il nostro team include specialisti di cannabis che possono fornire indicazioni sulla selezione dei prodotti, il dosaggio e i metodi di consumo."
+
+msgid "For medical cannabis questions, we recommend consulting with a cannabis-certified healthcare provider."
+msgstr "Per domande sulla cannabis medica, consigliamo di consultare un operatore sanitario certificato per la cannabis."
+
+msgid "Looking for quick answers about cannabis?"
+msgstr "Cerchi risposte rapide sulla cannabis?"
+
+msgid "Check our Cannabis FAQ"
+msgstr "Consulta le nostre FAQ sulla Cannabis"
+
+msgid "About GreenMed Store"
+msgstr "Informazioni su GreenMed Store"
+
+msgid "Your trusted source for premium cannabis products with detailed information about cannabinoid profiles, terpenes, cultivation methods, and wellness benefits."
+msgstr "La tua fonte affidabile per prodotti premium a base di cannabis con informazioni dettagliate sui profili di cannabinoidi, terpeni, metodi di coltivazione e benefici per il benessere."
+
+msgid "Our Mission"
+msgstr "La Nostra Missione"
+
+msgid "At GreenMed Store, we're dedicated to providing access to high-quality cannabis products backed by scientific research and transparent information about their composition and effects."
+msgstr "In GreenMed Store, ci dedichiamo a fornire accesso a prodotti di cannabis di alta qualità supportati dalla ricerca scientifica e informazioni trasparenti sulla loro composizione ed effetti."
+
+msgid "We believe educated consumers make better wellness choices. That's why every product includes detailed cannabinoid profiles, terpene information, lab test results, and guidance on responsible consumption."
+msgstr "Crediamo che i consumatori informati facciano scelte di benessere migliori. Ecco perché ogni prodotto include profili dettagliati di cannabinoidi, informazioni sui terpeni, risultati di test di laboratorio e indicazioni sul consumo responsabile."
+
+msgid "Our Values"
+msgstr "I Nostri Valori"
+
+msgid "Lab-Verified Quality:"
+msgstr "Qualità Verificata in Laboratorio:"
+
+msgid "Every batch is third-party tested for potency and purity with published Certificates of Analysis."
+msgstr "Ogni lotto viene testato da terze parti per potenza e purezza con Certificati di Analisi pubblicati."
+
+msgid "Transparency:"
+msgstr "Trasparenza:"
+
+msgid "Complete information about cannabinoid content, terpene profiles, and cultivation methods."
+msgstr "Informazioni complete sul contenuto di cannabinoidi, profili terpenici e metodi di coltivazione."
+
+msgid "Compliance:"
+msgstr "Conformità:"
+
+msgid "All products meet EU and French regulations with less than 0.2% THC unless medically authorized."
+msgstr "Tutti i prodotti soddisfano le normative UE e francesi con meno dello 0,2% di THC a meno che non siano autorizzati medicalmente."
+
+msgid "Education:"
+msgstr "Educazione:"
+
+msgid "Resources to help consumers understand cannabis science and responsible use."
+msgstr "Risorse per aiutare i consumatori a comprendere la scienza della cannabis e l'uso responsabile."
+
+msgid "Why Choose GreenMed Store"
+msgstr "Perché Scegliere GreenMed Store"
+
+msgid "Lab Testing"
+msgstr "Test di Laboratorio"
+
+msgid "Every product batch tested for cannabinoids, terpenes, pesticides, heavy metals, and microbial contaminants."
+msgstr "Ogni lotto di prodotto testato per cannabinoidi, terpeni, pesticidi, metalli pesanti e contaminanti microbici."
+
+msgid "Sustainable Cultivation"
+msgstr "Coltivazione Sostenibile"
+
+msgid "Partnering with organic farms using sustainable growing practices and natural pest control."
+msgstr "Collaborazione con aziende agricole biologiche che utilizzano pratiche di coltivazione sostenibili e controllo naturale dei parassiti."
+
+msgid "Consumer Education"
+msgstr "Educazione del Consumatore"
+
+msgid "Resources on cannabinoids, terpenes, consumption methods, and responsible use."
+msgstr "Risorse su cannabinoidi, terpeni, metodi di consumo e uso responsabile."
+
+msgid "Our Cannabis Expertise"
+msgstr "La Nostra Competenza sulla Cannabis"
+
+msgid "Our team includes cannabis cultivators, chemists, and wellness experts passionate about the therapeutic potential of cannabinoids. We collaborate with research institutions to advance cannabis science."
+msgstr "Il nostro team include coltivatori di cannabis, chimici ed esperti di benessere appassionati del potenziale terapeutico dei cannabinoidi. Collaboriamo con istituzioni di ricerca per far progredire la scienza della cannabis."
+
+msgid "For medical cannabis products, we work with licensed healthcare providers to ensure proper guidance and dosing recommendations."
+msgstr "Per i prodotti a base di cannabis medica, lavoriamo con operatori sanitari autorizzati per garantire una guida adeguata e raccomandazioni sul dosaggio."
+
+msgid "Legal Compliance"
+msgstr "Conformità Legale"
+
+msgid "All products comply with French and EU regulations (THC < 0.2%). Medical cannabis products require proper authorization. We verify age (18+) for all purchases."
+msgstr "Tutti i prodotti sono conformi alle normative francesi e UE (THC < 0,2%). I prodotti a base di cannabis medica richiedono la giusta autorizzazione. Verifichiamo l'età (18+) per tutti gli acquisti."
+
+msgid "Have Cannabis Questions?"
+msgstr "Hai Domande sulla Cannabis?"
+
+msgid "Our cannabis specialists are here to help with product selection, usage guidance, and general inquiries."
+msgstr "I nostri specialisti di cannabis sono qui per aiutarti con la selezione dei prodotti, la guida all'uso e le domande generali."
+
+msgid "Contact Us"
+msgstr "Contattaci"
+
+msgid "You must be at least 18 years old to enter this site"
+msgstr "Devi avere almeno 18 anni per accedere a questo sito"
+
+msgid "I'm 18 or Older"
+msgstr "Ho 18 anni o più"
+
+msgid "I'm Under 18"
+msgstr "Ho meno di 18 anni"
+
+msgid "By entering this site, you agree to our Terms of Service and Privacy Policy"
+msgstr "Accedendo a questo sito, accetti i nostri Termini di Servizio e l'Informativa sulla Privacy"
+
+msgid "We use cookies to enhance your cannabis shopping experience. By continuing, you accept our use of cookies."
+msgstr "Utilizziamo i cookie per migliorare la tua esperienza di acquisto di cannabis. Continuando, accetti il nostro uso dei cookie."
+
+msgid "Search cannabis products..."
+msgstr "Cerca prodotti a base di cannabis..."
+
+msgid "Learn"
+msgstr "Impara"
+
+msgid "Medical Prescriptions"
+msgstr "Prescrizioni Mediche"
+
+msgid "Shop"
+msgstr "Negozio"
+
+msgid "CBD Products"
+msgstr "Prodotti CBD"
+
+msgid "Hemp Flowers"
+msgstr "Fiori di Canapa"
+
+msgid "Cannabis Oils"
+msgstr "Oli di Cannabis"
+
+msgid "Medical Cannabis"
+msgstr "Cannabis Medica"
+
+msgid "Information"
+msgstr "Informazioni"
+
+msgid "Cannabis Education"
+msgstr "Educazione sulla Cannabis"
+
+msgid "Lab Results"
+msgstr "Risultati di Laboratorio"
+
+msgid "Shipping Policy"
+msgstr "Politica di Spedizione"
+
+msgid "Returns Policy"
+msgstr "Politica di Reso"
+
+msgid "Disclaimer:"
+msgstr "Dichiarazione di Non Responsabilità:"
+
+msgid "Products contain less than 0.2% THC. Not intended to diagnose, treat, cure or prevent any disease. Keep out of reach of children."
+msgstr "I prodotti contengono meno dello 0,2% di THC. Non destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Tenere fuori dalla portata dei bambini."
+
+msgid "License Number: FR-CBD-2024-001"
+msgstr "Numero di Licenza: FR-CBD-2024-001"
+
+msgid "Welcome to GreenMed Store. These Terms of Service govern your use of our website and purchase of cannabis-derived products containing less than 0.2% THC in compliance with EU Regulation No. 1307/2013 and French law."
+msgstr "Benvenuto in GreenMed Store. Questi Termini di Servizio regolano il tuo utilizzo del nostro sito web e l'acquisto di prodotti derivati dalla cannabis contenenti meno dello 0,2% di THC in conformità al Regolamento UE n. 1307/2013 e alla legge francese."
+
+msgid "By accessing our site or purchasing products, you confirm you are at least 18 years old and agree to these Terms. Medical cannabis patients must provide valid authorization."
+msgstr "Accedendo al nostro sito o acquistando prodotti, confermi di avere almeno 18 anni e di accettare questi Termini. I pazienti di cannabis medica devono fornire un'autorizzazione valida."
+
+msgid "You must be at least 18 years old to access this website or purchase our CBD products. For THC-containing medical cannabis products, you must be 18+ with valid medical authorization."
+msgstr "Devi avere almeno 18 anni per accedere a questo sito web o acquistare i nostri prodotti CBD. Per i prodotti a base di cannabis medica contenenti THC, devi avere 18+ anni con un'autorizzazione medica valida."
+
+msgid "We reserve the right to verify your age through third-party services or request identification. False declarations will result in order cancellation."
+msgstr "Ci riserviamo il diritto di verificare la tua età tramite servizi di terze parti o richiedere un documento d'identità. Dichiarazioni false comporteranno l'annullamento dell'ordine."
+
+msgid "Product Compliance"
+msgstr "Conformità del Prodotto"
+
+msgid "All products contain less than 0.2% THC unless specifically labeled as medical cannabis products requiring authorization under French Article R. 5132-86."
+msgstr "Tutti i prodotti contengono meno dello 0,2% di THC a meno che non siano specificamente etichettati come prodotti a base di cannabis medica che richiedono autorizzazione ai sensi dell'articolo R. 5132-86 francese."
+
+msgid "You are responsible for checking cannabis laws in your jurisdiction before purchasing. We cannot ship to locations where our products are prohibited."
+msgstr "Sei responsabile di verificare le leggi sulla cannabis nella tua giurisdizione prima dell'acquisto. Non possiamo spedire in località dove i nostri prodotti sono vietati."
+
+msgid "Medical Disclaimer"
+msgstr "Dichiarazione di Non Responsabilità Medica"
+
+msgid "Our products are not intended to diagnose, treat, cure or prevent any disease. The information provided is for educational purposes only regarding the potential benefits of cannabinoids."
+msgstr "I nostri prodotti non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Le informazioni fornite sono solo a scopo educativo riguardo ai potenziali benefici dei cannabinoidi."
+
+msgid "For medical cannabis products, consultation with a healthcare provider is required. Never discontinue prescribed medications without medical advice."
+msgstr "Per i prodotti a base di cannabis medica, è richiesta la consultazione con un operatore sanitario. Non interrompere mai i farmaci prescritti senza consiglio medico."
+
+msgid "Purchasing & Shipping"
+msgstr "Acquisto & Spedizione"
+
+msgid "Order Acceptance"
+msgstr "Accettazione Ordine"
+
+msgid "All orders are subject to age verification and product availability. We reserve the right to refuse service to anyone."
+msgstr "Tutti gli ordini sono soggetti a verifica dell'età e disponibilità del prodotto. Ci riserviamo il diritto di rifiutare il servizio a chiunque."
+
+msgid "Shipping Restrictions"
+msgstr "Restrizioni di Spedizione"
+
+msgid "We cannot ship cannabis products to countries where they are prohibited. International shipments may be subject to customs inspection."
+msgstr "Non possiamo spedire prodotti a base di cannabis in paesi dove sono vietati. Le spedizioni internazionali possono essere soggette a ispezione doganale."
+
+msgid "Discreet Packaging"
+msgstr "Imballaggio Discreto"
+
+msgid "All products are shipped in odor-proof, discreet packaging without cannabis branding. However, we cannot guarantee delivery against local laws."
+msgstr "Tutti i prodotti vengono spediti in imballaggi discreti e anti-odore senza marchi di cannabis. Tuttavia, non possiamo garantire la consegna contro le leggi locali."
+
+msgid "Returns & Refunds"
+msgstr "Resi & Rimborsi"
+
+msgid "Due to the nature of cannabis products:"
+msgstr "A causa della natura dei prodotti a base di cannabis:"
+
+msgid "Opened products cannot be returned for hygiene reasons"
+msgstr "I prodotti aperti non possono essere restituiti per motivi igienici"
+
+msgid "Unopened products may be returned within 14 days with original packaging"
+msgstr "I prodotti non aperti possono essere restituiti entro 14 giorni con l'imballaggio originale"
+
+msgid "Medical cannabis products are non-returnable"
+msgstr "I prodotti a base di cannabis medica non sono restituibili"
+
+msgid "Defective products will be replaced with proof of defect"
+msgstr "I prodotti difettosi saranno sostituiti con prova del difetto"
+
+msgid "All cannabis strain names, product formulations, and educational content are protected intellectual property. Unauthorized commercial use is prohibited."
+msgstr "Tutti i nomi di varietà di cannabis, formulazioni di prodotti e contenuti educativi sono proprietà intellettuale protetta. L'uso commerciale non autorizzato è vietato."
+
+msgid "GreenMed Store shall not be liable for:"
+msgstr "GreenMed Store non sarà responsabile per:"
+
+msgid "Misuse of cannabis products"
+msgstr "Uso improprio dei prodotti a base di cannabis"
+
+msgid "Unauthorized purchases by minors"
+msgstr "Acquisti non autorizzati da minori"
+
+msgid "Legal consequences in jurisdictions where cannabis is prohibited"
+msgstr "Conseguenze legali nelle giurisdizioni dove la cannabis è vietata"
+
+msgid "Individual reactions to cannabinoids"
+msgstr "Reazioni individuali ai cannabinoidi"
+
+msgid "These Terms are governed by French law, specifically regarding cannabis regulations under:"
+msgstr "Questi Termini sono regolati dalla legge francese, in particolare per quanto riguarda le normative sulla cannabis ai sensi di:"
+
+msgid "EU Regulation No. 1307/2013"
+msgstr "Regolamento UE n. 1307/2013"
+
+msgid "French Public Health Code Article R. 5132-86"
+msgstr "Articolo R. 5132-86 del Codice della Sanità Pubblica francese"
+
+msgid "General Data Protection Regulation (GDPR)"
+msgstr "Regolamento Generale sulla Protezione dei Dati (GDPR)"
+
+msgid "Changes to Terms"
+msgstr "Modifiche ai Termini"
+
+msgid "We may update these Terms to reflect changes in cannabis regulations. Continued use after changes constitutes acceptance."
+msgstr "Possiamo aggiornare questi Termini per riflettere i cambiamenti nelle normative sulla cannabis. L'uso continuato dopo le modifiche costituisce accettazione."
+
+msgid "For questions about these Terms or our cannabis products:"
+msgstr "Per domande su questi Termini o sui nostri prodotti a base di cannabis:"
+
+msgid "License Number:"
+msgstr "Numero di Licenza:"
+
+msgid "Effective Date:"
+msgstr "Data di Entrata in Vigore:"
+
+msgid "January 1, 2024 | Last Updated: January 1, 2024"
+msgstr "1° gennaio 2024 | Ultimo aggiornamento: 1° gennaio 2024"
+
+msgid "At GreenMed Store, we take special care in shipping cannabis-derived products in compliance with EU and French regulations (THC < 0.2%). This policy outlines our shipping practices, restrictions, and delivery timelines."
+msgstr "In GreenMed Store, prestiamo particolare attenzione alla spedizione di prodotti derivati dalla cannabis in conformità con le normative UE e francesi (THC < 0,2%). Questa politica descrive le nostre pratiche di spedizione, restrizioni e tempi di consegna."
+
+msgid "Shipping Areas"
+msgstr "Aree di Spedizione"
+
+msgid "France (Mainland)"
+msgstr "Francia (Continente)"
+
+msgid "We ship throughout mainland France via Colissimo and Chronopost. All packages require adult signature (18+) upon delivery."
+msgstr "Spediamo in tutta la Francia continentale tramite Colissimo e Chronopost. Tutti i pacchi richiedono la firma di un adulto (18+) al momento della consegna."
+
+msgid "European Union"
+msgstr "Unione Europea"
+
+msgid "We ship to most EU countries where CBD products are legal. Some restrictions apply to cannabis flowers - please check product pages."
+msgstr "Spediamo nella maggior parte dei paesi UE dove i prodotti CBD sono legali. Alcune restrizioni si applicano ai fiori di cannabis - si prega di verificare le pagine dei prodotti."
+
+msgid "International Restrictions"
+msgstr "Restrizioni Internazionali"
+
+msgid "We cannot ship cannabis-derived products to countries where they are prohibited, including but not limited to:"
+msgstr "Non possiamo spedire prodotti derivati dalla cannabis in paesi dove sono vietati, tra cui ma non limitati a:"
+
+msgid "United States"
+msgstr "Stati Uniti"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Certain Middle Eastern countries"
+msgstr "Alcuni paesi del Medio Oriente"
+
+msgid "Packaging Standards"
+msgstr "Standard di Imballaggio"
+
+msgid "All cannabis products are shipped with:"
+msgstr "Tutti i prodotti a base di cannabis vengono spediti con:"
+
+msgid "Discrete, unbranded packaging"
+msgstr "Imballaggio discreto, senza marchio"
+
+msgid "Odor-proof containers for flowers"
+msgstr "Contenitori anti-odore per i fiori"
+
+msgid "Temperature-controlled packaging when required"
+msgstr "Imballaggio a temperatura controllata quando richiesto"
+
+msgid "No mention of cannabis on exterior labels"
+msgstr "Nessuna menzione della cannabis sulle etichette esterne"
+
+msgid "Required legal documentation including lab reports"
+msgstr "Documentazione legale richiesta inclusi i rapporti di laboratorio"
+
+msgid "Note: While we take these precautions, we cannot guarantee against customs inspections in your country."
+msgstr "Nota: Nonostante queste precauzioni, non possiamo garantire contro le ispezioni doganali nel tuo paese."
+
+msgid "Shipping Methods & Timelines"
+msgstr "Metodi & Tempistiche di Spedizione"
+
+msgid "Service"
+msgstr "Servizio"
+
+msgid "Delivery Time"
+msgstr "Tempo di Consegna"
+
+msgid "Tracking"
+msgstr "Tracciamento"
+
+msgid "Signature Required"
+msgstr "Firma Richiesta"
+
+msgid "Standard Shipping"
+msgstr "Spedizione Standard"
+
+msgid "2-3 business days (France)"
+msgstr "2-3 giorni lavorativi (Francia)"
+
+msgid "Express Shipping"
+msgstr "Spedizione Espressa"
+
+msgid "1-2 business days (France)"
+msgstr "1-2 giorni lavorativi (Francia)"
+
+msgid "EU Standard"
+msgstr "Standard UE"
+
+msgid "3-7 business days"
+msgstr "3-7 giorni lavorativi"
+
+msgid "Varies by country"
+msgstr "Varia a seconda del paese"
+
+msgid "* Delivery times are estimates and not guaranteed, especially for international shipments which may be delayed by customs."
+msgstr "* I tempi di consegna sono stime e non garantiti, specialmente per le spedizioni internazionali che potrebbero essere ritardate dalla dogana."
+
+msgid "All cannabis product shipments require age verification:"
+msgstr "Tutte le spedizioni di prodotti a base di cannabis richiedono la verifica dell'età:"
+
+msgid "At checkout through our third-party verification system"
+msgstr "Al momento del checkout tramite il nostro sistema di verifica di terze parti"
+
+msgid "Upon delivery - carriers will request ID if recipient appears under 25"
+msgstr "Al momento della consegna - i corrieri richiederanno un documento d'identità se il destinatario sembra avere meno di 25 anni"
+
+msgid "For medical cannabis - additional documentation verification"
+msgstr "Per la cannabis medica - verifica aggiuntiva della documentazione"
+
+msgid "Important:"
+msgstr "Importante:"
+
+msgid "Failed age verification at delivery will result in package return and refund minus shipping costs."
+msgstr "La mancata verifica dell'età al momento della consegna comporterà la restituzione del pacco e il rimborso meno i costi di spedizione."
+
+msgid "International Shipping Considerations"
+msgstr "Considerazioni sulla Spedizione Internazionale"
+
+msgid "Customs & Duties"
+msgstr "Dogana & Dazi"
+
+msgid "International customers are responsible for:"
+msgstr "I clienti internazionali sono responsabili per:"
+
+msgid "Any import duties, taxes, or customs fees"
+msgstr "Eventuali dazi di importazione, tasse o spese doganali"
+
+msgid "Compliance with local cannabis laws"
+msgstr "Conformità con le leggi locali sulla cannabis"
+
+msgid "Providing required documentation for clearance"
+msgstr "Fornire la documentazione richiesta per lo sdoganamento"
+
+msgid "Legal Risks"
+msgstr "Rischi Legali"
+
+msgid "By ordering internationally, you acknowledge that:"
+msgstr "Ordinando a livello internazionale, riconosci che:"
+
+msgid "Cannabis laws vary significantly by country"
+msgstr "Le leggi sulla cannabis variano significativamente da paese a paese"
+
+msgid "We cannot intervene with customs seizures"
+msgstr "Non possiamo intervenire con i sequestri doganali"
+
+msgid "Refunds are not provided for confiscated packages"
+msgstr "Non vengono forniti rimborsi per i pacchi confiscati"
+
+msgid "Lost or Damaged Packages"
+msgstr "Pacchi Persi o Danneggiati"
+
+msgid "If your package is lost or damaged in transit:"
+msgstr "Se il tuo pacco viene perso o danneggiato durante il transito:"
+
+msgid "Contact us within 14 days of shipment date"
+msgstr "Contattaci entro 14 giorni dalla data di spedizione"
+
+msgid "Provide photos of damaged items and packaging"
+msgstr "Fornisci foto degli articoli danneggiati e dell'imballaggio"
+
+msgid "We will file a claim with the carrier"
+msgstr "Presenteremo un reclamo al corriere"
+
+msgid "Once verified, we will replace or refund as appropriate"
+msgstr "Una volta verificato, sostituiremo o rimborseremo come appropriato"
+
+msgid "Note: Due to cannabis regulations, some products may not be eligible for reshipment to certain locations."
+msgstr "Nota: A causa delle normative sulla cannabis, alcuni prodotti potrebbero non essere idonei per la rispedizione in determinate località."
+
+msgid "Policy Updates"
+msgstr "Aggiornamenti della Politica"
+
+msgid "We may update this shipping policy to reflect changes in:"
+msgstr "Possiamo aggiornare questa politica di spedizione per riflettere i cambiamenti in:"
+
+msgid "Cannabis regulations in France or destination countries"
+msgstr "Normative sulla cannabis in Francia o nei paesi di destinazione"
+
+msgid "Carrier policies regarding cannabis products"
+msgstr "Politiche dei corrieri riguardo ai prodotti a base di cannabis"
+
+msgid "International shipping agreements"
+msgstr "Accordi di spedizione internazionale"
+
+msgid "Shipping Questions?"
+msgstr "Domande sulla Spedizione?"
+
+msgid "Contact our cannabis shipping specialists:"
+msgstr "Contatta i nostri specialisti di spedizione cannabis:"
+
+msgid "January 1, 2024 | Compliant with EU Regulation No. 1307/2013"
+msgstr "1° gennaio 2024 | Conforme al Regolamento UE n. 1307/2013"
+
+msgid "Cannabis Product Returns"
+msgstr "Resi di Prodotti a Base di Cannabis"
+
+msgid "Due to the nature of cannabis products, we have specific return policies to ensure compliance with all regulations."
+msgstr "A causa della natura dei prodotti a base di cannabis, abbiamo politiche di reso specifiche per garantire la conformità a tutte le normative."
+
+msgid "Unopened Products"
+msgstr "Prodotti Non Aperti"
+
+msgid "We accept returns of unopened, factory-sealed products within 14 days of delivery. Products must be in original packaging with all seals intact."
+msgstr "Accettiamo resi di prodotti non aperti, sigillati di fabbrica, entro 14 giorni dalla consegna. I prodotti devono essere nell'imballaggio originale con tutti i sigilli intatti."
+
+msgid "Defective Products"
+msgstr "Prodotti Difettosi"
+
+msgid "If you receive a defective or damaged product, please contact us within 48 hours with photos of the issue. We'll arrange a replacement or refund."
+msgstr "Se ricevi un prodotto difettoso o danneggiato, ti preghiamo di contattarci entro 48 ore con foto del problema. Organizzeremo una sostituzione o un rimborso."
+
+msgid "Non-Returnable Items"
+msgstr "Articoli Non Restituibili"
+
+msgid "Opened cannabis products (for health and safety reasons)"
+msgstr "Prodotti a base di cannabis aperti (per motivi di salute e sicurezza)"
+
+msgid "Consumable products (edibles, pre-rolls, etc.)"
+msgstr "Prodotti consumabili (edibili, pre-rolls, ecc.)"
+
+msgid "Products purchased during sales or promotions"
+msgstr "Prodotti acquistati durante saldi o promozioni"
+
+msgid "Custom or personalized items"
+msgstr "Articoli personalizzati o su misura"
+
+msgid "Return Process"
+msgstr "Processo di Reso"
+
+msgid "Email returns@example.com with your order number and reason for return within 14 days of delivery."
+msgstr "Invia un'email a returns@example.com con il tuo numero d'ordine e il motivo del reso entro 14 giorni dalla consegna."
+
+msgid "Approval"
+msgstr "Approvazione"
+
+msgid "We'll review your request and send return instructions if approved."
+msgstr "Esamineremo la tua richiesta e invieremo le istruzioni per il reso se approvata."
+
+msgid "Ship Back"
+msgstr "Spedisci Indietro"
+
+msgid "Send the unopened product in its original packaging using our approved carrier."
+msgstr "Spedisci il prodotto non aperto nel suo imballaggio originale utilizzando il nostro corriere approvato."
+
+msgid "Refund"
+msgstr "Rimborso"
+
+msgid "Once received and inspected, we'll process your refund within 5 business days."
+msgstr "Una volta ricevuto e ispezionato, elaboreremo il tuo rimborso entro 5 giorni lavorativi."
+
+msgid "Important Notes"
+msgstr "Note Importanti"
+
+msgid "All returns are subject to compliance with local cannabis regulations. We reserve the right to refuse returns that don't meet our policy requirements."
+msgstr "Tutti i resi sono soggetti alla conformità con le normative locali sulla cannabis. Ci riserviamo il diritto di rifiutare resi che non soddisfano i requisiti della nostra politica."
+
+msgid "Original shipping costs are non-refundable. Return shipping is the customer's responsibility unless the return is due to our error."
+msgstr "I costi di spedizione originali non sono rimborsabili. La spedizione di reso è a carico del cliente a meno che il reso non sia dovuto a un nostro errore."
+
+msgid "Refunds will be issued to the original payment method. Processing may take 5-10 business days to appear in your account."
+msgstr "I rimborsi verranno emessi sul metodo di pagamento originale. L'elaborazione potrebbe richiedere 5-10 giorni lavorativi per apparire sul tuo conto."
+
+msgid "Chill Cannabis Lounge"
+msgstr "Chill Cannabis Lounge"
+
+msgid "Meditation Sessions"
+msgstr "Sessioni di Meditazione"
+
+msgid "Reggae Roots Classics"
+msgstr "Classici Reggae Roots"
+
+msgid "Complete Your Order"
+msgstr "Completa il Tuo Ordine"
+
+msgid "Billing Information"
+msgstr "Informazioni di Fatturazione"
+
+msgid "Street Address"
+msgstr "Indirizzo"
+
+msgid "Secure payment via Stripe"
+msgstr "Pagamento sicuro tramite Stripe"
+
+msgid "Bank Transfer"
+msgstr "Bonifico Bancario"
+
+msgid "You'll receive payment details after order"
+msgstr "Riceverai i dettagli di pagamento dopo l'ordine"
+
+msgid "Do not order if you don't intend to pay."
+msgstr "Non ordinare se non intendi pagare."
+
+msgid "Click Place Order and you'll receive an email with details, order number and our bank information for transfer."
+msgstr "Clicca Invia Ordine e riceverai un'email con i dettagli, il numero d'ordine e le nostre informazioni bancarie per il bonifico."
+
+msgid "Use the order number as reference for the transfer."
+msgstr "Usa il numero d'ordine come riferimento per il bonifico."
+
+msgid "Order will be shipped upon receipt of payment."
+msgstr "L'ordine verrà spedito al ricevimento del pagamento."
+
+msgid "Cryptocurrency"
+msgstr "Criptovaluta"
+
+msgid "BTC, LTC and other major cryptos"
+msgstr "BTC, LTC e altre criptovalute principali"
+
+msgid "How to pay with crypto"
+msgstr "Come pagare con criptovaluta"
+
+msgid "Responsible Use"
+msgstr "Uso Responsabile"
+
+msgid "Place Secure Order"
+msgstr "Effettua Ordine Sicuro"
+
+msgid "Qty:"
+msgstr "Qtà:"
+
+msgid "Estimated delivery: 2-5 business days"
+msgstr "Consegna stimata: 2-5 giorni lavorativi"
+
+msgid "How to Pay with Cryptocurrency"
+msgstr "Come Pagare con Criptovaluta"
+
+msgid "Important Notice:"
+msgstr "Avviso Importante:"
+
+msgid "Always send the exact amount shown in your order confirmation. Incorrect amounts will delay processing."
+msgstr "Invia sempre l'importo esatto mostrato nella conferma dell'ordine. Importi errati ritarderanno l'elaborazione."
+
+msgid "Our Wallet Addresses"
+msgstr "I Nostri Indirizzi di Portafoglio"
+
+msgid "Copy Address"
+msgstr "Copia Indirizzo"
+
+msgid "Using Bitpanda (Recommended)"
+msgstr "Utilizzo di Bitpanda (Consigliato)"
+
+msgid "Sign up on Bitpanda (Europe's leading crypto platform)"
+msgstr "Registrati su Bitpanda (la principale piattaforma di criptovalute in Europa)"
+
+msgid "Complete identity verification (takes about 10 minutes)"
+msgstr "Completa la verifica dell'identità (richiede circa 10 minuti)"
+
+msgid "Add your credit card or bank account"
+msgstr "Aggiungi la tua carta di credito o conto bancario"
+
+msgid "Buy Bitcoin or Litecoin with your preferred payment method"
+msgstr "Acquista Bitcoin o Litecoin con il tuo metodo di pagamento preferito"
+
+msgid "Send to our wallet address from your Bitpanda wallet"
+msgstr "Invia al nostro indirizzo di portafoglio dal tuo portafoglio Bitpanda"
+
+msgid "Bitpanda dashboard screenshot"
+msgstr "Screenshot del cruscotto Bitpanda"
+
+msgid "Visit Bitpanda to get started"
+msgstr "Visita Bitpanda per iniziare"
+
+msgid "Using PayPal"
+msgstr "Utilizzo di PayPal"
+
+msgid "Log in to your PayPal account and navigate to the 'Crypto' section"
+msgstr "Accedi al tuo account PayPal e vai alla sezione 'Criptovalute'"
+
+msgid "Select 'Send' and choose Bitcoin or Litecoin"
+msgstr "Seleziona 'Invia' e scegli Bitcoin o Litecoin"
+
+msgid "Enter our wallet address and the exact order amount"
+msgstr "Inserisci il nostro indirizzo di portafoglio e l'importo esatto dell'ordine"
+
+msgid "Confirm the transaction and send us the transaction ID"
+msgstr "Conferma la transazione e inviaci l'ID della transazione"
+
+msgid "Using Credit Card via Exchange"
+msgstr "Utilizzo della Carta di Credito tramite Exchange"
+
+msgid "Sign up for a cryptocurrency exchange (Coinbase, Binance, Kraken)"
+msgstr "Registrati su un exchange di criptovalute (Coinbase, Binance, Kraken)"
+
+msgid "Complete identity verification (may take 1-2 days)"
+msgstr "Completa la verifica dell'identità (potrebbe richiedere 1-2 giorni)"
+
+msgid "Add your credit card as a payment method"
+msgstr "Aggiungi la tua carta di credito come metodo di pagamento"
+
+msgid "Purchase cryptocurrency for the exact order amount"
+msgstr "Acquista criptovaluta per l'importo esatto dell'ordine"
+
+msgid "Send to our wallet address from your exchange wallet"
+msgstr "Invia al nostro indirizzo di portafoglio dal tuo portafoglio exchange"
+
+msgid "Always double-check wallet addresses before sending"
+msgstr "Controlla sempre due volte gli indirizzi del portafoglio prima di inviare"
+
+msgid "Send only the exact amount specified in your order"
+msgstr "Invia solo l'importo esatto specificato nel tuo ordine"
+
+msgid "Email us the transaction ID at payments@yourdomain.com"
+msgstr "Inviaci l'ID della transazione a payments@yourdomain.com"
+
+msgid "Processing begins after blockchain confirmation (typically 10-30 minutes)"
+msgstr "L'elaborazione inizia dopo la conferma blockchain (tipicamente 10-30 minuti)"
+
+msgid "Need Help with Payment?"
+msgstr "Hai Bisogno di Aiuto con il Pagamento?"
+
+msgid "Contact our payment support team at payments@yourdomain.com"
+msgstr "Contatta il nostro team di supporto pagamenti a payments@yourdomain.com"
+
+msgid "Include your order number and any transaction details."
+msgstr "Includi il tuo numero d'ordine e qualsiasi dettaglio della transazione."
+
+msgid "reviews"
+msgstr "recensioni"
+
+msgid "Update Your Review"
+msgstr "Aggiorna la Tua Recensione"
+
+msgid "Write a Review"
+msgstr "Scrivi una Recensione"
+
+msgid "Select Weight"
+msgstr "Seleziona Peso"
+
+msgid "Unit Price"
+msgstr "Prezzo Unitario"
+
+msgid "Total for"
+msgstr "Totale per"
+
+msgid "Usage"
+msgstr "Utilizzo"
+
+msgid "Reviews"
+msgstr "Recensioni"
+
+msgid "Ingredients"
+msgstr "Ingredienti"
+
+msgid "Start with low doses"
+msgstr "Inizia con dosi basse"
+
+msgid "Customer Reviews"
+msgstr "Recensioni dei Clienti"
+
+msgid "Your Review"
+msgstr "La Tua Recensione"
+
+msgid "Your Rating"
+msgstr "La Tua Valutazione"
+
+msgid "Submit Review"
+msgstr "Invia Recensione"
+
+msgid "Please"
+msgstr "Per favore"
+
+msgid "sign in"
+msgstr "accedi"
+
+msgid "to write a review."
+msgstr "per scrivere una recensione."
+
+msgid "No reviews yet. Be the first to review this product!"
+msgstr "Nessuna recensione ancora. Sii il primo a recensire questo prodotto!"
+
+msgid "Recommended Methods"
+msgstr "Metodi Raccomandati"
+
+msgid "Update Review"
+msgstr "Aggiorna Recensione"
+
+msgid "Total Weight"
+msgstr "Peso Totale"
+
+msgid "Date Ordered"
+msgstr "Data Ordine"
+
+msgid "Saved"
+msgstr "Salvato"
+
+msgid "pending"
+msgstr "in attesa"
+
+msgid "processing"
+msgstr "in elaborazione"
+
+msgid "shipped"
+msgstr "spedito"
+
+msgid "delivered"
+msgstr "consegnato"
+
+msgid "cancelled"
+msgstr "annullato"
+
+msgid "OFF"
+msgstr "SCONTO"
+
+msgid "Payment instructions sent to your email"
+msgstr "Istruzioni di pagamento inviate alla tua email"
+
+msgid "Discounts"
+msgstr "Sconti"
+
+msgid "You saved"
+msgstr "Hai risparmiato"
+
+msgid "Your order contains"
+msgstr "Il tuo ordine contiene"
+
+msgid "of premium cannabis products"
+msgstr "di prodotti premium a base di cannabis"
+
+msgid "Bank transfer instructions sent to your email"
+msgstr "Istruzioni per il bonifico inviate alla tua email"
+
+msgid "Usage Guidance"
+msgstr "Guida all'Utilizzo"
+
+msgid "Inhalation: effects in 5-15 minutes, duration 2-3 hours. Edibles: effects in 30-90 minutes, duration 4-6 hours."
+msgstr "Inalazione: effetti in 5-15 minuti, durata 2-3 ore. Edibili: effetti in 30-90 minuti, durata 4-6 ore."
+
+msgid "Keep in a cool, dark place in airtight containers. Store securely away from children and pets."
+msgstr "Conservare in un luogo fresco e buio in contenitori ermetici. Conservare in sicurezza lontano da bambini e animali domestici."
+
+msgid "Address copied to clipboard!"
+msgstr "Indirizzo copiato negli appunti!"
+
+msgid "Weight"
+msgstr "Peso"
+
+msgid "Thank You for Your Order"
+msgstr "Grazie per il Tuo Ordine"
+
+msgid "Dear Valued Customer,"
+msgstr "Gentile Cliente,"
+
+msgid "We appreciate your trust in GreenMed Store. Please find below the details for your bank transfer payment:"
+msgstr "Apprezziamo la tua fiducia in GreenMed Store. Di seguito trovi i dettagli per il pagamento tramite bonifico bancario:"
+
+msgid "Payment Instructions"
+msgstr "Istruzioni di Pagamento"
+
+msgid "Bank Name:"
+msgstr "Nome Banca:"
+
+msgid "Account Name:"
+msgstr "Nome Conto:"
+
+msgid "Account Number:"
+msgstr "Numero Conto:"
+
+msgid "Amount Due:"
+msgstr "Importo Dovuto:"
+
+msgid "Please include your Order ID in the payment reference to ensure prompt processing."
+msgstr "Si prega di includere il tuo ID ordine nel riferimento di pagamento per garantire un'elaborazione tempestiva."
+
+msgid "Next Steps"
+msgstr "Prossimi Passi"
+
+msgid "Complete your bank transfer using the details above"
+msgstr "Completa il tuo bonifico bancario utilizzando i dettagli sopra"
+
+msgid "Keep your transaction receipt for reference"
+msgstr "Conserva la ricevuta della transazione come riferimento"
+
+msgid "We'll notify you once payment is received"
+msgstr "Ti informeremo una volta ricevuto il pagamento"
+
+msgid "Your order will be prepared for shipment"
+msgstr "Il tuo ordine verrà preparato per la spedizione"
+
+msgid "Need assistance? Contact our friendly support team:"
+msgstr "Hai bisogno di assistenza? Contatta il nostro cordiale team di supporto:"
+
+msgid "With green regards,"
+msgstr "Con i migliori saluti,"
+
+msgid "The GreenMed Store Team"
+msgstr "Il Team di GreenMed Store"
+
+msgid "Nurturing Your Wellness Naturally"
+msgstr "Prendersi Cura del Tuo Benessere in Modo Naturale"
+
+msgid "IBAN:"
+msgstr "IBAN:"
+
+msgid "SWIFT/BIC:"
+msgstr "SWIFT/BIC:"
+
+msgid "Login to Proceed"
+msgstr "Accedi per Procedere"
+
+msgid "Reset Your Password"
+msgstr "Reimposta la Tua Password"
+
+msgid "Enter your email to receive reset instructions"
+msgstr "Inserisci la tua email per ricevere le istruzioni di reimpostazione"
+
+msgid "Send Reset Link"
+msgstr "Invia Link di Reimpostazione"
+
+msgid "Remember your password?"
+msgstr "Ricordi la tua password?"
+
+msgid "Security Notice"
+msgstr "Avviso di Sicurezza"
+
+msgid "Password reset links expire after 24 hours"
+msgstr "I link di reimpostazione password scadono dopo 24 ore"
+
+msgid "Links can only be used once"
+msgstr "I link possono essere utilizzati solo una volta"
+
+msgid "If you didn't request this, please ignore the email"
+msgstr "Se non hai richiesto questo, ignora l'email"
+
+msgid "Check Your Email"
+msgstr "Controlla la Tua Email"
+
+msgid "We've sent password reset instructions"
+msgstr "Abbiamo inviato le istruzioni per reimpostare la password"
+
+msgid "If an account exists with this email, you'll receive a link to reset your password."
+msgstr "Se esiste un account con questa email, riceverai un link per reimpostare la tua password."
+
+msgid "Please check your spam folder if you don't see it."
+msgstr "Per favore controlla la tua cartella spam se non lo vedi."
+
+msgid "The link will expire in 24 hours for security reasons."
+msgstr "Il link scadrà tra 24 ore per motivi di sicurezza."
+
+msgid "Return to Sign In"
+msgstr "Torna all'Accesso"
+
+msgid "No Email Received?"
+msgstr "Nessuna Email Ricevuta?"
+
+msgid "Check your spam/junk folder"
+msgstr "Controlla la tua cartella spam/post indesiderata"
+
+msgid "Wait a few minutes - emails may be delayed"
+msgstr "Aspetta qualche minuto - le email potrebbero essere ritardate"
+
+msgid "Ensure you entered the correct email address"
+msgstr "Assicurati di aver inserito l'indirizzo email corretto"
+
+msgid "Contact support if you continue having issues"
+msgstr "Contatta il supporto se continui ad avere problemi"
+
+msgid "Set New Password"
+msgstr "Imposta Nuova Password"
+
+msgid "Create a strong new password"
+msgstr "Crea una nuova password forte"
+
+msgid "Invalid Link"
+msgstr "Link Non Valido"
+
+msgid "This password reset link is no longer valid"
+msgstr "Questo link di reimpostazione password non è più valido"
+
+msgid "New Password"
+msgstr "Nuova Password"
+
+msgid "Confirm New Password"
+msgstr "Conferma Nuova Password"
+
+msgid "Password Requirements"
+msgstr "Requisiti della Password"
+
+msgid "Minimum 8 characters"
+msgstr "Minimo 8 caratteri"
+
+msgid "Can't be too similar to your other information"
+msgstr "Non può essere troppo simile alle tue altre informazioni"
+
+msgid "Can't be a commonly used password"
+msgstr "Non può essere una password comunemente usata"
+
+msgid "Can't be entirely numeric"
+msgstr "Non può essere interamente numerica"
+
+msgid "The password reset link was invalid, possibly because it has already been used."
+msgstr "Il link di reimpostazione della password non era valido, probabilmente perché è già stato utilizzato."
+
+msgid "Request New Reset Link"
+msgstr "Richiedi Nuovo Link di Reimpostazione"
+
+msgid "Password Security"
+msgstr "Sicurezza della Password"
+
+msgid "Use a password manager to generate and store passwords"
+msgstr "Usa un gestore di password per generare e memorizzare le password"
+
+msgid "Never reuse passwords across different sites"
+msgstr "Non riutilizzare mai le password su siti diversi"
+
+msgid "Consider enabling two-factor authentication"
+msgstr "Considera l'attivazione dell'autenticazione a due fattori"
+
+msgid "Password Reset Complete"
+msgstr "Reimpostazione Password Completata"
+
+msgid "Your password has been successfully updated."
+msgstr "La tua password è stata aggiornata con successo."
+
+msgid "You can now sign in with your new password."
+msgstr "Ora puoi accedere con la tua nuova password."
+
+msgid "Sign In Now"
+msgstr "Accedi Ora"
+
+msgid "Keep Your Account Secure"
+msgstr "Mantieni il Tuo Account Sicuro"
+
+msgid "Regularly update your password"
+msgstr "Aggiorna regolarmente la tua password"
+
+msgid "Review your account security settings"
+msgstr "Rivedi le impostazioni di sicurezza del tuo account"
+
+msgid "Monitor for suspicious activity"
+msgstr "Monitora le attività sospette"
+
+msgid "Remember to store your cannabis products securely and keep them away from children and pets."
+msgstr "Ricorda di conservare i tuoi prodotti a base di cannabis in modo sicuro e lontano da bambini e animali domestici."
+
+msgid "Please correct the error below."
+msgstr "Per favore correggi l'errore qui sotto."
+
+msgid "Update your account security"
+msgstr "Aggiorna la sicurezza del tuo account"
+
+msgid "Current Password"
+msgstr "Password Attuale"
+
+msgid "I confirm that I am 21 years of age or older"
+msgstr "Confermo di avere 21 anni o più"
+
+msgid "Update Password"
+msgstr "Aggiorna Password"
+
+msgid "Account Security Tips"
+msgstr "Suggerimenti per la Sicurezza dell'Account"
+
+msgid "Change your password every 3-6 months"
+msgstr "Cambia la tua password ogni 3-6 mesi"
+
+msgid "Never share your password with anyone"
+msgstr "Non condividere mai la tua password con nessuno"
+
+msgid "Enable two-factor authentication for extra security"
+msgstr "Abilita l'autenticazione a due fattori per una sicurezza extra"
+
+msgid "Use a password manager for better security"
+msgstr "Usa un gestore di password per una migliore sicurezza"
+
+msgid "You must confirm you are 21+ to change your password"
+msgstr "Devi confermare di avere 21+ anni per cambiare la password"
+
+msgid "Password Reset Request"
+msgstr "Richiesta di Reimpostazione Password"
+
+msgid "You're receiving this email because you requested a password reset for your account at %(site_name)s."
+msgstr "Stai ricevendo questa email perché hai richiesto la reimpostazione della password per il tuo account su %(site_name)s."
+
+msgid "Please click the button below to reset your password:"
+msgstr "Per favore clicca il pulsante qui sotto per reimpostare la tua password:"
+
+msgid "Reset Password"
+msgstr "Reimposta Password"
+
+msgid "Security Notice:"
+msgstr "Avviso di Sicurezza:"
+
+msgid "This link will expire in 24 hours and can only be used once."
+msgstr "Questo link scadrà tra 24 ore e può essere utilizzato solo una volta."
+
+msgid "If you didn't request this, please ignore this email and your password will remain unchanged."
+msgstr "Se non hai richiesto questo, per favore ignora questa email e la tua password rimarrà invariata."
+
+msgid "If the button doesn't work, copy and paste this link into your browser:"
+msgstr "Se il pulsante non funziona, copia e incolla questo link nel tuo browser:"
+
+msgid "Thank you,"
+msgstr "Grazie,"
+
+msgid "Team"
+msgstr "Team"

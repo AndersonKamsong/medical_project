@@ -1,0 +1,2670 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-24 09:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pages/models.py:7
+msgid "Site Name"
+msgstr "Webbplatsnamn"
+
+#: pages/models.py:8
+msgid "Tagline"
+msgstr "Tagline"
+
+#: pages/models.py:11
+msgid "Email"
+msgstr "E-post"
+
+#: pages/models.py:12
+msgid "Phone"
+msgstr "Telefon"
+
+#: pages/models.py:13
+msgid "Address"
+msgstr "Adress"
+
+#: pages/models.py:16
+msgid "Facebook URL"
+msgstr "Facebook-URL"
+
+#: pages/models.py:17
+msgid "Twitter URL"
+msgstr "Twitter-URL"
+
+#: pages/models.py:18
+msgid "Instagram URL"
+msgstr "Instagram-URL"
+
+#: pages/models.py:21
+msgid "Business Hours"
+msgstr "Öppettider"
+
+#: pages/models.py:22
+msgid "About Text"
+msgstr "Om oss-text"
+
+#: pages/models.py:25 templates/base.html:214
+msgid "Privacy Policy"
+msgstr "Integritetspolicy"
+
+#: pages/models.py:26
+msgid "Terms of Service"
+msgstr "Användarvillkor"
+
+#: pages/models.py:29 pages/models.py:30
+msgid "Site Settings"
+msgstr "Webbplatsinställningar"
+
+#: templates/base.html:10
+msgid ""
+"natural medical products, cannabis, CBD, hemp, organic medicine, herbal "
+"remedies"
+msgstr ""
+"naturliga medicinska produkter, cannabis, CBD, hampa, organisk medicin, "
+"örtmedicin"
+
+#: templates/base.html:78
+msgid ""
+"We use cookies to improve your experience. By continuing to use our site, "
+"you accept our use of cookies."
+msgstr ""
+"Vi använder cookies för att förbättra din upplevelse. Genom att fortsätta "
+"använda vår webbplats accepterar du vår användning av cookies."
+
+#: templates/base.html:79
+msgid "Learn more"
+msgstr "Läs mer"
+
+#: templates/base.html:82
+msgid "Accept"
+msgstr "Acceptera"
+
+#: templates/base.html:102
+msgid "Search products..."
+msgstr "Sök produkter..."
+
+#: templates/base.html:114 templates/base.html:203
+msgid "Products"
+msgstr "Produkter"
+
+#: templates/base.html:115
+msgid "About"
+msgstr "Om oss"
+
+#: templates/base.html:116 templates/base.html:205
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/base.html:157
+msgid "Profile"
+msgstr "Profil"
+
+#: templates/base.html:158
+msgid "Order History"
+msgstr "Orderhistorik"
+
+#: templates/base.html:159
+msgid "Logout"
+msgstr "Logga ut"
+
+#: templates/base.html:163
+msgid "Login"
+msgstr "Logga in"
+
+#: templates/base.html:164
+msgid "Register"
+msgstr "Registrera"
+
+#: templates/base.html:201
+msgid "Quick Links"
+msgstr "Snabblänkar"
+
+#: templates/base.html:204
+msgid "About Us"
+msgstr "Om oss"
+
+#: templates/base.html:206
+msgid "FAQ"
+msgstr "Vanliga frågor"
+
+#: templates/base.html:211
+msgid "Legal"
+msgstr "Juridisk information"
+
+#: templates/base.html:213
+msgid "Legal Notice"
+msgstr "Juridiskt meddelande"
+
+#: templates/base.html:219
+msgid "Contact Info"
+msgstr "Kontaktinformation"
+
+#: templates/base.html:229
+msgid "All rights reserved."
+msgstr "Alla rättigheter förbehållna."
+
+#: templates/base.html:231
+msgid "Medical Disclaimer:"
+msgstr "Medicinsk ansvarsfriskrivning:"
+
+#: templates/base.html:231
+msgid ""
+"The information provided is for educational purposes only and should not "
+"replace professional medical advice."
+msgstr ""
+"Informationen är endast avsedd för utbildningsändamål och ska inte ersätta "
+"professionell medicinsk rådgivning."
+
+msgid "Professional Medical Products"
+msgstr "Professionella medicinska produkter"
+
+msgid "Discover our comprehensive range of medical products with detailed composition, usage instructions, and proven health benefits."
+msgstr "Upptäck vårt omfattande utbud av medicinska produkter med detaljerad sammansättning, användningsanvisningar och bevisade hälsofördelar."
+
+msgid "Explore Products"
+msgstr "Utforska produkter"
+
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+msgid "View Products"
+msgstr "Visa produkter"
+
+msgid "No categories available yet."
+msgstr "Inga kategorier tillgängliga ännu."
+
+msgid "Featured Products"
+msgstr "Utvalda produkter"
+
+msgid "View Details"
+msgstr "Visa detaljer"
+
+msgid "No featured products available yet."
+msgstr "Inga utvalda produkter tillgängliga ännu."
+
+msgid "View All Products"
+msgstr "Visa alla produkter"
+
+msgid "Why Choose Our Products?"
+msgstr "Varför välja våra produkter?"
+
+msgid "Scientific Composition"
+msgstr "Vetenskaplig sammansättning"
+
+msgid "Detailed information about key elements and ingredients in each product."
+msgstr "Detaljerad information om nyckelelement och ingredienser i varje produkt."
+
+msgid "Usage Instructions"
+msgstr "Användningsanvisningar"
+
+msgid "Clear, professional guidance on how to use each medical product safely."
+msgstr "Tydlig, professionell vägledning om hur man använder varje medicinsk produkt säkert."
+
+msgid "Health Benefits"
+msgstr "Hälsofördelar"
+
+msgid "Comprehensive information about the health benefits of each product."
+msgstr "Omfattande information om hälsofördelarna med varje produkt."
+
+msgid "Why Choose Our Cannabis Products?"
+msgstr "Varför välja våra cannabisprodukter?"
+
+msgid "Premium Quality"
+msgstr "Premiumkvalitet"
+
+msgid "Lab-tested cannabis products with certified potency and purity. Grown organically without pesticides."
+msgstr "Laboratorietestade cannabisprodukter med certifierad styrka och renhet. Odlat organiskt utan bekämpningsmedel."
+
+msgid "Therapeutic Effects"
+msgstr "Terapeutiska effekter"
+
+msgid "May help with pain relief, anxiety reduction, sleep improvement, and appetite stimulation based on clinical studies."
+msgstr "Kan hjälpa till med smärtlindring, ångestreduktion, sömnförbättring och aptitstimulering enligt kliniska studier."
+
+msgid "Precise Formulations"
+msgstr "Exakta formuleringar"
+
+msgid "Accurate CBD:THC ratios tailored for specific conditions. Full-spectrum products with terpenes for enhanced effects."
+msgstr "Exakta CBD:THC-förhållanden anpassade för specifika tillstånd. Fullspektrumprodukter med terpener för förstärkta effekter."
+
+msgid "Medical Support"
+msgstr "Medicinskt stöd"
+
+msgid "Dosage guidance from healthcare professionals. Product recommendations based on your medical needs."
+msgstr "Dosering från sjukvårdspersonal. Produktrekommendationer baserade på dina medicinska behov."
+
+msgid "Important Medical Information"
+msgstr "Viktig medicinsk information"
+
+msgid "Cannabis products may interact with medications. Consult your physician before use, especially if you have heart conditions, psychiatric disorders, or are pregnant/nursing. Start with low doses and monitor effects."
+msgstr "Cannabisprodukter kan interagera med läkemedel. Konsultera din läkare före användning, särskilt om du har hjärtsjukdomar, psykiatriska störningar eller är gravid/amnar. Börja med låga doser och övervaka effekterna."
+
+msgid "Filter Products"
+msgstr "Filtrera produkter"
+
+msgid "Price Range"
+msgstr "Prisintervall"
+
+msgid "Min Price"
+msgstr "Minsta pris"
+
+msgid "Max Price"
+msgstr "Högsta pris"
+
+msgid "CBD:THC Ratio"
+msgstr "CBD:THC-förhållande"
+
+msgid "All Ratios"
+msgstr "Alla förhållanden"
+
+msgid "High CBD (20:1)"
+msgstr "Högt CBD (20:1)"
+
+msgid "Balanced (1:1)"
+msgstr "Balanserad (1:1)"
+
+msgid "High THC (1:20)"
+msgstr "Högt THC (1:20)"
+
+msgid "Consumption Method"
+msgstr "Förbrukningsmetod"
+
+msgid "Flower"
+msgstr "Blomma"
+
+msgid "Oils & Tinctures"
+msgstr "Oljor & tinkturer"
+
+msgid "Edibles"
+msgstr "Ätbara produkter"
+
+msgid "Apply Filters"
+msgstr "Tillämpa filter"
+
+msgid "Clear Filters"
+msgstr "Rensa filter"
+
+msgid "Medical Information"
+msgstr "Medicinsk information"
+
+msgid "Dosage Advice:"
+msgstr "Doseringsråd:"
+
+msgid "Start with low doses (2.5-5mg THC) and wait 2 hours before consuming more."
+msgstr "Börja med låga doser (2,5-5mg THC) och vänta 2 timmar innan du konsumerar mer."
+
+msgid "Effects Timeline:"
+msgstr "Effekttidslinje:"
+
+msgid "Inhalation: 5-15 minutes onset. Edibles: 30-90 minutes onset. Effects last 2-6 hours."
+msgstr "Inhalation: verkan efter 5-15 minuter. Ätbara produkter: verkan efter 30-90 minuter. Effekterna varar 2-6 timmar."
+
+msgid "Storage:"
+msgstr "Förvaring:"
+
+msgid "Store in cool, dark place. Keep away from children and pets."
+msgstr "Förvara på svalt, mörkt ställe. Håll borta från barn och husdjur."
+
+msgid "Products in"
+msgstr "Produkter i"
+
+msgid "products found"
+msgstr "produkter hittades"
+
+msgid "Out of Stock"
+msgstr "Slut i lager"
+
+msgid "In Stock"
+msgstr "I lager"
+
+msgid "No products found"
+msgstr "Inga produkter hittades"
+
+msgid "No products match your current filters. Try adjusting your price range."
+msgstr "Inga produkter matchar dina nuvarande filter. Försök att justera ditt prisintervall."
+
+msgid "This category doesn't have any products yet."
+msgstr "Denna kategori har inga produkter ännu."
+
+msgid "Browse All Products"
+msgstr "Bläddra bland alla produkter"
+
+msgid "Previous"
+msgstr "Föregående"
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "Therapeutic Uses"
+msgstr "Terapeutiska användningsområden"
+
+msgid "Pain Management"
+msgstr "Smärtbehandling"
+
+msgid "May help with chronic pain, arthritis, and neuropathic pain."
+msgstr "Kan hjälpa vid kronisk smärta, artrit och neuropatisk smärta."
+
+msgid "Mental Health"
+msgstr "Psykisk hälsa"
+
+msgid "Potential benefits for anxiety, PTSD, and depression (consult doctor)."
+msgstr "Potentiella fördelar vid ångest, PTSD och depression (konsultera läkare)."
+
+msgid "Sleep Disorders"
+msgstr "Sömnstörningar"
+
+msgid "May improve sleep quality for insomnia patients."
+msgstr "Kan förbättra sömnkvaliteten för patienter med sömnlöshet."
+
+msgid "Filters"
+msgstr "Filter"
+
+msgid "Categories"
+msgstr "Kategorier"
+
+msgid "All Categories"
+msgstr "Alla kategorier"
+
+msgid "Strain Type"
+msgstr "Sorttyp"
+
+msgid "CBD Dominant (>20:1)"
+msgstr "CBD-dominerande (>20:1)"
+
+msgid "THC Dominant (1:20)"
+msgstr "THC-dominerande (1:20)"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Dosage Guide"
+msgstr "Doseringsguide"
+
+msgid "Start with 2.5-5mg THC, wait 2 hours before redosing. Consult your physician for personalized advice."
+msgstr "Börja med 2,5-5mg THC, vänta 2 timmar innan ny dosering. Konsultera din läkare för personlig rådgivning."
+
+msgid "Effects Duration"
+msgstr "Effektens varaktighet"
+
+msgid "Inhalation: 2-4 hours. Edibles: 4-8 hours. Topicals: 2-5 hours."
+msgstr "Inhalation: 2-4 timmar. Ätbara produkter: 4-8 timmar. Topiska produkter: 2-5 timmar."
+
+msgid "Safety Notice"
+msgstr "Säkerhetsmeddelande"
+
+msgid "Not recommended for pregnant/nursing women or those with heart conditions. May interact with medications."
+msgstr "Rekommenderas inte för gravida/ammande kvinnor eller personer med hjärtsjukdomar. Kan interagera med läkemedel."
+
+msgid "Search Results for"
+msgstr "Sökresultat för"
+
+msgid "All Products"
+msgstr "Alla produkter"
+
+msgid "Benefits:"
+msgstr "Fördelar:"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Low Stock"
+msgstr "Fåtal i lager"
+
+msgid "Try adjusting your search criteria or browse all products."
+msgstr "Försök att justera dina sökkriterier eller bläddra bland alla produkter."
+
+msgid "Home"
+msgstr "Hem"
+
+msgid "Strain"
+msgstr "Sort"
+
+msgid "Key Benefits"
+msgstr "Viktiga fördelar"
+
+msgid "Quantity"
+msgstr "Kvantitet"
+
+msgid "Add to Cart"
+msgstr "Lägg i varukorg"
+
+msgid "Dosage:"
+msgstr "Dosering:"
+
+msgid "Start with low doses (2.5-5mg THC). Wait 2 hours before consuming more."
+msgstr "Börja med låga doser (2,5-5mg THC). Vänta 2 timmar innan du konsumerar mer."
+
+msgid "Effects:"
+msgstr "Effekter:"
+
+msgid "Onset in 5-15 minutes when inhaled, 30-90 minutes when ingested. Effects last 2-6 hours."
+msgstr "Verkan efter 5-15 minuter vid inhalation, 30-90 minuter vid intag. Effekterna varar 2-6 timmar."
+
+msgid "Warning:"
+msgstr "Varning:"
+
+msgid "Description"
+msgstr "Beskrivning"
+
+msgid "Composition"
+msgstr "Sammansättning"
+
+msgid "How to Use"
+msgstr "Användningssätt"
+
+msgid "Production"
+msgstr "Produktion"
+
+msgid "Benefits"
+msgstr "Fördelar"
+
+msgid "Product Description"
+msgstr "Produktbeskrivning"
+
+msgid "Strain Characteristics"
+msgstr "Sortens egenskaper"
+
+msgid "Effects"
+msgstr "Effekter"
+
+msgid "Energetic, uplifting, cerebral"
+msgstr "Energisk, upplyftande, cerebral"
+
+msgid "Relaxing, sedating, body-focused"
+msgstr "Avslappnande, lugnande, kroppsinriktad"
+
+msgid "Balanced, hybrid effects"
+msgstr "Balanserade, hybrida effekter"
+
+msgid "Aroma"
+msgstr "Aroma"
+
+msgid "Earthy, herbal notes"
+msgstr "Jordiga, örtiga toner"
+
+msgid "Best For"
+msgstr "Bäst för"
+
+msgid "Daytime use, creativity, focus"
+msgstr "Dagbruk, kreativitet, fokus"
+
+msgid "Evening use, relaxation, sleep"
+msgstr "Kvällsbruk, avslappning, sömn"
+
+msgid "Versatile use throughout day"
+msgstr "Mångsidigt bruk under dagen"
+
+msgid "Composition & Ingredients"
+msgstr "Sammansättning & ingredienser"
+
+msgid "Terpene Profile"
+msgstr "Terpenprofil"
+
+msgid "Safety Information"
+msgstr "Säkerhetsinformation"
+
+msgid "Start with low doses, especially if new to cannabis"
+msgstr "Börja med låga doser, särskilt om du är ny inom cannabis"
+
+msgid "Do not operate heavy machinery after use"
+msgstr "Använd inte tunga maskiner efter intag"
+
+msgid "Keep out of reach of children and pets"
+msgstr "Håll utom räckhåll för barn och husdjur"
+
+msgid "Store in a cool, dark place"
+msgstr "Förvara på svalt, mörkt ställe"
+
+msgid "Consult your doctor if taking other medications"
+msgstr "Konsultera din läkare om du tar andra läkemedel"
+
+msgid "Production Method"
+msgstr "Produktionsmetod"
+
+msgid "Quality Assurance"
+msgstr "Kvalitetssäkring"
+
+msgid "Testing"
+msgstr "Testning"
+
+msgid "Lab-tested for potency and contaminants"
+msgstr "Laboratorietestad för styrka och föroreningar"
+
+msgid "Growing Method"
+msgstr "Odlingsmetod"
+
+msgid "Organically grown without pesticides"
+msgstr "Organiskt odlad utan bekämpningsmedel"
+
+msgid "Therapeutic Applications"
+msgstr "Terapeutiska tillämpningar"
+
+msgid "Physical"
+msgstr "Fysiskt"
+
+msgid "Pain relief"
+msgstr "Smärtlindring"
+
+msgid "Muscle relaxation"
+msgstr "Muskelavslappning"
+
+msgid "Appetite stimulation"
+msgstr "Aptitstimulering"
+
+msgid "Mental"
+msgstr "Mentalt"
+
+msgid "Anxiety reduction"
+msgstr "Ångestminskning"
+
+msgid "Stress relief"
+msgstr "Stresslindring"
+
+msgid "Mood elevation"
+msgstr "Stämningsförbättring"
+
+msgid "Other"
+msgstr "Övrigt"
+
+msgid "Sleep improvement"
+msgstr "Sömnförbättring"
+
+msgid "Neuroprotective effects"
+msgstr "Neuroprotektiva effekter"
+
+msgid "Anti-inflammatory"
+msgstr "Antiinflammatorisk"
+
+msgid "Related Products"
+msgstr "Relaterade produkter"
+
+msgid "Shopping Cart"
+msgstr "Varukorg"
+
+msgid "Important Information"
+msgstr "Viktig information"
+
+msgid "All cannabis products are for adults 18+ only. By proceeding to checkout, you confirm you meet the legal age requirement in your jurisdiction."
+msgstr "Alla cannabisprodukter är endast för vuxna 18+. Genom att fortsätta till kassan bekräftar du att du uppfyller den lagliga åldersgränsen i din jurisdiktion."
+
+msgid "Update"
+msgstr "Uppdatera"
+
+msgid "Remove item"
+msgstr "Ta bort vara"
+
+msgid "Order Summary"
+msgstr "Ordersammanfattning"
+
+msgid "Items"
+msgstr "Varor"
+
+msgid "Shipping"
+msgstr "Frakt"
+
+msgid "Free"
+msgstr "Gratis"
+
+msgid "Total"
+msgstr "Totalt"
+
+msgid "Proceed to Checkout"
+msgstr "Fortsätt till kassan"
+
+msgid "Continue Shopping"
+msgstr "Fortsätt handla"
+
+msgid "I confirm that I am 18 years of age or older and agree to the"
+msgstr "Jag bekräftar att jag är 18 år eller äldre och godkänner"
+
+msgid "Your cart is empty"
+msgstr "Din varukorg är tom"
+
+msgid "Add some medical cannabis products to get started!"
+msgstr "Lägg till några medicinska cannabisprodukter för att komma igång!"
+
+msgid "Browse Products"
+msgstr "Bläddra bland produkter"
+
+msgid "Medical Use Information"
+msgstr "Information om medicinsk användning"
+
+msgid "For medical cannabis patients, please note:"
+msgstr "För medicinska cannabispatienter, observera:"
+
+msgid "Consult with your physician about proper dosing"
+msgstr "Konsultera din läkare om korrekt dosering"
+
+msgid "Start with low doses and increase gradually"
+msgstr "Börja med låga doser och öka gradvis"
+
+msgid "Be aware of potential drug interactions"
+msgstr "Var medveten om potentiella läkemedelsinteraktioner"
+
+msgid "Store products securely away from children/pets"
+msgstr "Förvara produkter säkert borta från barn/husdjur"
+
+msgid "Effects may vary based on individual physiology"
+msgstr "Effekter kan variera beroende på individuell fysiologi"
+
+msgid "I Understand"
+msgstr "Jag förstår"
+
+msgid "Please confirm you are 18+ to proceed with checkout"
+msgstr "Bekräfta att du är 18+ för att fortsätta till kassan"
+
+msgid "Checkout"
+msgstr "Kassa"
+
+msgid "First Name"
+msgstr "Förnamn"
+
+msgid "Last Name"
+msgstr "Efternamn"
+
+msgid "Postal Code"
+msgstr "Postnummer"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Start with low doses (2.5-5mg THC). Effects may take 30-90 minutes when ingested."
+msgstr "Börja med låga doser (2,5-5mg THC). Effekter kan ta 30-90 minuter vid intag."
+
+msgid "Keep in a cool, dark place. Store securely away from children and pets."
+msgstr "Förvara på svalt, mörkt ställe. Förvara säkert borta från barn och husdjur."
+
+msgid "Payment Method"
+msgstr "Betalningsmetod"
+
+msgid "Credit/Debit Card"
+msgstr "Kredit-/betalkort"
+
+msgid "Secure payment processing via our PCI-compliant payment gateway."
+msgstr "Säker betalningshantering via vår PCI-kompatibla betalningsportal."
+
+msgid "Place Order"
+msgstr "Lägg order"
+
+msgid "Qty"
+msgstr "Antal"
+
+msgid "Subtotal"
+msgstr "Delsumma"
+
+msgid "Tax"
+msgstr "Skatt"
+
+msgid "These products are not intended to diagnose, treat, cure or prevent any disease. Consult your healthcare provider before use."
+msgstr "Dessa produkter är inte avsedda att diagnostisera, behandla, bota eller förebygga någon sjukdom. Konsultera din vårdgivare före användning."
+
+msgid "Delivery Information"
+msgstr "Leveransinformation"
+
+msgid "Discreet packaging for all orders"
+msgstr "Diskret förpackning för alla beställningar"
+
+msgid "Adult signature required upon delivery"
+msgstr "Vuxens underskrift krävs vid leverans"
+
+msgid "No returns on cannabis products"
+msgstr "Inga returer på cannabisprodukter"
+
+msgid "You must confirm you are 18+ to place an order"
+msgstr "Du måste bekräfta att du är 18+ för att lägga en order"
+
+msgid "Order Confirmed!"
+msgstr "Order bekräftad!"
+
+msgid "Thank you for your order. We'll send you a confirmation email shortly."
+msgstr "Tack för din beställning. Vi skickar ett bekräftelsemail inom kort."
+
+msgid "Order Details"
+msgstr "Orderdetaljer"
+
+msgid "Order Number"
+msgstr "Ordernummer"
+
+msgid "Order Date"
+msgstr "Orderdatum"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Total Amount"
+msgstr "Total summa"
+
+msgid "Order Items"
+msgstr "Orderartiklar"
+
+msgid "each"
+msgstr "styck"
+
+msgid "What's Next?"
+msgstr "Vad händer nu?"
+
+msgid "You'll receive an order confirmation email at"
+msgstr "Du kommer att få ett orderbekräftelsemail till"
+
+msgid "We'll prepare your discreet package within 1-2 business days"
+msgstr "Vi förbereder din diskreta förpackning inom 1-2 arbetsdagar"
+
+msgid "Adult signature required upon delivery (18+ only)"
+msgstr "Vuxens underskrift krävs vid leverans (endast 18+)"
+
+msgid "Contact us if you have any questions about your order"
+msgstr "Kontakta oss om du har frågor om din beställning"
+
+msgid "Dosage Guidance:"
+msgstr "Doseringsvägledning:"
+
+msgid "Start with low doses (2.5-5mg THC). Wait at least 2 hours before consuming more."
+msgstr "Börja med låga doser (2,5-5mg THC). Vänta minst 2 timmar innan du konsumerar mer."
+
+msgid "Inhalation: effects in 5-15 minutes. Edibles: effects in 30-90 minutes. Duration: 2-6 hours."
+msgstr "Inhalation: effekt efter 5-15 minuter. Ätbara produkter: effekt efter 30-90 minuter. Varaktighet: 2-6 timmar."
+
+msgid "Safety:"
+msgstr "Säkerhet:"
+
+msgid "Do not drive or operate machinery after use. May interact with medications."
+msgstr "Kör inte eller använd maskiner efter intag. Kan interagera med läkemedel."
+
+msgid "These products are not intended to diagnose, treat, cure or prevent any disease. Consult your healthcare provider before use, especially if you have medical conditions or take medications."
+msgstr "Dessa produkter är inte avsedda att diagnostisera, behandla, bota eller förebygga någon sjukdom. Konsultera din vårdgivare före användning, särskilt om du har medicinska tillstånd eller tar läkemedel."
+
+msgid "View Order History"
+msgstr "Visa orderhistorik"
+
+msgid "Order"
+msgstr "Beställning"
+
+msgid "Items Ordered"
+msgstr "Beställda artiklar"
+
+msgid "Usage Reminder"
+msgstr "Påminnelse om användning"
+
+msgid "Store products securely away from children and pets"
+msgstr "Förvara produkter säkert borta från barn och husdjur"
+
+msgid "Consult your physician with any questions"
+msgstr "Konsultera din läkare med eventuella frågor"
+
+msgid "Order placed on"
+msgstr "Beställning gjord den"
+
+msgid "Cancel Order"
+msgstr "Avbryt beställning"
+
+msgid "Contact Support"
+msgstr "Kontakta support"
+
+msgid "No orders yet"
+msgstr "Inga beställningar ännu"
+
+msgid "You haven't placed any orders yet. Start shopping to see your order history here!"
+msgstr "Du har inte lagt några beställningar ännu. Börja handla för att se din orderhistorik här!"
+
+msgid "My Profile"
+msgstr "Min profil"
+
+msgid "Profile Information"
+msgstr "Profilinformation"
+
+msgid "Medical Profile"
+msgstr "Medicinsk profil"
+
+msgid "Security Settings"
+msgstr "Säkerhetsinställningar"
+
+msgid "Medical Resources"
+msgstr "Medicinska resurser"
+
+msgid "Cannabis Dosage Guide"
+msgstr "Cannabisdoseringsguide"
+
+msgid "Medical Research"
+msgstr "Medicinsk forskning"
+
+msgid "Find a Doctor"
+msgstr "Hitta en läkare"
+
+msgid "Email Address"
+msgstr "E-postadress"
+
+msgid "Username"
+msgstr "Användarnamn"
+
+msgid "Username cannot be changed"
+msgstr "Användarnamn kan inte ändras"
+
+msgid "Subscribe to cannabis research and product updates"
+msgstr "Prenumerera på cannabisforskning och produktuppdateringar"
+
+msgid "Update Profile"
+msgstr "Uppdatera profil"
+
+msgid "Medical Conditions (optional)"
+msgstr "Medicinska tillstånd (valfritt)"
+
+msgid "For personalized product recommendations"
+msgstr "För personliga produktrekommendationer"
+
+msgid "Experience Level with Cannabis"
+msgstr "Erfarenhetsnivå med cannabis"
+
+msgid "Select your experience level"
+msgstr "Välj din erfarenhetsnivå"
+
+msgid "Beginner (first time user)"
+msgstr "Nyborjare (första gången användare)"
+
+msgid "Intermediate (occasional use)"
+msgstr "Mellanliggande (tillfälligt bruk)"
+
+msgid "Experienced (regular medical user)"
+msgstr "Erfaren (regelbunden medicinsk användare)"
+
+msgid "I am a registered medical cannabis patient"
+msgstr "Jag är en registrerad medicinsk cannabispatient"
+
+msgid "Save Medical Profile"
+msgstr "Spara medicinsk profil"
+
+msgid "Account Summary"
+msgstr "Kontosammanfattning"
+
+msgid "Total Orders"
+msgstr "Totalt antal beställningar"
+
+msgid "Total Spent"
+msgstr "Totalt spenderat"
+
+msgid "Member Since"
+msgstr "Medlem sedan"
+
+msgid "Password"
+msgstr "Lösenord"
+
+msgid "Last changed: Never"
+msgstr "Senast ändrad: Aldrig"
+
+msgid "Change Password"
+msgstr "Ändra lösenord"
+
+msgid "Two-Factor Authentication"
+msgstr "Tvåfaktorsautentisering"
+
+msgid "Not enabled"
+msgstr "Inte aktiverat"
+
+msgid "Enable 2FA"
+msgstr "Aktivera 2FA"
+
+msgid "Login Sessions"
+msgstr "Inloggningssessioner"
+
+msgid "Manage active sessions"
+msgstr "Hantera aktiva sessioner"
+
+msgid "View Sessions"
+msgstr "Visa sessioner"
+
+msgid "Welcome Back"
+msgstr "Välkommen tillbaka"
+
+msgid "Sign in to your cannabis account"
+msgstr "Logga in på ditt cannabiskonto"
+
+msgid "Please correct the errors below."
+msgstr "Vänligen rätta felen nedan."
+
+msgid "Username or Email"
+msgstr "Användarnamn eller e-post"
+
+msgid "Remember me"
+msgstr "Kom ihåg mig"
+
+msgid "Forgot password?"
+msgstr "Glömt lösenord?"
+
+msgid "I confirm that I am 18 years of age or older"
+msgstr "Jag bekräftar att jag är 18 år eller äldre"
+
+msgid "Sign In"
+msgstr "Logga in"
+
+msgid "Don't have an account?"
+msgstr "Har du inget konto?"
+
+msgid "Sign up here"
+msgstr "Registrera dig här"
+
+msgid "Or continue as guest"
+msgstr "Eller fortsätt som gäst"
+
+msgid "Continue as Guest"
+msgstr "Fortsätt som gäst"
+
+msgid "All cannabis products are for adults 18+ only"
+msgstr "Alla cannabisprodukter är endast för vuxna 18+"
+
+msgid "Consult your physician before using cannabis products"
+msgstr "Konsultera din läkare innan du använder cannabisprodukter"
+
+msgid "These products are not intended to diagnose, treat, cure or prevent any disease. By signing in, you acknowledge you understand our products should not replace professional medical advice."
+msgstr "Dessa produkter är inte avsedda att diagnostisera, behandla, bota eller förebygga någon sjukdom. Genom att logga in bekräftar du att du förstår att våra produkter inte ska ersätta professionellt medicinskt råd."
+
+msgid "You must confirm you are 18+ to access this site"
+msgstr "Du måste bekräfta att du är 18+ för att komma åt denna webbplats"
+
+msgid "Create Account"
+msgstr "Skapa konto"
+
+msgid "Join CannabiCare for exclusive access to premium cannabis products"
+msgstr "Gå med i CannabiCare för exklusiv tillgång till premium cannabisprodukter"
+
+msgid "Password must be at least 8 characters long and contain letters and numbers."
+msgstr "Lösenordet måste vara minst 8 tecken långt och innehålla bokstäver och siffror."
+
+msgid "Confirm Password"
+msgstr "Bekräfta lösenord"
+
+msgid "I agree to the <a href=\"%(url)s\">Terms of Service</a> and <a href=\"%(url)s\">Privacy Policy</a>"
+msgstr "Jag godkänner <a href=\"%(url)s\">Användarvillkoren</a> och <a href=\"%(url)s\">Integritetspolicyn</a>"
+
+msgid "I confirm that I am at least 18 years of age"
+msgstr "Jag bekräftar att jag är minst 18 år gammal"
+
+msgid "I understand cannabis products are for adult use only and should be kept away from children"
+msgstr "Jag förstår att cannabisprodukter endast är för vuxenbruk och ska hållas borta från barn"
+
+msgid "I would like to receive updates about new cannabis strains and products (optional)"
+msgstr "Jag vill få uppdateringar om nya cannabissorter och produkter (valfritt)"
+
+msgid "Already have an account?"
+msgstr "Har du redan ett konto?"
+
+msgid "Sign in here"
+msgstr "Logga in här"
+
+msgid "Why Register With Us?"
+msgstr "Varför registrera dig hos oss?"
+
+msgid "Access to premium cannabis strains and CBD products"
+msgstr "Tillgång till premium cannabissorter och CBD-produkter"
+
+msgid "Exclusive member discounts and early access to sales"
+msgstr "Exklusiva medlemsrabatter och tidig tillgång till reor"
+
+msgid "Grower's corner with cultivation tips and resources"
+msgstr "Odlares hörna med odlingstips och resurser"
+
+msgid "Medical cannabis information and research updates"
+msgstr "Information om medicinsk cannabis och forskningsuppdateringar"
+
+msgid "Fast, discreet delivery options"
+msgstr "Snabb, diskret leverans"
+
+msgid "I agree to the"
+msgstr "Jag godkänner"
+
+msgid "and"
+msgstr "och"
+
+msgid "Company Information"
+msgstr "Företagsinformation"
+
+msgid "Simplified Joint Stock Company (SAS)"
+msgstr "Förenklad aktiebolagsform (SAS)"
+
+msgid "Registration Number:"
+msgstr "Registreringsnummer:"
+
+msgid "VAT Number:"
+msgstr "Momsregistreringsnummer:"
+
+msgid "Share Capital:"
+msgstr "Aktiekapital:"
+
+msgid "Registered Office:"
+msgstr "Registrerat kontor:"
+
+msgid "Phone:"
+msgstr "Telefon:"
+
+msgid "Email:"
+msgstr "E-post:"
+
+msgid "Cannabis License:"
+msgstr "Cannabistillstånd:"
+
+msgid "Website Information"
+msgstr "Webbplatsinformation"
+
+msgid "Website:"
+msgstr "Webbplats:"
+
+msgid "Publication Director:"
+msgstr "Publiceringsansvarig:"
+
+msgid "Web Development:"
+msgstr "Webbutveckling:"
+
+msgid "Hosting Provider:"
+msgstr "Värdleverantör:"
+
+msgid "Terms of Use"
+msgstr "Användarvillkor"
+
+msgid "Acceptance of Terms"
+msgstr "Godkännande av villkor"
+
+msgid "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+msgstr "Genom att komma åt och använda denna webbplats accepterar och godkänner du att vara bunden av villkoren och bestämmelserna i detta avtal. Om du inte godkänner ovanstående, använd inte denna tjänst."
+
+msgid "Cannabis Product Disclaimer"
+msgstr "Ansvarsfriskrivning för cannabisprodukter"
+
+msgid "All cannabis products sold on this website contain less than 0.2% THC in compliance with French and EU regulations. These products are not intended to diagnose, treat, cure or prevent any disease. The information provided is for educational purposes only regarding the potential benefits of CBD and other cannabis compounds."
+msgstr "Alla cannabisprodukter som säljs på denna webbplats innehåller mindre än 0,2% THC i enlighet med franska och EU-förordningar. Dessa produkter är inte avsedda att diagnostisera, behandla, bota eller förebygga någon sjukdom. Den tillhandahållna informationen är endast i utbildningssyfte avseende de potentiella fördelarna med CBD och andra cannabisföreningar."
+
+msgid "Age Restriction"
+msgstr "Åldersbegränsning"
+
+msgid "You must be at least 18 years old to access this website and purchase our products. By using this site, you confirm that you meet the minimum age requirement."
+msgstr "Du måste vara minst 18 år gammal för att komma åt denna webbplats och köpa våra produkter. Genom att använda denna webbplats bekräftar du att du uppfyller minimiålderskravet."
+
+msgid "Product Information"
+msgstr "Produktinformation"
+
+msgid "While we strive to provide accurate information about our cannabis products, including CBD content and laboratory test results, we make no representations about the completeness or accuracy of this information. Product effects may vary between individuals."
+msgstr "Även om vi strävar efter att tillhandahålla korrekt information om våra cannabisprodukter, inklusive CBD-innehåll och laboratorietestresultat, gör vi inga anspråk på fullständighet eller noggrannhet av denna information. Produkternas effekter kan variera mellan individer."
+
+msgid "Use License"
+msgstr "Användarlicens"
+
+msgid "Permission is granted to temporarily download one copy of the materials on GreenMed Store's website for personal, non-commercial transitory viewing only. This license prohibits:"
+msgstr "Tillstånd ges att tillfälligt ladda ner en kopia av materialet på GreenMed Stores webbplats endast för personlig, icke-kommersiell tillfällig visning. Denna licens förbjuder:"
+
+msgid "modification or copying of cannabis-related educational materials"
+msgstr "modifiering eller kopiering av cannabisrelaterat utbildningsmaterial"
+
+msgid "commercial use of product images or descriptions"
+msgstr "kommersiell användning av produktbilder eller beskrivningar"
+
+msgid "attempting to reverse engineer any software"
+msgstr "försök att reverse-engineera någon mjukvara"
+
+msgid "removing copyright or proprietary notations"
+msgstr "borttagande av upphovsrätts- eller ägandebeteckningar"
+
+msgid "Intellectual Property"
+msgstr "Immateriella rättigheter"
+
+msgid "All cannabis strain names, product formulations, and educational content are protected by intellectual property laws. The 'GreenMed Store' name and logo are registered trademarks."
+msgstr "Alla cannabissortnamn, produktformuleringar och utbildningsinnehåll skyddas av lagar om immateriella rättigheter. Namnet 'GreenMed Store' och logotypen är registrerade varumärken."
+
+msgid "Our proprietary cannabis cultivation techniques, extraction methods, and product formulations are trade secrets protected under French and EU law."
+msgstr "Våra proprietära cannabisolingstekniker, extraktionsmetoder och produktformuleringar är affärshemligheter som skyddas enligt fransk och EU-lag."
+
+msgid "Limitation of Liability"
+msgstr "Ansvarssbegränsning"
+
+msgid "GreenMed Store shall not be liable for any damages arising from use of our cannabis products or website content. We expressly disclaim responsibility for any adverse effects, interactions with medications, or consequences of improper product use."
+msgstr "GreenMed Store ska inte vara ansvarig för några skador som uppstår från användning av våra cannabisprodukter eller webbplatsinnehåll. Vi frånsäger oss uttryckligen ansvar för eventuella biverkningar, interaktioner med läkemedel eller konsekvenser av felaktig produktanvändning."
+
+msgid "As cannabis laws vary by jurisdiction, we cannot guarantee the legal status of our products in your location. It is your responsibility to comply with local regulations."
+msgstr "Eftersom cannabislagar varierar beroende på jurisdiktion kan vi inte garantera den juridiska statusen för våra produkter på din plats. Det är ditt ansvar att följa lokala föreskrifter."
+
+msgid "Governing Law"
+msgstr "Tillämplig lag"
+
+msgid "These terms are governed by French law, specifically regarding cannabis regulations under Article R. 5132-86 of the Public Health Code. Any disputes will be resolved in Lyon courts."
+msgstr "Dessa villkor regleras av fransk lag, särskilt när det gäller cannabisförordningar enligt artikel R. 5132-86 i hälso- och sjukvårdslagen. Eventuella tvister kommer att lösas av domstolarna i Lyon."
+
+msgid "Contact Information"
+msgstr "Kontaktinformation"
+
+msgid "For legal inquiries regarding our cannabis products:"
+msgstr "För juridiska förfrågningar om våra cannabisprodukter:"
+
+msgid "Address:"
+msgstr "Adress:"
+
+msgid "Last Updated:"
+msgstr "Senast uppdaterad:"
+
+msgid "This legal notice was updated on January 1, 2024 in compliance with current cannabis regulations. Changes to French or EU cannabis laws may prompt revisions."
+msgstr "Detta juridiska meddelande uppdaterades den 1 januari 2024 i enlighet med gällande cannabisförordningar. Ändringar i fransk eller EU-cannabislagstiftning kan leda till revideringar."
+
+msgid "Introduction"
+msgstr "Introduktion"
+
+msgid "At GreenMed Store, we prioritize your privacy and the security of your personal information, especially when purchasing cannabis-related products. This Privacy Policy explains how we collect, use, and protect your data when you visit our website or purchase our CBD and cannabis products."
+msgstr "På GreenMed Store prioriterar vi din integritet och säkerheten för din personliga information, särskilt vid köp av cannabisrelaterade produkter. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar dina data när du besöker vår webbplats eller köper våra CBD- och cannabisprodukter."
+
+msgid "This policy complies with GDPR, French data protection laws (Loi Informatique et Libertés), and cannabis industry regulations."
+msgstr "Denna policy följer GDPR, franska dataskyddslagar (Loi Informatique et Libertés) och cannabisföretagens regler."
+
+msgid "Information We Collect"
+msgstr "Information vi samlar in"
+
+msgid "Personal Information"
+msgstr "Personlig information"
+
+msgid "We collect the following for legal cannabis purchases:"
+msgstr "Vi samlar in följande för lagliga cannabisköp:"
+
+msgid "Name, contact details (email, phone, address)"
+msgstr "Namn, kontaktuppgifter (e-post, telefon, adress)"
+
+msgid "Age verification information (to confirm you're 18+)"
+msgstr "Åldersverifieringsinformation (för att bekräfta att du är 18+)"
+
+msgid "Payment information (processed securely by certified providers)"
+msgstr "Betalningsinformation (säkert behandlad av certifierade leverantörer)"
+
+msgid "Purchase history of cannabis/CBD products"
+msgstr "Köphistorik för cannabis/CBD-produkter"
+
+msgid "Medical cannabis authorization (if applicable)"
+msgstr "Tillstånd för medicinsk cannabis (om tillämpligt)"
+
+msgid "Technical Information"
+msgstr "Teknisk information"
+
+msgid "We automatically collect:"
+msgstr "Vi samlar automatiskt in:"
+
+msgid "IP address and browsing data"
+msgstr "IP-adress och surfdata"
+
+msgid "Device information"
+msgstr "Enhetsinformation"
+
+msgid "Cookies for site functionality (see our Cookie Policy)"
+msgstr "Kakor för webbplatsfunktionalitet (se vår Cookie Policy)"
+
+msgid "How We Use Your Information"
+msgstr "Hur vi använder din information"
+
+msgid "We use your data responsibly for:"
+msgstr "Vi använder dina data ansvarsfullt för:"
+
+msgid "Legal Compliance:"
+msgstr "Laglig efterlevnad:"
+
+msgid "Age verification and cannabis purchase records as required by law"
+msgstr "Åldersverifiering och register över cannabisköp som krävs enligt lag"
+
+msgid "Order Processing:"
+msgstr "Orderbehandling:"
+
+msgid "Secure processing of cannabis product orders"
+msgstr "Säker behandling av cannabisproduktbeställningar"
+
+msgid "Customer Support:"
+msgstr "Kundsupport:"
+
+msgid "Responding to cannabis product inquiries"
+msgstr "Besvara förfrågningar om cannabisprodukter"
+
+msgid "Product Safety:"
+msgstr "Produktsäkerhet:"
+
+msgid "Tracking for quality control and recalls if needed"
+msgstr "Spårning för kvalitetskontroll och återkallningar vid behov"
+
+msgid "Legal Requirements:"
+msgstr "Lagliga krav:"
+
+msgid "Maintaining required cannabis purchase records"
+msgstr "Upprätthållande av obligatoriska cannabisköpsregister"
+
+msgid "Legal Basis for Processing"
+msgstr "Rättslig grund för behandling"
+
+msgid "Under GDPR, we process data based on:"
+msgstr "Enligt GDPR behandlar vi data baserat på:"
+
+msgid "Legal Obligation:"
+msgstr "Laglig skyldighet:"
+
+msgid "For cannabis purchase records and age verification"
+msgstr "För cannabisköpsregister och åldersverifiering"
+
+msgid "Contract:"
+msgstr "Avtal:"
+
+msgid "To fulfill your cannabis product orders"
+msgstr "För att uppfylla dina cannabisproduktbeställningar"
+
+msgid "Consent:"
+msgstr "Samtycke:"
+
+msgid "For marketing communications (opt-in)"
+msgstr "För marknadsföringskommunikation (opt-in)"
+
+msgid "Information Sharing"
+msgstr "Informationsdelning"
+
+msgid "We may share information with:"
+msgstr "Vi kan dela information med:"
+
+msgid "Payment Processors:"
+msgstr "Betalningsprocessorer:"
+
+msgid "Certified providers for secure transactions"
+msgstr "Certifierade leverantörer för säkra transaktioner"
+
+msgid "Shipping Providers:"
+msgstr "Fraktleverantörer:"
+
+msgid "Discreet delivery of cannabis products"
+msgstr "Diskret leverans av cannabisprodukter"
+
+msgid "Regulatory Authorities:"
+msgstr "Tillsynsmyndigheter:"
+
+msgid "When required by cannabis laws"
+msgstr "När det krävs enligt cannabislagar"
+
+msgid "Medical Professionals:"
+msgstr "Medicinsk personal:"
+
+msgid "Only with explicit consent for medical cannabis"
+msgstr "Endast med uttryckligt samtycke för medicinsk cannabis"
+
+msgid "We never sell your cannabis purchase history to third parties."
+msgstr "Vi säljer aldrig din cannabisköphistorik till tredje part."
+
+msgid "Your Rights (GDPR)"
+msgstr "Dina rättigheter (GDPR)"
+
+msgid "You have the right to:"
+msgstr "Du har rätt att:"
+
+msgid "Access your personal data"
+msgstr "Få tillgång till dina personuppgifter"
+
+msgid "Correct inaccurate information"
+msgstr "Rätta felaktig information"
+
+msgid "Request deletion (where not required by cannabis laws)"
+msgstr "Begära radering (när det inte krävs enligt cannabislagar)"
+
+msgid "Restrict processing"
+msgstr "Begränsa behandling"
+
+msgid "Data portability"
+msgstr "Dataportabilitet"
+
+msgid "Object to processing"
+msgstr "Invända mot behandling"
+
+msgid "Withdraw consent"
+msgstr "Återkalla samtycke"
+
+msgid "Note: Cannabis purchase records may be retained as required by law."
+msgstr "Obs: Cannabisköpsregister kan behållas enligt lagkrav."
+
+msgid "Data Security"
+msgstr "Datasäkerhet"
+
+msgid "We implement strict security measures for cannabis purchases:"
+msgstr "Vi implementerar strikta säkerhetsåtgärder för cannabisköp:"
+
+msgid "End-to-end encryption for all transactions"
+msgstr "End-to-end-kryptering för alla transaktioner"
+
+msgid "Secure storage with limited access"
+msgstr "Säker lagring med begränsad åtkomst"
+
+msgid "Regular security audits"
+msgstr "Regelbundna säkerhetsrevisioner"
+
+msgid "Employee confidentiality agreements"
+msgstr "Sekretessavtal för anställda"
+
+msgid "Data Retention"
+msgstr "Datalagring"
+
+msgid "We retain data as required by cannabis regulations:"
+msgstr "Vi behåller data enligt cannabisföreskrifter:"
+
+msgid "Purchase records: 10 years (French cannabis law requirement)"
+msgstr "Köphistorik: 10 år (franskt cannabislagkrav)"
+
+msgid "Account information: Until account closure + legal period"
+msgstr "Kontoinformation: Tills konto stängs + laglig period"
+
+msgid "Marketing data: Until consent withdrawal"
+msgstr "Marknadsföringsdata: Tills samtycke återkallas"
+
+msgid "Age Verification"
+msgstr "Åldersverifiering"
+
+msgid "We strictly verify that all customers are at least 18 years old. By using our site, you confirm you meet the legal age requirement for cannabis purchases in your jurisdiction."
+msgstr "Vi verifierar strikt att alla kunder är minst 18 år gamla. Genom att använda vår webbplats bekräftar du att du uppfyller den lagliga åldersgränsen för cannabisköp i din jurisdiktion."
+
+msgid "For privacy concerns regarding cannabis purchases:"
+msgstr "För integritetsfrågor gällande cannabisköp:"
+
+msgid "Data Protection Officer:"
+msgstr "Dataskyddsombud:"
+
+msgid "Jean-Luc Rousseau"
+msgstr "Jean-Luc Rousseau"
+
+msgid "You may also contact the CNIL (French Data Protection Authority) if you have concerns about our processing of your cannabis purchase data."
+msgstr "Du kan också kontakta CNIL (franska dataskyddsmyndigheten) om du har frågor om vår behandling av dina cannabisköpsdata."
+
+msgid "This policy was updated on January 1, 2024 to comply with current cannabis regulations. Changes will be communicated to account holders."
+msgstr "Denna policy uppdaterades den 1 januari 2024 för att följa gällande cannabisföreskrifter. Ändringar kommer att kommuniceras till kontoinnehavare."
+
+msgid "Frequently Asked Questions"
+msgstr "Vanliga frågor"
+
+msgid "General Questions"
+msgstr "Allmänna frågor"
+
+msgid "What is GreenMed Store?"
+msgstr "Vad är GreenMed Store?"
+
+msgid "GreenMed Store is a premium cannabis and CBD marketplace offering lab-tested products with detailed information about cannabinoid content, terpene profiles, cultivation methods, and potential wellness benefits. We focus on transparency and product quality."
+msgstr "GreenMed Store är en premiummarknadsplats för cannabis och CBD som erbjuder laboratorietestade produkter med detaljerad information om cannabinoihinnehåll, terpenprofiler, odlingsmetoder och potentiella hälsofördelar. Vi fokuserar på transparens och produktkvalitet."
+
+msgid "Who can purchase cannabis products?"
+msgstr "Vem kan köpa cannabisprodukter?"
+
+msgid "You must be at least 18 years old to purchase our CBD products and 18+ for THC-containing products where legally available. Some products may require medical authorization depending on your location."
+msgstr "Du måste vara minst 18 år gammal för att köpa våra CBD-produkter och 18+ för THC-innehållande produkter där det är lagligt tillgängligt. Vissa produkter kan kräva medicinskt tillstånd beroende på din plats."
+
+msgid "Are your products legal?"
+msgstr "Är era produkter lagliga?"
+
+msgid "All our products comply with French and EU regulations, containing less than 0.2% THC. We verify the legal status in your region before shipping. Medical cannabis products require proper authorization."
+msgstr "Alla våra produkter följer franska och EU-förordningar och innehåller mindre än 0,2% THC. Vi verifierar den juridiska statusen i din region före leverans. Medicinska cannabisprodukter kräver korrekt tillstånd."
+
+msgid "How do you test your cannabis products?"
+msgstr "Hur testar ni era cannabisprodukter?"
+
+msgid "All products undergo third-party laboratory testing for cannabinoid potency, terpene profiles, and contaminants (pesticides, heavy metals, microbes). Certificates of Analysis (COAs) are available for every batch."
+msgstr "Alla produkter genomgår tredjeparts laboratorietestning för cannabinoideffekt, terpenprofiler och föroreningar (bekämpningsmedel, tungmetaller, mikrober). Analyscertifikat (COAs) finns tillgängliga för varje sats."
+
+msgid "What's the difference between CBD and THC?"
+msgstr "Vad är skillnaden mellan CBD och THC?"
+
+msgid "CBD (cannabidiol) is non-intoxicating and legal in France when containing less than 0.2% THC. THC (tetrahydrocannabinol) is psychoactive and only available with medical authorization. Our products clearly indicate their cannabinoid content."
+msgstr "CBD (cannabidiol) är inte berusande och lagligt i Frankrike när det innehåller mindre än 0,2% THC. THC (tetrahydrocannabinol) är psykoaktivt och endast tillgängligt med medicinskt tillstånd. Våra produkter anger tydligt sitt cannabinoihinnehåll."
+
+msgid "What are terpenes and why are they important?"
+msgstr "Vad är terpener och varför är de viktiga?"
+
+msgid "Terpenes are aromatic compounds that influence cannabis effects and flavors. Different strains have unique terpene profiles that contribute to their therapeutic properties and sensory experience."
+msgstr "Terpener är aromatiska föreningar som påverkar cannabiseffekter och smaker. Olika sorter har unika terpenprofiler som bidrar till deras terapeutiska egenskaper och sensoriska upplevelse."
+
+msgid "Ordering & Shipping"
+msgstr "Beställning & Frakt"
+
+msgid "Do I need medical authorization to order?"
+msgstr "Behöver jag medicinskt tillstånd för att beställa?"
+
+msgid "Our CBD products (under 0.2% THC) don't require authorization. For medical cannabis products with higher THC content, valid medical documentation is required as per French regulations."
+msgstr "Våra CBD-produkter (under 0,2% THC) kräver inget tillstånd. För medicinska cannabisprodukter med högre THC-innehåll krävs giltig medicinsk dokumentation enligt franska föreskrifter."
+
+msgid "How discreet is your packaging?"
+msgstr "Hur diskret är er förpackning?"
+
+msgid "All orders are shipped in plain, unmarked packaging without any cannabis-related branding. We use odor-proof materials for complete discretion."
+msgstr "Alla beställningar skickas i enkel, omärkt förpackning utan cannabisrelaterad branding. Vi använder lukttäta material för fullständig diskretion."
+
+msgid "Can I track my cannabis order?"
+msgstr "Kan jag spåra min cannabisköp?"
+
+msgid "Yes, you'll receive discreet tracking information via email. Our delivery partners are trained to handle cannabis products appropriately."
+msgstr "Ja, du får diskret spårningsinformation via e-post. Våra leveranspartners är utbildade i att hantera cannabisprodukter på lämpligt sätt."
+
+msgid "Safety & Usage"
+msgstr "Säkerhet & Användning"
+
+msgid "How should I dose cannabis products?"
+msgstr "Hur ska jag dosera cannabisprodukter?"
+
+msgid "Start with low doses, especially with THC products. Wait at least 2 hours before consuming more. Our products include suggested serving sizes, but individual tolerance varies. Consult a healthcare provider for medical use."
+msgstr "Börja med låga doser, särskilt med THC-produkter. Vänta minst 2 timmar innan du konsumerar mer. Våra produkter innehåller föreslagna portionsstorlekar, men individuell tolerans varierar. Konsultera en vårdgivare för medicinsk användning."
+
+msgid "Can cannabis interact with medications?"
+msgstr "Kan cannabis interagera med läkemedel?"
+
+msgid "Yes, cannabis may interact with certain medications, especially blood thinners, antidepressants, and sedatives. Always consult your doctor before combining cannabis with other treatments."
+msgstr "Ja, cannabis kan interagera med vissa läkemedel, särskilt blodförtunnande, antidepressiva och lugnande medel. Konsultera alltid din läkare innan du kombinerar cannabis med andra behandlingar."
+
+msgid "How should I store cannabis products?"
+msgstr "Hur ska jag förvara cannabisprodukter?"
+
+msgid "Store in a cool, dark place (under 21°C) away from children and pets. Keep flowers in airtight containers. Most products have 6-12 month shelf life when stored properly."
+msgstr "Förvara på svalt, mörkt ställe (under 21°C) borta från barn och husdjur. Håll blommor i lufttäta behållare. De flesta produkter har 6-12 månaders hållbarhet vid korrekt förvaring."
+
+msgid "Returns & Support"
+msgstr "Returer & Support"
+
+msgid "What is your return policy for cannabis products?"
+msgstr "Vad är er returpolicy för cannabisprodukter?"
+
+msgid "Due to legal restrictions, opened cannabis products cannot be returned. Unopened products in original packaging may be returned within 14 days. Medical cannabis products are non-returnable."
+msgstr "På grund av juridiska begränsningar kan öppnade cannabisprodukter inte returneras. Oöppnade produkter i originalförpackning kan returneras inom 14 dagar. Medicinska cannabisprodukter kan inte returneras."
+
+msgid "How can I contact customer support?"
+msgstr "Hur kan jag kontakta kundsupport?"
+
+msgid "Our cannabis specialists are available via email, encrypted chat, or phone. We respond within 24 hours on weekdays. For medical cannabis questions, we have a dedicated support line."
+msgstr "Våra cannabisspecialister är tillgängliga via e-post, krypterad chatt eller telefon. Vi svarar inom 24 timmar på vardagar. För frågor om medicinsk cannabis har vi en dedikerad supportlinje."
+
+msgid "Do you provide cannabis consultation services?"
+msgstr "Erbjuder ni cannabiskonsultationer?"
+
+msgid "We offer general product guidance but cannot provide medical advice. For therapeutic use, we recommend consulting with a cannabis-certified healthcare provider."
+msgstr "Vi erbjuder allmän produktvägledning men kan inte ge medicinska råd. För terapeutisk användning rekommenderar vi att konsultera en cannabis-certifierad vårdgivare."
+
+msgid "Important Cannabis Disclaimer"
+msgstr "Viktigt cannabisanmärkning"
+
+msgid "Cannabis products may cause drowsiness, dry mouth, or temporary changes in perception. Do not operate vehicles or machinery after consumption. Keep out of reach of children. These statements have not been evaluated by health authorities. Our products are not intended to diagnose, treat, cure or prevent any disease."
+msgstr "Cannabisprodukter kan orsaka trötthet, torr mun eller tillfälliga förändringar i uppfattning. Använd inte fordon eller maskiner efter intag. Håll utom räckhåll för barn. Dessa påståenden har inte utvärderats av hälsomyndigheter. Våra produkter är inte avsedda att diagnostisera, behandla, bota eller förebygga någon sjukdom."
+
+msgid "Still have questions about cannabis?"
+msgstr "Har du fortfarande frågor om cannabis?"
+
+msgid "Contact Our Cannabis Specialists"
+msgstr "Kontakta våra cannabisspecialister"
+
+msgid "Connect with our cannabis experts and customer care team"
+msgstr "Kontakta våra cannabisexperter och kundservice"
+
+msgid "Send us a Message"
+msgstr "Skicka oss ett meddelande"
+
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+msgid "Subject"
+msgstr "Ämne"
+
+msgid "Select a subject"
+msgstr "Välj ett ämne"
+
+msgid "Cannabis Product Inquiry"
+msgstr "Förfrågan om cannabisprodukter"
+
+msgid "Order Support"
+msgstr "Ordersupport"
+
+msgid "Medical Cannabis Questions"
+msgstr "Frågor om medicinsk cannabis"
+
+msgid "Cultivation Advice"
+msgstr "Odlingstips"
+
+msgid "Wholesale/Business Inquiry"
+msgstr "Förfrågan om grossist/affärer"
+
+msgid "General Question"
+msgstr "Allmän fråga"
+
+msgid "Message"
+msgstr "Meddelande"
+
+msgid "Please provide details about your cannabis-related inquiry..."
+msgstr "Ange detaljer om din cannabisrelaterade förfrågan..."
+
+msgid "I consent to the processing of my personal data for the purpose of responding to my cannabis-related inquiry. *"
+msgstr "Jag samtycker till behandling av mina personuppgifter för att besvara min cannabisrelaterade förfrågan. *"
+
+msgid "I confirm that I am at least 18 years old *"
+msgstr "Jag bekräftar att jag är minst 18 år gammal *"
+
+msgid "Send Message"
+msgstr "Skicka meddelande"
+
+msgid "420 Cannabis Avenue"
+msgstr "420 Cannabisgatan"
+
+msgid "Lyon, France 69002"
+msgstr "Lyon, Frankrike 69002"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "Mon-Fri: 9:00 AM - 6:00 PM CET"
+msgstr "Mån-fre: 09:00 - 18:00 CET"
+
+msgid "We respond within 24 hours"
+msgstr "Vi svarar inom 24 timmar"
+
+msgid "Monday - Friday: 9:00 AM - 6:00 PM"
+msgstr "Måndag - fredag: 09:00 - 18:00"
+
+msgid "Saturday: 10:00 AM - 4:00 PM"
+msgstr "Lördag: 10:00 - 16:00"
+
+msgid "Sunday: Closed"
+msgstr "Söndag: Stängt"
+
+msgid "Central European Time (CET)"
+msgstr "Centraleuropeisk tid (CET)"
+
+msgid "Cannabis Emergency"
+msgstr "Cannabisnödsituation"
+
+msgid "If you or someone else is experiencing adverse effects from cannabis, seek medical attention immediately."
+msgstr "Om du eller någon annan upplever biverkningar av cannabis, sök omedelbart medicinsk hjälp."
+
+msgid "Emergency Numbers:"
+msgstr "Nödnummer:"
+
+msgid "France: 15 (SAMU) or 112 (European Emergency)"
+msgstr "Frankrike: 15 (SAMU) eller 112 (Europeiskt nödnummer)"
+
+msgid "Other countries: Contact your local emergency services"
+msgstr "Andra länder: Kontakta din lokala nödservice"
+
+msgid "Cannabis Support"
+msgstr "Cannabishjälp"
+
+msgid "Our team includes cannabis specialists who can provide guidance on product selection, dosing, and consumption methods."
+msgstr "Vårt team inkluderar cannabisspecialister som kan ge vägledning om produktval, dosering och konsumtionsmetoder."
+
+msgid "For medical cannabis questions, we recommend consulting with a cannabis-certified healthcare provider."
+msgstr "För frågor om medicinsk cannabis rekommenderar vi att konsultera en cannabis-certifierad vårdgivare."
+
+msgid "Looking for quick answers about cannabis?"
+msgstr "Letar du efter snabba svar om cannabis?"
+
+msgid "Check our Cannabis FAQ"
+msgstr "Kolla vår Cannabis FAQ"
+
+msgid "About GreenMed Store"
+msgstr "Om GreenMed Store"
+
+msgid "Your trusted source for premium cannabis products with detailed information about cannabinoid profiles, terpenes, cultivation methods, and wellness benefits."
+msgstr "Din pålitliga källa för premium cannabisprodukter med detaljerad information om cannabinoider, terpener, odlingsmetoder och hälsofördelar."
+
+msgid "Our Mission"
+msgstr "Vårt uppdrag"
+
+msgid "At GreenMed Store, we're dedicated to providing access to high-quality cannabis products backed by scientific research and transparent information about their composition and effects."
+msgstr "På GreenMed Store är vi dedikerade till att ge tillgång till högkvalitativa cannabisprodukter med vetenskaplig forskning och transparent information om deras sammansättning och effekter."
+
+msgid "We believe educated consumers make better wellness choices. That's why every product includes detailed cannabinoid profiles, terpene information, lab test results, and guidance on responsible consumption."
+msgstr "Vi tror att utbildade konsumenter gör bättre hälsoval. Därför inkluderar varje produkt detaljerade cannabinoider, terpeninformation, laboratorietestresultat och vägledning om ansvarsfull konsumtion."
+
+msgid "Our Values"
+msgstr "Våra värderingar"
+
+msgid "Lab-Verified Quality:"
+msgstr "Laboratorieverifierad kvalitet:"
+
+msgid "Every batch is third-party tested for potency and purity with published Certificates of Analysis."
+msgstr "Varje sats testas av tredje part för styrka och renhet med publicerade analyscertifikat."
+
+msgid "Transparency:"
+msgstr "Transparens:"
+
+msgid "Complete information about cannabinoid content, terpene profiles, and cultivation methods."
+msgstr "Fullständig information om cannabinoider, terpenprofiler och odlingsmetoder."
+
+msgid "Compliance:"
+msgstr "Efterlevnad:"
+
+msgid "All products meet EU and French regulations with less than 0.2% THC unless medically authorized."
+msgstr "Alla produkter uppfyller EU och franska regler med mindre än 0,2% THC om inte medicinskt godkänt."
+
+msgid "Education:"
+msgstr "Utbildning:"
+
+msgid "Resources to help consumers understand cannabis science and responsible use."
+msgstr "Resurser för att hjälpa konsumenter förstå cannabiskunskap och ansvarsfull användning."
+
+msgid "Why Choose GreenMed Store"
+msgstr "Varför välja GreenMed Store"
+
+msgid "Lab Testing"
+msgstr "Laboratorietestning"
+
+msgid "Every product batch tested for cannabinoids, terpenes, pesticides, heavy metals, and microbial contaminants."
+msgstr "Varje produktbatch testas för cannabinoider, terpener, bekämpningsmedel, tungmetaller och mikrobiella föroreningar."
+
+msgid "Sustainable Cultivation"
+msgstr "Hållbar odling"
+
+msgid "Partnering with organic farms using sustainable growing practices and natural pest control."
+msgstr "Samarbete med ekologiska gårdar som använder hållbara odlingsmetoder och naturlig skadedjursbekämpning."
+
+msgid "Consumer Education"
+msgstr "Konsumentutbildning"
+
+msgid "Resources on cannabinoids, terpenes, consumption methods, and responsible use."
+msgstr "Resurser om cannabinoider, terpener, konsumtionsmetoder och ansvarsfull användning."
+
+msgid "Our Cannabis Expertise"
+msgstr "Vår cannabisexpertis"
+
+msgid "Our team includes cannabis cultivators, chemists, and wellness experts passionate about the therapeutic potential of cannabinoids. We collaborate with research institutions to advance cannabis science."
+msgstr "Vårt team inkluderar cannabisolare, kemister och hälsaexperter som brinner för cannabinoidernas terapeutiska potential. Vi samarbetar med forskningsinstitutioner för att främja cannabiskunskap."
+
+msgid "For medical cannabis products, we work with licensed healthcare providers to ensure proper guidance and dosing recommendations."
+msgstr "För medicinska cannabisprodukter samarbetar vi med licensierade vårdgivare för att säkerställa korrekt vägledning och doseringsrekommendationer."
+
+msgid "Legal Compliance"
+msgstr "Laglig efterlevnad"
+
+msgid "All products comply with French and EU regulations (THC < 0.2%). Medical cannabis products require proper authorization. We verify age (18+) for all purchases."
+msgstr "Alla produkter följer franska och EU-förordningar (THC < 0,2%). Medicinska cannabisprodukter kräver korrekt tillstånd. Vi verifierar ålder (18+) för alla köp."
+
+msgid "Have Cannabis Questions?"
+msgstr "Har du frågor om cannabis?"
+
+msgid "Our cannabis specialists are here to help with product selection, usage guidance, and general inquiries."
+msgstr "Våra cannabisspecialister finns här för att hjälpa till med produktval, användningsvägledning och allmänna frågor."
+
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+msgid "You must be at least 18 years old to enter this site"
+msgstr "Du måste vara minst 18 år gammal för att komma in på denna webbplats"
+
+msgid "I'm 18 or Older"
+msgstr "Jag är 18 eller äldre"
+
+msgid "I'm Under 18"
+msgstr "Jag är under 18"
+
+msgid "By entering this site, you agree to our Terms of Service and Privacy Policy"
+msgstr "Genom att gå in på denna webbplats godkänner du våra Användarvillkor och Integritetspolicy"
+
+msgid "We use cookies to enhance your cannabis shopping experience. By continuing, you accept our use of cookies."
+msgstr "Vi använder kakor för att förbättra din cannabisshoppingupplevelse. Genom att fortsätta accepterar du vår användning av kakor."
+
+msgid "Search cannabis products..."
+msgstr "Sök cannabisprodukter..."
+
+msgid "Learn"
+msgstr "Lär dig"
+
+msgid "Medical Prescriptions"
+msgstr "Medicinska recept"
+
+msgid "Shop"
+msgstr "Butik"
+
+msgid "CBD Products"
+msgstr "CBD-produkter"
+
+msgid "Hemp Flowers"
+msgstr "Hampblommor"
+
+msgid "Cannabis Oils"
+msgstr "Cannabisoljor"
+
+msgid "Medical Cannabis"
+msgstr "Medicinsk cannabis"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Cannabis Education"
+msgstr "Cannabisutbildning"
+
+msgid "Lab Results"
+msgstr "Laboratorieresultat"
+
+msgid "Shipping Policy"
+msgstr "Fraktpolicy"
+
+msgid "Returns Policy"
+msgstr "Returpolicy"
+
+msgid "Disclaimer:"
+msgstr "Anmärkning:"
+
+msgid "Products contain less than 0.2% THC. Not intended to diagnose, treat, cure or prevent any disease. Keep out of reach of children."
+msgstr "Produkter innehåller mindre än 0,2% THC. Avsedda inte att diagnostisera, behandla, bota eller förebygga någon sjukdom. Håll utom räckhåll för barn."
+
+msgid "License Number: FR-CBD-2024-001"
+msgstr "Licensnummer: FR-CBD-2024-001"
+
+msgid "Welcome to GreenMed Store. These Terms of Service govern your use of our website and purchase of cannabis-derived products containing less than 0.2% THC in compliance with EU Regulation No. 1307/2013 and French law."
+msgstr "Välkommen till GreenMed Store. Dessa användarvillkor styr din användning av vår webbplats och köp av cannabishaltiga produkter med mindre än 0,2% THC i enlighet med EU-förordning nr 1307/2013 och fransk lag."
+
+msgid "By accessing our site or purchasing products, you confirm you are at least 18 years old and agree to these Terms. Medical cannabis patients must provide valid authorization."
+msgstr "Genom att komma åt vår webbplats eller köpa produkter bekräftar du att du är minst 18 år gammal och godkänner dessa villkor. Medicinska cannabispatienter måste lämna giltigt tillstånd."
+
+msgid "You must be at least 18 years old to access this website or purchase our CBD products. For THC-containing medical cannabis products, you must be 18+ with valid medical authorization."
+msgstr "Du måste vara minst 18 år gammal för att komma åt denna webbplats eller köpa våra CBD-produkter. För THC-innehållande medicinska cannabisprodukter måste du vara 18+ med giltigt medicinskt tillstånd."
+
+msgid "We reserve the right to verify your age through third-party services or request identification. False declarations will result in order cancellation."
+msgstr "Vi förbehåller oss rätten att verifiera din ålder via tredjepartstjänster eller begära identifikation. Falska deklarationer kommer att leda till orderannullering."
+
+msgid "Product Compliance"
+msgstr "Produktefterlevnad"
+
+msgid "All products contain less than 0.2% THC unless specifically labeled as medical cannabis products requiring authorization under French Article R. 5132-86."
+msgstr "Alla produkter innehåller mindre än 0,2% THC om inte specifikt märkta som medicinska cannabisprodukter som kräver tillstånd enligt fransk artikel R. 5132-86."
+
+msgid "You are responsible for checking cannabis laws in your jurisdiction before purchasing. We cannot ship to locations where our products are prohibited."
+msgstr "Du är ansvarig för att kontrollera cannabislagar i din jurisdiktion innan köp. Vi kan inte skicka till platser där våra produkter är förbjudna."
+
+msgid "Medical Disclaimer"
+msgstr "Medicinsk ansvarsfriskrivning"
+
+msgid "Our products are not intended to diagnose, treat, cure or prevent any disease. The information provided is for educational purposes only regarding the potential benefits of cannabinoids."
+msgstr "Våra produkter är inte avsedda att diagnostisera, behandla, bota eller förebygga någon sjukdom. Den tillhandahållna informationen är endast i utbildningssyfte avseende cannabinoidernas potentiella fördelar."
+
+msgid "For medical cannabis products, consultation with a healthcare provider is required. Never discontinue prescribed medications without medical advice."
+msgstr "För medicinska cannabisprodukter krävs konsultation med vårdgivare. Avbryt aldrig ordinerade läkemedel utan medicinsk rådgivning."
+
+msgid "Purchasing & Shipping"
+msgstr "Köp & Frakt"
+
+msgid "Order Acceptance"
+msgstr "Ordergodkännande"
+
+msgid "All orders are subject to age verification and product availability. We reserve the right to refuse service to anyone."
+msgstr "Alla beställningar är föremål för åldersverifiering och produktillgång. Vi förbehåller oss rätten att vägra service till vem som helst."
+
+msgid "Shipping Restrictions"
+msgstr "Fraktrestriktioner"
+
+msgid "We cannot ship cannabis products to countries where they are prohibited. International shipments may be subject to customs inspection."
+msgstr "Vi kan inte skicka cannabisprodukter till länder där de är förbjudna. Internationella försändelser kan vara föremål för tullinspektion."
+
+msgid "Discreet Packaging"
+msgstr "Diskret förpackning"
+
+msgid "All products are shipped in odor-proof, discreet packaging without cannabis branding. However, we cannot guarantee delivery against local laws."
+msgstr "Alla produkter skickas i lukttät, diskret förpackning utan cannabismärkning. Vi kan dock inte garantera leverans mot lokala lagar."
+
+msgid "Returns & Refunds"
+msgstr "Returer & Återbetalningar"
+
+msgid "Due to the nature of cannabis products:"
+msgstr "På grund av cannabisprodukternas natur:"
+
+msgid "Opened products cannot be returned for hygiene reasons"
+msgstr "Öppnade produkter kan inte returneras av hygieniska skäl"
+
+msgid "Unopened products may be returned within 14 days with original packaging"
+msgstr "Oöppnade produkter kan returneras inom 14 dagar med originalförpackning"
+
+msgid "Medical cannabis products are non-returnable"
+msgstr "Medicinska cannabisprodukter kan inte returneras"
+
+msgid "Defective products will be replaced with proof of defect"
+msgstr "Defekta produkter kommer att ersättas med bevis på defekt"
+
+msgid "All cannabis strain names, product formulations, and educational content are protected intellectual property. Unauthorized commercial use is prohibited."
+msgstr "Alla cannabissortnamn, produktformuleringar och utbildningsmaterial är skyddad immateriell egendom. Obehörig kommersiell användning är förbjuden."
+
+msgid "GreenMed Store shall not be liable for:"
+msgstr "GreenMed Store ska inte vara ansvarig för:"
+
+msgid "Misuse of cannabis products"
+msgstr "Felaktig användning av cannabisprodukter"
+
+msgid "Unauthorized purchases by minors"
+msgstr "Obehöriga köp av minderåriga"
+
+msgid "Legal consequences in jurisdictions where cannabis is prohibited"
+msgstr "Juridiska konsekvenser i jurisdiktioner där cannabis är förbjudet"
+
+msgid "Individual reactions to cannabinoids"
+msgstr "Individuella reaktioner på cannabinoider"
+
+msgid "These Terms are governed by French law, specifically regarding cannabis regulations under:"
+msgstr "Dessa villkor regleras av fransk lag, särskilt gällande cannabisförordningar enligt:"
+
+msgid "EU Regulation No. 1307/2013"
+msgstr "EU-förordning nr 1307/2013"
+
+msgid "French Public Health Code Article R. 5132-86"
+msgstr "Fransk hälso- och sjukvårdslag artikel R. 5132-86"
+
+msgid "General Data Protection Regulation (GDPR)"
+msgstr "Allmän dataskyddsförordning (GDPR)"
+
+msgid "Changes to Terms"
+msgstr "Ändringar av villkor"
+
+msgid "We may update these Terms to reflect changes in cannabis regulations. Continued use after changes constitutes acceptance."
+msgstr "Vi kan uppdatera dessa villkor för att spegla ändringar i cannabisförordningar. Fortsatt användning efter ändringar innebär godkännande."
+
+msgid "For questions about these Terms or our cannabis products:"
+msgstr "För frågor om dessa villkor eller våra cannabisprodukter:"
+
+msgid "License Number:"
+msgstr "Licensnummer:"
+
+msgid "Effective Date:"
+msgstr "Ikraftträdandedatum:"
+
+msgid "January 1, 2024 | Last Updated: January 1, 2024"
+msgstr "1 januari 2024 | Senast uppdaterad: 1 januari 2024"
+
+msgid "At GreenMed Store, we take special care in shipping cannabis-derived products in compliance with EU and French regulations (THC < 0.2%). This policy outlines our shipping practices, restrictions, and delivery timelines."
+msgstr "På GreenMed Store tar vi särskild omsorg vid frakt av cannabishaltiga produkter i enlighet med EU och franska förordningar (THC < 0,2%). Denna policy beskriver våra fraktmetoder, restriktioner och leveranstider."
+
+msgid "Shipping Areas"
+msgstr "Fraktområden"
+
+msgid "France (Mainland)"
+msgstr "Frankrike (fastland)"
+
+msgid "We ship throughout mainland France via Colissimo and Chronopost. All packages require adult signature (18+) upon delivery."
+msgstr "Vi skickar över hela fastlandsfrankrike via Colissimo och Chronopost. Alla paket kräver vuxens underskrift (18+) vid leverans."
+
+msgid "European Union"
+msgstr "Europeiska unionen"
+
+msgid "We ship to most EU countries where CBD products are legal. Some restrictions apply to cannabis flowers - please check product pages."
+msgstr "Vi skickar till de flesta EU-länder där CBD-produkter är lagliga. Vissa begränsningar gäller cannabisknopar - kontrollera produkt-sidor."
+
+msgid "International Restrictions"
+msgstr "Internationella restriktioner"
+
+msgid "We cannot ship cannabis-derived products to countries where they are prohibited, including but not limited to:"
+msgstr "Vi kan inte skicka cannabishaltiga produkter till länder där de är förbjudna, inklusive men inte begränsat till:"
+
+msgid "United States"
+msgstr "Förenta staterna"
+
+msgid "Australia"
+msgstr "Australien"
+
+msgid "Certain Middle Eastern countries"
+msgstr "Vissa Mellanösternländer"
+
+msgid "Packaging Standards"
+msgstr "Förpackningsstandarder"
+
+msgid "All cannabis products are shipped with:"
+msgstr "Alla cannabisprodukter skickas med:"
+
+msgid "Discrete, unbranded packaging"
+msgstr "Diskret, omärkt förpackning"
+
+msgid "Odor-proof containers for flowers"
+msgstr "Lukttäta behållare för blommor"
+
+msgid "Temperature-controlled packaging when required"
+msgstr "Temperaturkontrollerad förpackning vid behov"
+
+msgid "No mention of cannabis on exterior labels"
+msgstr "Ingen omnämnande av cannabis på yttre etiketter"
+
+msgid "Required legal documentation including lab reports"
+msgstr "Nödvändig juridisk dokumentation inklusive laboratorierapporter"
+
+msgid "Note: While we take these precautions, we cannot guarantee against customs inspections in your country."
+msgstr "Obs: Trots dessa försiktighetsåtgärder kan vi inte garantera mot tullinspektioner i ditt land."
+
+msgid "Shipping Methods & Timelines"
+msgstr "Fraktmetoder & Tidslinjer"
+
+msgid "Service"
+msgstr "Tjänst"
+
+msgid "Delivery Time"
+msgstr "Leveranstid"
+
+msgid "Tracking"
+msgstr "Spårning"
+
+msgid "Signature Required"
+msgstr "Underskrift krävs"
+
+msgid "Standard Shipping"
+msgstr "Standardfrakt"
+
+msgid "2-3 business days (France)"
+msgstr "2-3 arbetsdagar (Frankrike)"
+
+msgid "Express Shipping"
+msgstr "Expressfrakt"
+
+msgid "1-2 business days (France)"
+msgstr "1-2 arbetsdagar (Frankrike)"
+
+msgid "EU Standard"
+msgstr "EU-standard"
+
+msgid "3-7 business days"
+msgstr "3-7 arbetsdagar"
+
+msgid "Varies by country"
+msgstr "Varierar efter land"
+
+msgid "* Delivery times are estimates and not guaranteed, especially for international shipments which may be delayed by customs."
+msgstr "* Leveranstider är uppskattningar och inte garanterade, särskilt för internationella försändelser som kan fördröjas av tullen."
+
+msgid "All cannabis product shipments require age verification:"
+msgstr "Alla försändelser med cannabisprodukter kräver åldersverifiering:"
+
+msgid "At checkout through our third-party verification system"
+msgstr "Vid kassan genom vårt tredjeparts verifieringssystem"
+
+msgid "Upon delivery - carriers will request ID if recipient appears under 25"
+msgstr "Vid leverans - transportörer kommer att begära ID om mottagaren verkar vara under 25"
+
+msgid "For medical cannabis - additional documentation verification"
+msgstr "För medicinsk cannabis - ytterligare dokumentverifiering"
+
+msgid "Important:"
+msgstr "Viktigt:"
+
+msgid "Failed age verification at delivery will result in package return and refund minus shipping costs."
+msgstr "Misslyckad åldersverifiering vid leverans kommer att resultera i paketretur och återbetalning minus fraktkostnader."
+
+msgid "International Shipping Considerations"
+msgstr "Internationella fraktöverväganden"
+
+msgid "Customs & Duties"
+msgstr "Tull & Avgifter"
+
+msgid "International customers are responsible for:"
+msgstr "Internationella kunder är ansvariga för:"
+
+msgid "Any import duties, taxes, or customs fees"
+msgstr "Eventuella importavgifter, skatter eller tullavgifter"
+
+msgid "Compliance with local cannabis laws"
+msgstr "Efterlevnad av lokala cannabislagar"
+
+msgid "Providing required documentation for clearance"
+msgstr "Tillhandahållande av nödvändig dokumentation för tullklarering"
+
+msgid "Legal Risks"
+msgstr "Juridiska risker"
+
+msgid "By ordering internationally, you acknowledge that:"
+msgstr "Genom att beställa internationellt bekräftar du att:"
+
+msgid "Cannabis laws vary significantly by country"
+msgstr "Cannabislagar varierar avsevärt mellan länder"
+
+msgid "We cannot intervene with customs seizures"
+msgstr "Vi kan inte ingripa vid tullbeslag"
+
+msgid "Refunds are not provided for confiscated packages"
+msgstr "Återbetalning ges inte för beslagtagna paket"
+
+msgid "Lost or Damaged Packages"
+msgstr "Förlorade eller skadade paket"
+
+msgid "If your package is lost or damaged in transit:"
+msgstr "Om ditt paket försvinner eller skadas under transport:"
+
+msgid "Contact us within 14 days of shipment date"
+msgstr "Kontakta oss inom 14 dagar från försändelsedatum"
+
+msgid "Provide photos of damaged items and packaging"
+msgstr "Tillhandahåll foton på skadade artiklar och förpackning"
+
+msgid "We will file a claim with the carrier"
+msgstr "Vi kommer att lämna en ansökan till transportören"
+
+msgid "Once verified, we will replace or refund as appropriate"
+msgstr "När verifierat kommer vi att ersätta eller återbetala efter behov"
+
+msgid "Note: Due to cannabis regulations, some products may not be eligible for reshipment to certain locations."
+msgstr "Obs: På grund av cannabisförordningar kan vissa produkter inte vara berättigade till omsändning till vissa platser."
+
+msgid "Policy Updates"
+msgstr "Policyuppdateringar"
+
+msgid "We may update this shipping policy to reflect changes in:"
+msgstr "Vi kan uppdatera denna fraktpolicy för att återspegla ändringar i:"
+
+msgid "Cannabis regulations in France or destination countries"
+msgstr "Cannabisförordningar i Frankrike eller destinationsländer"
+
+msgid "Carrier policies regarding cannabis products"
+msgstr "Transportörers policyer gällande cannabisprodukter"
+
+msgid "International shipping agreements"
+msgstr "Internationella fraktavtal"
+
+msgid "Shipping Questions?"
+msgstr "Frågor om frakt?"
+
+msgid "Contact our cannabis shipping specialists:"
+msgstr "Kontakta våra cannabisfraktspecialister:"
+
+msgid "January 1, 2024 | Compliant with EU Regulation No. 1307/2013"
+msgstr "1 januari 2024 | I enlighet med EU-förordning nr 1307/2013"
+
+msgid "Cannabis Product Returns"
+msgstr "Retur av cannabisprodukter"
+
+msgid "Due to the nature of cannabis products, we have specific return policies to ensure compliance with all regulations."
+msgstr "På grund av cannabisprodukternas natur har vi specifika returpolicyer för att säkerställa efterlevnad av alla förordningar."
+
+msgid "Unopened Products"
+msgstr "Oöppnade produkter"
+
+msgid "We accept returns of unopened, factory-sealed products within 14 days of delivery. Products must be in original packaging with all seals intact."
+msgstr "Vi accepterar returer av oöppnade, fabriksförseglade produkter inom 14 dagar från leverans. Produkterna måste vara i originalförpackning med alla förseglingar intakta."
+
+msgid "Defective Products"
+msgstr "Defekta produkter"
+
+msgid "If you receive a defective or damaged product, please contact us within 48 hours with photos of the issue. We'll arrange a replacement or refund."
+msgstr "Om du får en defekt eller skadad produkt, kontakta oss inom 48 timmar med foton på problemet. Vi ordnar ersättning eller återbetalning."
+
+msgid "Non-Returnable Items"
+msgstr "Ej återvändbara artiklar"
+
+msgid "Opened cannabis products (for health and safety reasons)"
+msgstr "Öppnade cannabisprodukter (av hälsoskäl och säkerhetsskäl)"
+
+msgid "Consumable products (edibles, pre-rolls, etc.)"
+msgstr "Förbrukningsprodukter (ätbara produkter, förrullade, etc.)"
+
+msgid "Products purchased during sales or promotions"
+msgstr "Produkter köpta under reor eller kampanjer"
+
+msgid "Custom or personalized items"
+msgstr "Anpassade eller personliga artiklar"
+
+msgid "Return Process"
+msgstr "Returprocess"
+
+msgid "Email returns@example.com with your order number and reason for return within 14 days of delivery."
+msgstr "E-posta returns@example.com med ditt ordernummer och orsak till retur inom 14 dagar från leverans."
+
+msgid "Approval"
+msgstr "Godkännande"
+
+msgid "We'll review your request and send return instructions if approved."
+msgstr "Vi granskar din begäran och skickar returanvisningar om godkänd."
+
+msgid "Ship Back"
+msgstr "Skicka tillbaka"
+
+msgid "Send the unopened product in its original packaging using our approved carrier."
+msgstr "Skicka den oöppnade produkten i originalförpackning med vår godkända transportör."
+
+msgid "Refund"
+msgstr "Återbetalning"
+
+msgid "Once received and inspected, we'll process your refund within 5 business days."
+msgstr "När mottagen och inspekterad behandlar vi din återbetalning inom 5 arbetsdagar."
+
+msgid "Important Notes"
+msgstr "Viktiga noteringar"
+
+msgid "All returns are subject to compliance with local cannabis regulations. We reserve the right to refuse returns that don't meet our policy requirements."
+msgstr "Alla returer är föremål för efterlevnad av lokala cannabisföreskrifter. Vi förbehåller oss rätten att vägra returer som inte uppfyller våra policykrav."
+
+msgid "Original shipping costs are non-refundable. Return shipping is the customer's responsibility unless the return is due to our error."
+msgstr "Ursprungliga fraktkostnader återbetalas inte. Returfrakt är kundens ansvar om inte returen beror på vårt fel."
+
+msgid "Refunds will be issued to the original payment method. Processing may take 5-10 business days to appear in your account."
+msgstr "Återbetalningar görs till den ursprungliga betalningsmetoden. Behandling kan ta 5-10 arbetsdagar att visas på ditt konto."
+
+msgid "Chill Cannabis Lounge"
+msgstr "Avslappnad cannabismiljö"
+
+msgid "Meditation Sessions"
+msgstr "Meditationssessioner"
+
+msgid "Reggae Roots Classics"
+msgstr "Reggae Roots-klassiker"
+
+msgid "Complete Your Order"
+msgstr "Slutför din beställning"
+
+msgid "Billing Information"
+msgstr "Faktureringsinformation"
+
+msgid "Street Address"
+msgstr "Gatuadress"
+
+msgid "Secure payment via Stripe"
+msgstr "Säker betalning via Stripe"
+
+msgid "Bank Transfer"
+msgstr "Banköverföring"
+
+msgid "You'll receive payment details after order"
+msgstr "Du får betalningsdetaljer efter beställning"
+
+msgid "Do not order if you don't intend to pay."
+msgstr "Beställ inte om du inte tänker betala."
+
+msgid "Click Place Order and you'll receive an email with details, order number and our bank information for transfer."
+msgstr "Klicka på Beställ så får du ett e-postmeddelande med detaljer, ordernummer och vår bankinformation för överföring."
+
+msgid "Use the order number as reference for the transfer."
+msgstr "Använd ordernumret som referens för överföringen."
+
+msgid "Order will be shipped upon receipt of payment."
+msgstr "Beställningen skickas när betalningen mottagits."
+
+msgid "Cryptocurrency"
+msgstr "Kryptovaluta"
+
+msgid "BTC, LTC and other major cryptos"
+msgstr "BTC, LTC och andra stora kryptovalutor"
+
+msgid "How to pay with crypto"
+msgstr "Hur man betalar med krypto"
+
+msgid "Responsible Use"
+msgstr "Ansvarsfull användning"
+
+msgid "Place Secure Order"
+msgstr "Lägg säker beställning"
+
+msgid "Qty:"
+msgstr "Antal:"
+
+msgid "Estimated delivery: 2-5 business days"
+msgstr "Beräknad leverans: 2-5 arbetsdagar"
+
+msgid "How to Pay with Cryptocurrency"
+msgstr "Hur man betalar med kryptovaluta"
+
+msgid "Important Notice:"
+msgstr "Viktigt meddelande:"
+
+msgid "Always send the exact amount shown in your order confirmation. Incorrect amounts will delay processing."
+msgstr "Skicka alltid det exakta belopp som visas i din orderbekräftelse. Felaktiga belopp försenar behandlingen."
+
+msgid "Our Wallet Addresses"
+msgstr "Våra plånboksadresser"
+
+msgid "Copy Address"
+msgstr "Kopiera adress"
+
+msgid "Using Bitpanda (Recommended)"
+msgstr "Använda Bitpanda (Rekommenderas)"
+
+msgid "Sign up on Bitpanda (Europe's leading crypto platform)"
+msgstr "Registrera dig på Bitpanda (Europas ledande kryptoplattform)"
+
+msgid "Complete identity verification (takes about 10 minutes)"
+msgstr "Slutför identitetsverifiering (tar cirka 10 minuter)"
+
+msgid "Add your credit card or bank account"
+msgstr "Lägg till ditt kreditkort eller bankkonto"
+
+msgid "Buy Bitcoin or Litecoin with your preferred payment method"
+msgstr "Köp Bitcoin eller Litecoin med din föredragna betalningsmetod"
+
+msgid "Send to our wallet address from your Bitpanda wallet"
+msgstr "Skicka till vår plånboksadress från din Bitpanda-plånbok"
+
+msgid "Bitpanda dashboard screenshot"
+msgstr "Skärmdump av Bitpanda-instrumentpanel"
+
+msgid "Visit Bitpanda to get started"
+msgstr "Besök Bitpanda för att komma igång"
+
+msgid "Using PayPal"
+msgstr "Använda PayPal"
+
+msgid "Log in to your PayPal account and navigate to the 'Crypto' section"
+msgstr "Logga in på ditt PayPal-konto och gå till 'Krypto'-avdelningen"
+
+msgid "Select 'Send' and choose Bitcoin or Litecoin"
+msgstr "Välj 'Skicka' och välj Bitcoin eller Litecoin"
+
+msgid "Enter our wallet address and the exact order amount"
+msgstr "Ange vår plånboksadress och det exakta orderbeloppet"
+
+msgid "Confirm the transaction and send us the transaction ID"
+msgstr "Bekräfta transaktionen och skicka oss transaktions-ID"
+
+msgid "Using Credit Card via Exchange"
+msgstr "Använda kreditkort via börs"
+
+msgid "Sign up for a cryptocurrency exchange (Coinbase, Binance, Kraken)"
+msgstr "Registrera dig för en kryptovalutabörs (Coinbase, Binance, Kraken)"
+
+msgid "Complete identity verification (may take 1-2 days)"
+msgstr "Slutför identitetsverifiering (kan ta 1-2 dagar)"
+
+msgid "Add your credit card as a payment method"
+msgstr "Lägg till ditt kreditkort som betalningsmetod"
+
+msgid "Purchase cryptocurrency for the exact order amount"
+msgstr "Köp kryptovaluta för det exakta orderbeloppet"
+
+msgid "Send to our wallet address from your exchange wallet"
+msgstr "Skicka till vår plånboksadress från din börsplånbok"
+
+msgid "Always double-check wallet addresses before sending"
+msgstr "Dubbelkolla alltid plånboksadresser innan du skickar"
+
+msgid "Send only the exact amount specified in your order"
+msgstr "Skicka endast det exakta belopp som anges i din beställning"
+
+msgid "Email us the transaction ID at payments@yourdomain.com"
+msgstr "E-posta oss transaktions-ID till payments@yourdomain.com"
+
+msgid "Processing begins after blockchain confirmation (typically 10-30 minutes)"
+msgstr "Behandling börjar efter blockchain-bekräftelse (vanligtvis 10-30 minuter)"
+
+msgid "Need Help with Payment?"
+msgstr "Behöver du hjälp med betalning?"
+
+msgid "Contact our payment support team at payments@yourdomain.com"
+msgstr "Kontakta vårt betalningssupportteam på payments@yourdomain.com"
+
+msgid "Include your order number and any transaction details."
+msgstr "Inkludera ditt ordernummer och eventuella transaktionsdetaljer."
+
+msgid "reviews"
+msgstr "recensioner"
+
+msgid "Update Your Review"
+msgstr "Uppdatera din recension"
+
+msgid "Write a Review"
+msgstr "Skriv en recension"
+
+msgid "Select Weight"
+msgstr "Välj vikt"
+
+msgid "Unit Price"
+msgstr "Enhetspris"
+
+msgid "Total for"
+msgstr "Totalt för"
+
+msgid "Usage"
+msgstr "Användning"
+
+msgid "Reviews"
+msgstr "Recensioner"
+
+msgid "Ingredients"
+msgstr "Ingredienser"
+
+msgid "Start with low doses"
+msgstr "Börja med låga doser"
+
+msgid "Customer Reviews"
+msgstr "Kundrecensioner"
+
+msgid "Your Review"
+msgstr "Din recension"
+
+msgid "Your Rating"
+msgstr "Ditt betyg"
+
+msgid "Submit Review"
+msgstr "Skicka recension"
+
+msgid "Please"
+msgstr "Vänligen"
+
+msgid "sign in"
+msgstr "logga in"
+
+msgid "to write a review."
+msgstr "för att skriva en recension."
+
+msgid "No reviews yet. Be the first to review this product!"
+msgstr "Inga recensioner än. Var den första att recensera denna produkt!"
+
+msgid "Recommended Methods"
+msgstr "Rekommenderade metoder"
+
+msgid "Update Review"
+msgstr "Uppdatera recension"
+
+msgid "Total Weight"
+msgstr "Total vikt"
+
+msgid "Date Ordered"
+msgstr "Beställningsdatum"
+
+msgid "Saved"
+msgstr "Sparad"
+
+msgid "pending"
+msgstr "väntande"
+
+msgid "processing"
+msgstr "behandlas"
+
+msgid "shipped"
+msgstr "skickad"
+
+msgid "delivered"
+msgstr "levererad"
+
+msgid "cancelled"
+msgstr "avbruten"
+
+msgid "OFF"
+msgstr "RABATT"
+
+msgid "Payment instructions sent to your email"
+msgstr "Betalningsinstruktioner skickade till din e-post"
+
+msgid "Discounts"
+msgstr "Rabatter"
+
+msgid "You saved"
+msgstr "Du sparade"
+
+msgid "Your order contains"
+msgstr "Din beställning innehåller"
+
+msgid "of premium cannabis products"
+msgstr "av premium cannabisprodukter"
+
+msgid "Bank transfer instructions sent to your email"
+msgstr "Banköverföringsinstruktioner skickade till din e-post"
+
+msgid "Usage Guidance"
+msgstr "Användningsvägledning"
+
+msgid "Inhalation: effects in 5-15 minutes, duration 2-3 hours. Edibles: effects in 30-90 minutes, duration 4-6 hours."
+msgstr "Inhalation: effekt efter 5-15 minuter, varaktighet 2-3 timmar. Ätbara produkter: effekt efter 30-90 minuter, varaktighet 4-6 timmar."
+
+msgid "Keep in a cool, dark place in airtight containers. Store securely away from children and pets."
+msgstr "Förvara på svalt, mörkt ställe i lufttäta behållare. Förvara säkert borta från barn och husdjur."
+
+msgid "Address copied to clipboard!"
+msgstr "Adress kopierad till urklipp!"
+
+msgid "Weight"
+msgstr "Vikt"
+
+msgid "Thank You for Your Order"
+msgstr "Tack för din beställning"
+
+msgid "Dear Valued Customer,"
+msgstr "Bästa kund,"
+
+msgid "We appreciate your trust in GreenMed Store. Please find below the details for your bank transfer payment:"
+msgstr "Vi uppskattar ditt förtroende för GreenMed Store. Nedan hittar du detaljerna för din banköverföring:"
+
+msgid "Payment Instructions"
+msgstr "Betalningsinstruktioner"
+
+msgid "Bank Name:"
+msgstr "Banknamn:"
+
+msgid "Account Name:"
+msgstr "Kontonamn:"
+
+msgid "Account Number:"
+msgstr "Kontonummer:"
+
+msgid "Amount Due:"
+msgstr "Belopp att betala:"
+
+msgid "Please include your Order ID in the payment reference to ensure prompt processing."
+msgstr "Var god inkludera ditt order-ID i betalningsreferensen för säkerställd snabb behandling."
+
+msgid "Next Steps"
+msgstr "Nästa steg"
+
+msgid "Complete your bank transfer using the details above"
+msgstr "Slutför din banköverföring med ovanstående detaljer"
+
+msgid "Keep your transaction receipt for reference"
+msgstr "Behåll ditt transaktionskvitto som referens"
+
+msgid "We'll notify you once payment is received"
+msgstr "Vi meddelar dig när betalningen mottagits"
+
+msgid "Your order will be prepared for shipment"
+msgstr "Din beställning kommer att förberedas för leverans"
+
+msgid "Need assistance? Contact our friendly support team:"
+msgstr "Behöver du hjälp? Kontakta vårt vänliga supportteam:"
+
+msgid "With green regards,"
+msgstr "Med vänliga hälsningar,"
+
+msgid "The GreenMed Store Team"
+msgstr "GreenMed Store-teamet"
+
+msgid "Nurturing Your Wellness Naturally"
+msgstr "Vårda din hälsa naturligt"
+
+msgid "IBAN:"
+msgstr "IBAN:"
+
+msgid "SWIFT/BIC:"
+msgstr "SWIFT/BIC:"
+
+msgid "Login to Proceed"
+msgstr "Logga in för att fortsätta"
+
+msgid "Reset Your Password"
+msgstr "Återställ ditt lösenord"
+
+msgid "Enter your email to receive reset instructions"
+msgstr "Ange din e-post för att få återställningsinstruktioner"
+
+msgid "Send Reset Link"
+msgstr "Skicka återställningslänk"
+
+msgid "Remember your password?"
+msgstr "Kommer du ihåg ditt lösenord?"
+
+msgid "Security Notice"
+msgstr "Säkerhetsmeddelande"
+
+msgid "Password reset links expire after 24 hours"
+msgstr "Lösenordsåterställningslänkar upphör efter 24 timmar"
+
+msgid "Links can only be used once"
+msgstr "Länkar kan endast användas en gång"
+
+msgid "If you didn't request this, please ignore the email"
+msgstr "Om du inte begärt detta, vänligen ignorera e-postmeddelandet"
+
+msgid "Check Your Email"
+msgstr "Kontrollera din e-post"
+
+msgid "We've sent password reset instructions"
+msgstr "Vi har skickat lösenordsåterställningsinstruktioner"
+
+msgid "If an account exists with this email, you'll receive a link to reset your password."
+msgstr "Om ett konto finns med denna e-post kommer du att få en länk för att återställa ditt lösenord."
+
+msgid "Please check your spam folder if you don't see it."
+msgstr "Vänligen kontrollera din skräppostmapp om du inte ser det."
+
+msgid "The link will expire in 24 hours for security reasons."
+msgstr "Länken kommer att upphöra om 24 timmar av säkerhetsskäl."
+
+msgid "Return to Sign In"
+msgstr "Återgå till inloggning"
+
+msgid "No Email Received?"
+msgstr "Inget e-postmeddelande mottaget?"
+
+msgid "Check your spam/junk folder"
+msgstr "Kontrollera din skräppostmapp"
+
+msgid "Wait a few minutes - emails may be delayed"
+msgstr "Vänta några minuter - e-postmeddelanden kan vara försenade"
+
+msgid "Ensure you entered the correct email address"
+msgstr "Se till att du har angett rätt e-postadress"
+
+msgid "Contact support if you continue having issues"
+msgstr "Kontakta support om du fortsätter ha problem"
+
+msgid "Set New Password"
+msgstr "Ange nytt lösenord"
+
+msgid "Create a strong new password"
+msgstr "Skapa ett starkt nytt lösenord"
+
+msgid "Invalid Link"
+msgstr "Ogiltig länk"
+
+msgid "This password reset link is no longer valid"
+msgstr "Denna lösenordsåterställningslänk är inte längre giltig"
+
+msgid "New Password"
+msgstr "Nytt lösenord"
+
+msgid "Confirm New Password"
+msgstr "Bekräfta nytt lösenord"
+
+msgid "Password Requirements"
+msgstr "Lösenordskrav"
+
+msgid "Minimum 8 characters"
+msgstr "Minst 8 tecken"
+
+msgid "Can't be too similar to your other information"
+msgstr "Får inte vara för likt din övriga information"
+
+msgid "Can't be a commonly used password"
+msgstr "Får inte vara ett vanligt använt lösenord"
+
+msgid "Can't be entirely numeric"
+msgstr "Får inte vara helt numeriskt"
+
+msgid "The password reset link was invalid, possibly because it has already been used."
+msgstr "Lösenordsåterställningslänken var ogiltig, troligen för att den redan har använts."
+
+msgid "Request New Reset Link"
+msgstr "Begär ny återställningslänk"
+
+msgid "Password Security"
+msgstr "Lösenordssäkerhet"
+
+msgid "Use a password manager to generate and store passwords"
+msgstr "Använd en lösenordshanterare för att generera och lagra lösenord"
+
+msgid "Never reuse passwords across different sites"
+msgstr "Återanvänd aldrig lösenord på olika webbplatser"
+
+msgid "Consider enabling two-factor authentication"
+msgstr "Överväg att aktivera tvåfaktorsautentisering"
+
+msgid "Password Reset Complete"
+msgstr "Lösenordsåterställning slutförd"
+
+msgid "Your password has been successfully updated."
+msgstr "Ditt lösenord har uppdaterats."
+
+msgid "You can now sign in with your new password."
+msgstr "Du kan nu logga in med ditt nya lösenord."
+
+msgid "Sign In Now"
+msgstr "Logga in nu"
+
+msgid "Keep Your Account Secure"
+msgstr "Håll ditt konto säkert"
+
+msgid "Regularly update your password"
+msgstr "Uppdatera ditt lösenord regelbundet"
+
+msgid "Review your account security settings"
+msgstr "Granska dina kontosäkerhetsinställningar"
+
+msgid "Monitor for suspicious activity"
+msgstr "Övervaka för misstänkt aktivitet"
+
+msgid "Remember to store your cannabis products securely and keep them away from children and pets."
+msgstr "Kom ihåg att förvara dina cannabisprodukter säkert och håll dem borta från barn och husdjur."
+
+msgid "Please correct the error below."
+msgstr "Vänligen rätta felet nedan."
+
+msgid "Update your account security"
+msgstr "Uppdatera din kontosäkerhet"
+
+msgid "Current Password"
+msgstr "Nuvarande lösenord"
+
+msgid "I confirm that I am 21 years of age or older"
+msgstr "Jag bekräftar att jag är 21 år eller äldre"
+
+msgid "Update Password"
+msgstr "Uppdatera lösenord"
+
+msgid "Account Security Tips"
+msgstr "Kontosäkerhetstips"
+
+msgid "Change your password every 3-6 months"
+msgstr "Byt lösenord var 3-6 månader"
+
+msgid "Never share your password with anyone"
+msgstr "Dela aldrig ditt lösenord med någon"
+
+msgid "Enable two-factor authentication for extra security"
+msgstr "Aktivera tvåfaktorsautentisering för extra säkerhet"
+
+msgid "Use a password manager for better security"
+msgstr "Använd en lösenordshanterare för bättre säkerhet"
+
+msgid "You must confirm you are 21+ to change your password"
+msgstr "Du måste bekräfta att du är 21+ för att ändra ditt lösenord"
+
+msgid "Password Reset Request"
+msgstr "Begäran om lösenordsåterställning"
+
+msgid "You're receiving this email because you requested a password reset for your account at %(site_name)s."
+msgstr "Du får detta e-postmeddelande eftersom du har begärt en lösenordsåterställning för ditt konto på %(site_name)s."
+
+msgid "Please click the button below to reset your password:"
+msgstr "Klicka på knappen nedan för att återställa ditt lösenord:"
+
+msgid "Reset Password"
+msgstr "Återställ lösenord"
+
+msgid "Security Notice:"
+msgstr "Säkerhetsmeddelande:"
+
+msgid "This link will expire in 24 hours and can only be used once."
+msgstr "Denna länk upphör om 24 timmar och kan endast användas en gång."
+
+msgid "If you didn't request this, please ignore this email and your password will remain unchanged."
+msgstr "Om du inte begärt detta, vänligen ignorera detta e-postmeddelande och ditt lösenord förblir oförändrat."
+
+msgid "If the button doesn't work, copy and paste this link into your browser:"
+msgstr "Om knappen inte fungerar, kopiera och klistra in denna länk i din webbläsare:"
+
+msgid "Thank you,"
+msgstr "Tack,"
+
+msgid "Team"
+msgstr "Teamet"

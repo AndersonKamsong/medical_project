@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+
+{% block title %}Order History - {{ site_settings.site_name }}{% endblock %}
+
+{% block content %}
+{% load i18n %}
+<div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold text-cannabis-dark mb-8">
+            <i class="fas fa-history mr-2"></i>{% trans "Order History" %}
+        </h1>
+        
+        {% if orders %}
+            <div class="space-y-6">
+                {% for order in orders %}
+                <div class="bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                    <!-- Order Header -->
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-4">
+                        <div class="mb-4 md:mb-0">
+                            <h3 class="text-lg font-semibold text-cannabis-dark">
+                                {% trans "Order" %} #{{ order.id }}
+                            </h3>
+                            <p class="text-gray-600">
+                                {{ order.created|date:"F d, Y" }}
+                            </p>
+                        </div>
+                        <div class="text-right">
+                            <span class="inline-block px-3 py-1 rounded-full text-sm font-medium
+                                {% if order.status == 'pending' %}bg-yellow-100 text-yellow-800
+                                {% elif order.status == 'processing' %}bg-blue-100 text-blue-800
+                                {% elif order.status == 'shipped' %}bg-purple-100 text-purple-800
+                                {% elif order.status == 'delivered' %}bg-green-100 text-green-800
+                                {% elif order.status == 'cancelled' %}bg-red-100 text-red-800
+                                {% endif %}">
+                                {{ order.get_status_display }}
+                            </span>
+                            <div class="flex items-center justify-end mt-1">
+                                <p class="text-lg font-bold text-cannabis-green">
+                                    €{{ order.total_amount|floatformat:2 }}
+                                </p>
+                                {% if order.get_total_discount > 0 %}
+                                <span class="ml-2 text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
+                                    Saved €{{ order.get_total_discount|floatformat:2 }}
+                                </span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Order Items -->
+                    <div class="border-t border-cannabis-light pt-4">
+                        <h4 class="font-medium mb-3 text-cannabis-dark">
+                            <i class="fas fa-cannabis mr-2"></i>{% trans "Items Ordered" %}
+                        </h4>
+                        <div class="space-y-3">
+                            {% for item in order.items.all %}
+                            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between py-3 border-b border-cannabis-light">
+                                <div class="flex items-start sm:items-center mb-2 sm:mb-0">
+                                    {% if item.product.image %}
+                                        <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" 
+                                             class="w-12 h-12 object-cover rounded mr-3 border border-cannabis-light">
+                                    {% else %}
+                                        <div class="w-12 h-12 bg-gray-200 rounded mr-3 flex items-center justify-center border border-cannabis-light">
+                                            <i class="fas fa-cannabis text-gray-400"></i>
+                                        </div>
+                                    {% endif %}
+                                    <div>
+                                        <p class="font-medium text-cannabis-dark">{{ item.product.name }}</p>
+                                        <div class="flex items-center flex-wrap gap-2 mt-1">
+                                            <p class="text-xs bg-gray-100 px-2 py-1 rounded">
+                                                {% trans "Qty:" %} {{ item.quantity }} × {{ item.weight }}g
+                                            </p>
+                                            {% if item.discount_percentage > 0 %}
+                                            <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
+                                                {{ item.discount_percentage }}% OFF
+                                            </span>
+                                            {% endif %}
+                                            {% if item.product.strain_type %}
+                                            <span class="text-xs px-2 py-1 rounded 
+                                                {% if item.product.strain_type == 'Sativa' %}bg-green-100 text-green-800
+                                                {% elif item.product.strain_type == 'Indica' %}bg-purple-100 text-purple-800
+                                                {% else %}bg-blue-100 text-blue-800{% endif %}">
+                                                {{ item.product.strain_type }}
+                                            </span>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    {% if item.discount_percentage > 0 %}
+                                    <span class="text-xs text-gray-400 line-through">€{{ item.price|floatformat:2 }}</span>
+                                    {% endif %}
+                                    <p class="font-semibold text-cannabis-dark">€{{ item.discount_price|floatformat:2 }}/g</p>
+                                    <p class="text-sm text-gray-600">= €{{ item.get_cost|floatformat:2 }}</p>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                    <!-- Order Summary -->
+                    <div class="border-t border-cannabis-light pt-4 mt-4">
+                        <h4 class="font-medium mb-3 text-cannabis-dark">
+                            <i class="fas fa-calculator mr-2"></i>{% trans "Order Summary" %}
+                        </h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <h5 class="text-sm font-medium text-gray-600 mb-2">{% trans "Payment Method" %}</h5>
+                                <p class="capitalize">{{ order.payment_method|title }}</p>
+                            </div>
+                            <div>
+                                <h5 class="text-sm font-medium text-gray-600 mb-2">{% trans "Total Weight" %}</h5>
+                                <p>{{ order.get_total_weight }}g</p>
+                            </div>
+                            <div>
+                                <h5 class="text-sm font-medium text-gray-600 mb-2">{% trans "Items" %}</h5>
+                                <p>{{ order.items.count }}</p>
+                            </div>
+                            <div>
+                                <h5 class="text-sm font-medium text-gray-600 mb-2">{% trans "Date Ordered" %}</h5>
+                                <p>{{ order.created|date:"M d, Y" }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Delivery Address -->
+                    <div class="border-t border-cannabis-light pt-4 mt-4">
+                        <h4 class="font-medium mb-2 text-cannabis-dark">
+                            <i class="fas fa-truck mr-2"></i>{% trans "Delivery Information" %}
+                        </h4>
+                        <div class="text-sm text-gray-600">
+                            <p>{{ order.first_name }} {{ order.last_name }}</p>
+                            <p>{{ order.address }}</p>
+                            <p>{{ order.city }}, {{ order.postal_code }}</p>
+                            <p>{{ order.country }}</p>
+                            {% if order.phone %}
+                                <p>{% trans "Phone" %}: {{ order.phone }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <!-- Actions -->
+                    <div class="border-t border-cannabis-light pt-4 mt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center">
+                        <div class="text-sm text-gray-600 mb-3 sm:mb-0">
+                            <p>{% trans "Order placed on" %} {{ order.created|date:"F d, Y \a\t g:i A" }}</p>
+                        </div>
+                        <div class="space-x-3">
+                            {% if order.status == 'pending' or order.status == 'processing' %}
+                                <button class="text-red-600 hover:text-red-800 text-sm">
+                                    <i class="fas fa-times-circle mr-1"></i>{% trans "Cancel Order" %}
+                                </button>
+                            {% endif %}
+                            <a href="{% url 'pages:contact' %}" 
+                               class="text-cannabis-green hover:text-cannabis-dark text-sm">
+                                <i class="fas fa-headset mr-1"></i>{% trans "Contact Support" %}
+                            </a>
+                            <a href="{% url 'orders:order_created' order.id %}" 
+                               class="text-cannabis-green hover:text-cannabis-dark text-sm">
+                                <i class="fas fa-file-alt mr-1"></i>{% trans "View Details" %}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <!-- Pagination if needed -->
+            <div class="mt-8 text-center">
+                <a href="{% url 'products:product_list' %}" 
+                   class="bg-cannabis-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-cannabis-dark transition duration-300">
+                    <i class="fas fa-shopping-bag mr-2"></i>{% trans "Continue Shopping" %}
+                </a>
+            </div>
+        {% else %}
+            <!-- No Orders -->
+            <div class="text-center py-16">
+                <i class="fas fa-receipt text-8xl text-gray-300 mb-6"></i>
+                <h2 class="text-2xl font-semibold text-gray-600 mb-4">{% trans "No orders yet" %}</h2>
+                <p class="text-gray-500 mb-8">{% trans "You haven't placed any orders yet. Start shopping to see your order history here!" %}</p>
+                <a href="{% url 'products:product_list' %}" 
+                   class="bg-cannabis-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-cannabis-dark transition duration-300">
+                    <i class="fas fa-search mr-2"></i>{% trans "Browse Products" %}
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
