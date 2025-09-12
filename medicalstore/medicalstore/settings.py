@@ -24,9 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$()71v#6!8o4fcg(8va+=wb)koq%j%4*_$wpf1h!t25glkxpda'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# DEBUG = True
 DEBUG = False
 
-#ALLOWED_HOSTS = ['*']  # Allow all hosts for development
+# ALLOWED_HOSTS = ['*']  # Allow all hosts for development
 ALLOWED_HOSTS = ['greenhousescbd.com', 'www.greenhousescbd.com', '3.24.180.171']
 # CSRF trusted origins for development
 # CSRF_TRUSTED_ORIGINS = [
@@ -90,12 +91,13 @@ WSGI_APPLICATION = 'medicalstore.wsgi.application'
 # settings.py
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "kamsonganderson39@gmail.com"
-EMAIL_HOST_PASSWORD = "zbci mysk xhds gjxe"
-ADMIN_EMAIL = 'kamsonganderson39@gmail.com'
+EMAIL_HOST = 'smtp.hostinger.com'
+EMAIL_PORT = 465
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = "info@greenhousescbd.com"
+EMAIL_HOST_PASSWORD = "Arthur39@@"
+ADMIN_EMAIL = 'info@greenhousescbd.com'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases

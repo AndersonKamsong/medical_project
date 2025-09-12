@@ -66,14 +66,14 @@ def order_create(request):
             print(payment_method)
             print(form.cleaned_data)
             if payment_method == 'bank_transfer' and customer_email:
-                subject = f'🌿 GreenMed Store - Instructions for Bank Transfer (Order #{order.id})'
+                subject = f'🌿Green House CBD - Instructions for Bank Transfer (Order #{order.id})'
                 body = f"""
                     <html>
                     <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto;">
                         <div style="background-color: #f5f9f0; padding: 20px; border-radius: 8px; border-left: 4px solid #4CAF50;">
                         <h1 style="color: #2E7D32; margin-top: 0;">Thank You for Your Order #{order.id}</h1>
                         <p>Dear Valued Customer,</p>
-                        <p>We appreciate your trust in GreenMed Store. Please find below the details for your bank transfer payment:</p>
+                        <p>We appreciate your trust inGreen House CBD. Please find below the details for your bank transfer payment:</p>
                         </div>
 
                         <div style="background-color: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 8px; border: 1px solid #e0e0e0;">
@@ -86,7 +86,7 @@ def order_create(request):
                             </tr>
                             <tr>
                             <td style="padding: 8px 0; font-weight: bold;">Account Name:</td>
-                            <td style="padding: 8px 0;">GreenMed Store</td>
+                            <td style="padding: 8px 0;">Green House CBD</td>
                             </tr>
                             <tr>
                             <td style="padding: 8px 0; font-weight: bold;">Account Number:</td>
@@ -133,7 +133,7 @@ def order_create(request):
 
                         <p style="color: #666; font-size: 0.9em; border-top: 1px solid #eee; padding-top: 15px;">
                         With green regards,<br>
-                        <strong>The GreenMed Store Team</strong><br>
+                        <strong>TheGreen House CBD Team</strong><br>
                         <span style="color: #4CAF50;">Nurturing Your Wellness Naturally</span>
                         </p>
                     </body>
