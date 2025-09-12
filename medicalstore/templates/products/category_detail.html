@@ -1,0 +1,339 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ category.name }} - {{ site_settings.site_name }}{% endblock %}
+{% block meta_description %}{{ category.meta_description|default:category.description|truncatewords:20 }}{% endblock %}
+{% block meta_keywords %}{{ category.meta_keywords }}{% endblock %}
+
+{% block content %}
+{% load i18n %}
+{% load query_transform %}
+
+<!-- Updated template -->
+<div class="container mx-auto px-4 py-8">
+    <!-- Category Header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-cannabis-dark mb-4">{{ category.name }}</h1>
+        {% if category.description %}
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">{{ category.description }}</p>
+        {% endif %}
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-8">
+        <!-- Sidebar Filters -->
+        <div class="lg:w-1/4">
+            <div class="bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                <h3 class="text-lg font-semibold mb-4 text-cannabis-dark">{% trans "Filter Products" %}</h3>
+                
+                <form method="GET" class="space-y-6">
+                    <!-- Price Range -->
+                    <div>
+                        <h4 class="font-medium mb-2 text-cannabis-dark">{% trans "Price Range" %}</h4>
+                        <div class="space-y-2">
+                            <input type="number" name="min_price" placeholder="{% trans 'Min Price' %}" 
+                                   value="{{ min_price }}"
+                                   class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-cannabis-green focus:border-transparent">
+                            <input type="number" name="max_price" placeholder="{% trans 'Max Price' %}" 
+                                   value="{{ max_price }}"
+                                   class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-cannabis-green focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <!-- Strain Type -->
+                    <div>
+                        <h4 class="font-medium mb-2 text-cannabis-dark">{% trans "Strain Type" %}</h4>
+                        <select name="strain_type" class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-cannabis-green focus:border-transparent">
+                            <option value="">{% trans "All Strains" %}</option>
+                            {% for choice in strain_choices %}
+                                <option value="{{ choice.0 }}" {% if active_filters.strain_type == choice.0 %}selected{% endif %}>
+                                    {{ choice.1 }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <!-- CBD/THC Ratio -->
+                    <div>
+                        <h4 class="font-medium mb-2 text-cannabis-dark">{% trans "CBD:THC Ratio" %}</h4>
+                        <select name="ratio" class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-cannabis-green focus:border-transparent">
+                            <option value="">{% trans "All Ratios" %}</option>
+                            {% for choice in ratio_choices %}
+                                <option value="{{ choice.0 }}" {% if active_filters.ratio == choice.0 %}selected{% endif %}>
+                                    {{ choice.1 }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <!-- Consumption Method -->
+                    <div>
+                        <h4 class="font-medium mb-2 text-cannabis-dark">{% trans "Consumption Method" %}</h4>
+                        <div class="space-y-2">
+                            {% for method in method_choices %}
+                            <label class="flex items-center">
+                                <input type="checkbox" name="method" value="{{ method.0 }}" 
+                                       class="rounded text-cannabis-green focus:ring-cannabis-green"
+                                       {% if method.0 in active_filters.methods %}checked{% endif %}>
+                                <span class="ml-2 text-gray-700">{{ method.1 }}</span>
+                            </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                    <button type="submit" 
+                            class="w-full bg-cannabis-green text-white py-2 rounded hover:bg-cannabis-dark transition duration-300">
+                        {% trans "Apply Filters" %}
+                    </button>
+                    
+                    {% if active_filters.strain_type or active_filters.ratio or active_filters.methods or min_price or max_price %}
+                        <a href="{% url 'products:category_detail' category.slug %}" 
+                           class="w-full block text-center border border-gray-300 text-gray-600 py-2 rounded hover:bg-gray-50 transition duration-300">
+                            {% trans "Clear Filters" %}
+                        </a>
+                    {% endif %}
+                </form>
+            </div>
+            
+            <!-- Medical Information -->
+            <div class="mt-6 bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                <h3 class="text-lg font-semibold mb-4 text-cannabis-dark">
+                    <i class="{{ category.icon|default:'fas fa-info-circle' }} mr-2"></i>{% trans "Medical Information" %}
+                </h3>
+                <div class="text-sm text-gray-600 space-y-4">
+                    {% if category.dosage_advice %}
+                    <p>
+                        <strong class="text-cannabis-dark">{% trans "Dosage Advice:" %}</strong> 
+                        {{ category.dosage_advice }}
+                    </p>
+                    {% endif %}
+                    
+                    {% if category.effects_timeline %}
+                    <p>
+                        <strong class="text-cannabis-dark">{% trans "Effects Timeline:" %}</strong> 
+                        {{ category.effects_timeline }}
+                    </p>
+                    {% endif %}
+                    
+                    {% if category.storage_advice %}
+                    <p>
+                        <strong class="text-cannabis-dark">{% trans "Storage:" %}</strong> 
+                        {{ category.storage_advice }}
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        
+        <!-- Products Grid -->
+        <div class="lg:w-3/4">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-cannabis-dark">{% trans "Products in" %} {{ category.name }}</h2>
+                <p class="text-gray-600">{{ page_obj.paginator.count }} {% trans "products found" %}</p>
+            </div>
+            
+            <!-- Active Filters -->
+            {% if active_filters.strain_type or active_filters.ratio or active_filters.methods or min_price or max_price %}
+            <div class="mb-4 flex flex-wrap gap-2">
+                {% if min_price %}
+                <span class="px-3 py-1 bg-cannabis-light text-cannabis-dark rounded-full text-sm flex items-center">
+                    Min: ${{ min_price }}
+                    <a href="?{% query_transform min_price=None %}" class="ml-2 text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </span>
+                {% endif %}
+                
+                {% if max_price %}
+                <span class="px-3 py-1 bg-cannabis-light text-cannabis-dark rounded-full text-sm flex items-center">
+                    Max: ${{ max_price }}
+                    <a href="?{% query_transform max_price=None %}" class="ml-2 text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </span>
+                {% endif %}
+                
+                {% if active_filters.strain_type %}
+                <span class="px-3 py-1 bg-cannabis-light text-cannabis-dark rounded-full text-sm flex items-center">
+                    Strain: {{ active_filters.strain_type }}
+                    <a href="?{% query_transform  strain_type=None %}" class="ml-2 text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </span>
+                {% endif %}
+                
+                {% if active_filters.ratio %}
+                <span class="px-3 py-1 bg-cannabis-light text-cannabis-dark rounded-full text-sm flex items-center">
+                    Ratio: {{ active_filters.ratio }}
+                    <a href="?{% query_transform  ratio=None %}" class="ml-2 text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </span>
+                {% endif %}
+                
+                {% for method in active_filters.methods %}
+                <span class="px-3 py-1 bg-cannabis-light text-cannabis-dark rounded-full text-sm flex items-center">
+                    Method: {{ method }}
+                    <a href="?{% query_transform  method=method remove=True %}" class="ml-2 text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {% for product in page_obj %}
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300 border border-cannabis-light">
+                    {% if product.image %}
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}" 
+                             class="w-full h-48 object-cover">
+                    {% else %}
+                        <div class="w-full h-48 bg-gray-200 flex items-center justify-center">
+                            <i class="fas fa-cannabis text-4xl text-gray-400"></i>
+                        </div>
+                    {% endif %}
+                    
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold mb-2 text-cannabis-dark">{{ product.name }}</h3>
+                        
+                        <!-- Strain Type -->
+                        {% if product.strain_type %}
+                        <div class="mb-2">
+                            <span class="inline-block px-2 py-1 text-xs rounded {{ product.get_strain_color }}">
+                                {{ product.get_strain_type_display }}
+                            </span>
+                        </div>
+                        {% endif %}
+                        
+                        <p class="text-gray-600 text-sm mb-3">{{ product.description|truncatewords:15 }}</p>
+                        
+                        <!-- Potency Info -->
+                        <div class="flex items-center space-x-4 mb-3 text-xs">
+                            {% if product.thc_content %}
+                            <span class="text-cannabis-dark">
+                                <i class="fas fa-fire mr-1"></i>THC: {{ product.thc_content }}%
+                            </span>
+                            {% endif %}
+                            {% if product.cbd_content %}
+                            <span class="text-green-600">
+                                <i class="fas fa-leaf mr-1"></i>CBD: {{ product.cbd_content }}%
+                            </span>
+                            {% endif %}
+                        </div>
+                        
+                        <!-- Consumption Methods -->
+                        {% if product.recommended_methods %}
+                        <div class="mb-3">
+                            <p class="text-xs text-gray-500">
+                                <i class="fas fa-tint mr-1"></i>
+                                {% for method in product.recommended_methods %}
+                                    <span class="mr-2">{{ method }}</span>
+                                {% endfor %}
+                            </p>
+                        </div>
+                        {% endif %}
+                        
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-cannabis-green">${{ product.price }}</span>
+                            <div class="flex space-x-2">
+                                <a href="{{ product.get_absolute_url }}" 
+                                   class="bg-cannabis-green text-white px-4 py-2 rounded hover:bg-cannabis-dark transition duration-300 text-sm">
+                                    {% trans "View Details" %}
+                                </a>
+                            </div>
+                        </div>
+                        
+                        {% if not product.is_in_stock %}
+                            <p class="text-red-500 text-sm mt-2">{% trans "Out of Stock" %}</p>
+                        {% else %}
+                            <p class="text-green-600 text-sm mt-2">
+                                <i class="fas fa-check mr-1"></i>{% trans "In Stock" %}
+                            </p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% empty %}
+                <div class="col-span-full text-center py-12">
+                    <i class="fas fa-cannabis text-6xl text-gray-300 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-600 mb-2">{% trans "No products found" %}</h3>
+                    <p class="text-gray-500 mb-4">
+                        {% if active_filters.strain_type or active_filters.ratio or active_filters.methods or min_price or max_price %}
+                            {% trans "No products match your current filters. Try adjusting your filters." %}
+                        {% else %}
+                            {% trans "This category doesn't have any products yet." %}
+                        {% endif %}
+                    </p>
+                    {% if active_filters.strain_type or active_filters.ratio or active_filters.methods or min_price or max_price %}
+                        <a href="{% url 'products:category_detail' category.slug %}" 
+                           class="inline-block bg-cannabis-green text-white px-6 py-2 rounded hover:bg-cannabis-dark transition duration-300">
+                            {% trans "Clear Filters" %}
+                        </a>
+                    {% else %}
+                        <a href="{% url 'products:product_list' %}" 
+                           class="inline-block bg-cannabis-green text-white px-6 py-2 rounded hover:bg-cannabis-dark transition duration-300">
+                            {% trans "Browse All Products" %}
+                        </a>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            
+            <!-- Pagination -->
+            {% if page_obj.has_other_pages %}
+            <div class="flex justify-center mt-8">
+                <nav class="flex space-x-2">
+                    {% if page_obj.has_previous %}
+                        <a href="?{% query_transform  page=page_obj.previous_page_number %}" 
+                           class="px-3 py-2 bg-white border border-gray-300 rounded hover:bg-gray-50 transition duration-300">
+                            {% trans "Previous" %}
+                        </a>
+                    {% endif %}
+                    
+                    {% for num in page_obj.paginator.page_range %}
+                        {% if page_obj.number == num %}
+                            <span class="px-3 py-2 bg-cannabis-green text-white rounded">{{ num }}</span>
+                        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                            <a href="?{% query_transform  page=num %}" 
+                               class="px-3 py-2 bg-white border border-gray-300 rounded hover:bg-gray-50 transition duration-300">
+                                {{ num }}
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                    
+                    {% if page_obj.has_next %}
+                        <a href="?{% query_transform page=page_obj.next_page_number %}" 
+                           class="px-3 py-2 bg-white border border-gray-300 rounded hover:bg-gray-50 transition duration-300">
+                            {% trans "Next" %}
+                        </a>
+                    {% endif %}
+                </nav>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Category Information -->
+    {% if category.description or category.primary_benefits %}
+    <div class="mt-16 bg-white rounded-lg shadow-lg p-8 border border-cannabis-light">
+        <h2 class="text-2xl font-bold mb-4 text-cannabis-dark">{% trans "About" %} {{ category.name }}</h2>
+        
+        {% if category.description %}
+        <div class="prose max-w-none text-gray-700 mb-6">
+            {{ category.description|linebreaks }}
+        </div>
+        {% endif %}
+        
+        <!-- Medical Uses -->
+        {% if category.primary_benefits %}
+        <div class="mt-6 bg-cannabis-light bg-opacity-30 p-4 rounded-lg">
+            <h3 class="font-semibold text-lg text-cannabis-dark mb-2">
+                <i class="fas fa-heartbeat mr-2"></i>{% trans "Therapeutic Uses" %}
+            </h3>
+            <div class="text-sm text-gray-600">
+                {{ category.primary_benefits|linebreaks }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
