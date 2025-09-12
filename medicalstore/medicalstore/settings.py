@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-$()71v#6!8o4fcg(8va+=wb)koq%j%4*_$wpf1h!t25glkxpda
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']  # Allow all hosts for development
-
+#ALLOWED_HOSTS = ['*']  # Allow all hosts for development
+ALLOWED_HOSTS = ['greenhousescbd.com', 'www.greenhousescbd.com', '3.24.180.171']
 # CSRF trusted origins for development
 # CSRF_TRUSTED_ORIGINS = [
 #     'https://work-1-vgrggshdjmezrwkq.prod-runtime.all-hands.dev',
@@ -168,9 +168,10 @@ STATICFILES_DIRS = [
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Media files
+#MEDIA_URL = '/media/'
+#MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
