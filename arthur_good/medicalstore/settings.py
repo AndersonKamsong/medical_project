@@ -38,6 +38,22 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
 ]
+# Add this to handle the malformed host header temporarily
+import re
+from django.http import HttpRequest
+
+# Monkey patch to fix the host header issue
+original_get_host = HttpRequest.get_host
+
+def fixed_get_host(self):
+    host = original_get_host(self)
+    # Fix the duplicate host issue
+    if host == 'greenhousescbd.com,greenhousescbd.com':
+        return 'greenhousescbd.com'
+    return host
+
+HttpRequest.get_host = fixed_get_host
+
 # ALLOWED_HOSTS = ['*']
 # Security settings for production
 CSRF_TRUSTED_ORIGINS = [
