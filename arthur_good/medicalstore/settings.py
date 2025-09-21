@@ -29,14 +29,14 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-$()71v#6!8o4fc
 DEBUG = True  # Changed to False for production
 # DEBUG = False 
 
-# ALLOWED_HOSTS = [
-#     'greenhousescbd.com',
-#     'www.greenhousescbd.com',
-#     '16.176.176.184',  
-#     'localhost',
-#     '127.0.0.1',
-# ]
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '.greenhousescbd.com',
+    'www.greenhousescbd.com',
+    '16.176.176.184',  
+    'localhost',
+    '127.0.0.1',
+]
+# ALLOWED_HOSTS = ['*']
 # Security settings for production
 CSRF_TRUSTED_ORIGINS = [
     'https://greenhousescbd.com',
