@@ -89,6 +89,7 @@ INSTALLED_APPS = [
     'pages',
     'orders',
     'accounts',
+    'medicalstore'
 ]
 
 MIDDLEWARE = [
