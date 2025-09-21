@@ -24,8 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$()71v#6!8o4fcg(8va+=wb)koq%j%4*_$wpf1h!t25glkxpda'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = False
+DEBUG = True
+# DEBUG = False
 
 ALLOWED_HOSTS = [
     'greenhousescbd.com',
@@ -46,7 +46,7 @@ ALLOWED_HOSTS = [
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
 # X-Frame Options
-X_FRAME_OPTIONS = 'DENY'
+# X_FRAME_OPTIONS = 'DENY'
 # ALLOWED_HOSTS = ['https://greenhousescbd.com','greenhousescbd.com']  # Allow all hosts for development
 # ALLOWED_HOSTS = ['*']  # Allow all hosts for development
 
