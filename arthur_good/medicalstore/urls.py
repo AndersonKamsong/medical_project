@@ -6,11 +6,9 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
-from . import views
 
 urlpatterns = [
     path('i18n/', include('django.conf.urls.i18n')),
-    path('debug-headers/', views.debug_headers, name='debug-headers'),
 ]
 # from pages.views import change_language
 
