@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
+from django.core.management.utils import get_random_secret_key
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,44 +22,38 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-$()71v#6!8o4fcg(8va+=wb)koq%j%4*_$wpf1h!t25glkxpda'
+# Generate a new secure secret key for production
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-$()71v#6!8o4fcg(8va+=wb)koq%j%4*_$wpf1h!t25glkxpda')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-# DEBUG = False
+DEBUG = False  # Changed to False for production
 
 ALLOWED_HOSTS = [
     'greenhousescbd.com',
     'www.greenhousescbd.com',
-    '16.176.176.184',  # Your server IP
+    '16.176.176.184',  
     'localhost',
     '127.0.0.1',
 ]
-# CSRF_TRUSTED_ORIGINS = ['https://greenhousescbd.com', 'https://www.greenhousescbd.com']
-# Security settings
-# SECURE_HSTS_SECONDS = 31536000  # 1 year
-# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-# SECURE_HSTS_PRELOAD = True
-# SECURE_SSL_REDIRECT = True
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SECURE = True
 
+# Security settings for production
+CSRF_TRUSTED_ORIGINS = [
+    'https://greenhousescbd.com',
+    'https://www.greenhousescbd.com',
+]
+
+SECURE_HSTS_SECONDS = 31536000  # 1 year
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
-# X-Frame Options
-# X_FRAME_OPTIONS = 'DENY'
-# ALLOWED_HOSTS = ['https://greenhousescbd.com','greenhousescbd.com']  # Allow all hosts for development
-# ALLOWED_HOSTS = ['*']  # Allow all hosts for development
-
-# CSRF trusted origins for development
-CSRF_TRUSTED_ORIGINS = [
-    'https://work-1-vgrggshdjmezrwkq.prod-runtime.all-hands.dev',
-    'https://work-2-vgrggshdjmezrwkq.prod-runtime.all-hands.dev',
-]
+X_FRAME_OPTIONS = 'DENY'
 
 # Cart session settings
 CART_SESSION_ID = 'cart'
-
 
 # Application definition
 
@@ -109,23 +104,17 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'medicalstore.wsgi.application'
-# settings.py
+
+# Email configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.hostinger.com'
-# EMAIL_PORT = 465
-EMAIL_USE_SSL = True  # Use SSL for port 465
-# EMAIL_USE_TLS = False  # Disable TLS
-# EMAIL_HOST_USER = "info@greenhousescbd.com"
-# ADMIN_EMAIL="info@greenhousescbd.com"
-ADMIN_EMAIL="gastonanderson039@gmail.com"
-EMAIL_HOST_PASSWORD = "Ander39@@Test"
+EMAIL_HOST = 'smtp.hostinger.com'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = "info@greenhousescbd.com"
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', 'Ander39@@Test')
 DEFAULT_FROM_EMAIL = "info@greenhousescbd.com"
-SERVER_EMAIL = "info@greenhousescbd.com"  # For error emails
-# settings.py
-SMTP_EMAIL = "info@greenhousescbd.com"
-SMTP_PASSWORD = "Ander39@@Test"
-SMTP_HOST = "smtp.hostinger.com"
-SMTP_PORT = 465
+SERVER_EMAIL = "info@greenhousescbd.com"
+ADMIN_EMAIL = "gastonanderson039@gmail.com"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
@@ -161,26 +150,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
 LANGUAGE_CODE = 'en'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-# Supported Languages - Updated to match requirements
+# Supported Languages
 LANGUAGES = [
-    # ('da', 'Danish'),
     ('en', 'English'),
-    # ('fi', 'Finnish'),
     ('fr', 'French'),
-    # ('de', 'German'),
-    # ('it', 'Italian'),
-    # ('hu', 'Hungarian'),
-    # ('no', 'Norwegian'),
-    # ('ga', 'Irish'),
-    # ('es', 'Spanish'),
-    # ('sv', 'Swedish'),
 ]
 
 LOCALE_PATHS = [
@@ -202,14 +180,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 # Default primary key field type
-# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# Security settings for production
-# SECURE_BROWSER_XSS_FILTER = True
-# SECURE_CONTENT_TYPE_NOSNIFF = True
-# X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Session settings
 SESSION_COOKIE_AGE = 86400  # 24 hours
@@ -219,13 +190,3 @@ SESSION_SAVE_EVERY_REQUEST = True
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
-
-# TEMPORARY DEBUG - REMOVE AFTER FIXING
-import logging
-logger = logging.getLogger('django.security.DisallowedHost')
-
-def log_disallowed_host(record):
-    logger.error(f"Disallowed Host received: {record.getMessage()}")
-    return True
-
-logging.getLogger('django.security.DisallowedHost').addFilter(log_disallowed_host)
