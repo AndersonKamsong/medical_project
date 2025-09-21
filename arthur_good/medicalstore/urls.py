@@ -6,8 +6,18 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
+# medicalstore/urls.py
+from django.contrib.sitemaps.views import sitemap
+from products.sitemaps import ProductSitemap, StaticSitemap
+
+sitemaps = {
+    'products': ProductSitemap,
+    'static': StaticSitemap,
+}
 
 urlpatterns = [
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
+    path('robots.txt', include('robots.urls')),
     path('i18n/', include('django.conf.urls.i18n')),
 ]
 # from pages.views import change_language
