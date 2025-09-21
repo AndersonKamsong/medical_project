@@ -27,7 +27,13 @@ SECRET_KEY = 'django-insecure-$()71v#6!8o4fcg(8va+=wb)koq%j%4*_$wpf1h!t25glkxpda
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['greenhousescbd.com', 'www.greenhousescbd.com', '16.176.176.184']
+ALLOWED_HOSTS = [
+    'greenhousescbd.com',
+    'www.greenhousescbd.com',
+    '16.176.176.184',  # Your server IP
+    'localhost',
+    '127.0.0.1',
+]
 CSRF_TRUSTED_ORIGINS = ['https://greenhousescbd.com', 'https://www.greenhousescbd.com']
 # Security settings
 SECURE_SSL_REDIRECT = True
