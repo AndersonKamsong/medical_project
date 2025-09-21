@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block title %}Legal Notice - {{ site_settings.site_name }}{% endblock %}
+
+{% block content %}
+{% load i18n %}
+
+<div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold text-center text-cannabis-dark mb-8">{% trans "Legal Notice" %}</h1>
+        
+        <div class="prose max-w-none">
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 border border-cannabis-light">
+                <h2 class="text-2xl font-semibold text-cannabis-green mb-4">{% trans "Company Information" %}</h2>
+                <div class="space-y-2 text-gray-700">
+                    <p><strong>{% trans "Company Name:" %}</strong> Green Houses CBD SAS</p>
+                    <p><strong>{% trans "Legal Form:" %}</strong> {% trans "Simplified Joint Stock Company (SAS)" %}</p>
+                    <p><strong>{% trans "Registration Number:" %}</strong> 987 654 321 RCS Lyon</p>
+                    <p><strong>{% trans "VAT Number:" %}</strong> FR98765432109</p>
+                    <p><strong>{% trans "Share Capital:" %}</strong> €150,000</p>
+                    <p><strong>{% trans "Registered Office:" %}</strong> 420 Cannabis Avenue, 69002 Lyon, France</p>
+                    <p><strong>{% trans "Phone:" %}</strong> +33 4 12 34 56 78</p>
+                    <p><strong>{% trans "Email:" %}</strong> legal@greenleafwellness.com</p>
+                    <p><strong>{% trans "Cannabis License:" %}</strong> FR-CBD-2024-001</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 border border-cannabis-light">
+                <h2 class="text-2xl font-semibold text-cannabis-green mb-4">{% trans "Website Information" %}</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p><strong>{% trans "Website:" %}</strong> www.greenleafwellness.com</p>
+                    <p><strong>{% trans "Publication Director:" %}</strong> {% trans "Jean Garnier, CEO" %}</p>
+                    <p><strong>{% trans "Web Development:" %}</strong> {% trans "GreenLeaf Technical Team" %}</p>
+                    <p><strong>{% trans "Hosting Provider:" %}</strong> OVH SAS, 2 rue Kellermann, 59100 Roubaix, France</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 border border-cannabis-light">
+                <h2 class="text-2xl font-semibold text-cannabis-green mb-4">{% trans "Terms of Use" %}</h2>
+                <div class="space-y-4 text-gray-700">
+                    <h3 class="text-lg font-semibold">1. {% trans "Acceptance of Terms" %}</h3>
+                    <p>
+                        {% trans "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service." %}
+                    </p>
+
+                    <h3 class="text-lg font-semibold">2. {% trans "Cannabis Product Disclaimer" %}</h3>
+                    <p>
+                        {% trans "All cannabis products sold on this website contain less than 0.2% THC in compliance with French and EU regulations. These products are not intended to diagnose, treat, cure or prevent any disease. The information provided is for educational purposes only regarding the potential benefits of CBD and other cannabis compounds." %}
+                    </p>
+
+                    <h3 class="text-lg font-semibold">3. {% trans "Age Restriction" %}</h3>
+                    <p>
+                        {% trans "You must be at least 18 years old to access this website and purchase our products. By using this site, you confirm that you meet the minimum age requirement." %}
+                    </p>
+
+                    <h3 class="text-lg font-semibold">4. {% trans "Product Information" %}</h3>
+                    <p>
+                        {% trans "While we strive to provide accurate information about our cannabis products, including CBD content and laboratory test results, we make no representations about the completeness or accuracy of this information. Product effects may vary between individuals." %}
+                    </p>
+
+                    <h3 class="text-lg font-semibold">5. {% trans "Use License" %}</h3>
+                    <p>
+                        {% trans "Permission is granted to temporarily download one copy of the materials on Green Houses CBD's website for personal, non-commercial transitory viewing only. This license prohibits:" %}
+                    </p>
+                    <ul class="list-disc pl-6 space-y-1">
+                        <li>{% trans "modification or copying of cannabis-related educational materials" %}</li>
+                        <li>{% trans "commercial use of product images or descriptions" %}</li>
+                        <li>{% trans "attempting to reverse engineer any software" %}</li>
+                        <li>{% trans "removing copyright or proprietary notations" %}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 border border-cannabis-light">
+                <h2 class="text-2xl font-semibold text-cannabis-green mb-4">{% trans "Intellectual Property" %}</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p>
+                        {% trans "All cannabis strain names, product formulations, and educational content are protected by intellectual property laws. The 'Green Houses CBD' name and logo are registered trademarks." %}
+                    </p>
+                    <p>
+                        {% trans "Our proprietary cannabis cultivation techniques, extraction methods, and product formulations are trade secrets protected under French and EU law." %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 border border-cannabis-light">
+                <h2 class="text-2xl font-semibold text-cannabis-green mb-4">{% trans "Limitation of Liability" %}</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p>
+                        {% trans "Green Houses CBD shall not be liable for any damages arising from use of our cannabis products or website content. We expressly disclaim responsibility for any adverse effects, interactions with medications, or consequences of improper product use." %}
+                    </p>
+                    <p>
+                        {% trans "As cannabis laws vary by jurisdiction, we cannot guarantee the legal status of our products in your location. It is your responsibility to comply with local regulations." %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 border border-cannabis-light">
+                <h2 class="text-2xl font-semibold text-cannabis-green mb-4">{% trans "Governing Law" %}</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p>
+                        {% trans "These terms are governed by French law, specifically regarding cannabis regulations under Article R. 5132-86 of the Public Health Code. Any disputes will be resolved in Lyon courts." %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 border border-cannabis-light">
+                <h2 class="text-2xl font-semibold text-cannabis-green mb-4">{% trans "Contact Information" %}</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p>
+                        {% trans "For legal inquiries regarding our cannabis products:" %}
+                    </p>
+                    <div class="bg-cannabis-light p-4 rounded">
+                        <p><strong>{% trans "Email:" %}</strong> legal@greenleafwellness.com</p>
+                        <p><strong>{% trans "Phone:" %}</strong> +33 4 12 34 56 78</p>
+                        <p><strong>{% trans "Address:" %}</strong> 420 Cannabis Avenue, 69002 Lyon, France</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cannabis-light border border-cannabis-green rounded-lg p-6">
+                <p class="text-sm text-cannabis-dark">
+                    <i class="fas fa-cannabis mr-2"></i>
+                    <strong>{% trans "Last Updated:" %}</strong> {% trans "This legal notice was updated on January 1, 2024 in compliance with current cannabis regulations. Changes to French or EU cannabis laws may prompt revisions." %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

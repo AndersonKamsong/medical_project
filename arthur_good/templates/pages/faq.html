@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+
+{% block title %}FAQ - {{ site_settings.site_name }}{% endblock %}
+
+{% block content %}
+{% load i18n %}
+
+<div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold text-center text-cannabis-dark mb-8">{% trans "Frequently Asked Questions" %}</h1>
+        
+        <div class="space-y-6">
+            <!-- General Questions -->
+            <div class="bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                <h2 class="text-xl font-semibold text-cannabis-green mb-4">{% trans "General Questions" %}</h2>
+                
+                <div class="space-y-4">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "What is Green Houses CBD?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Green Houses CBD is a premium cannabis and CBD marketplace offering lab-tested products with detailed information about cannabinoid content, terpene profiles, cultivation methods, and potential wellness benefits. We focus on transparency and product quality." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "Who can purchase cannabis products?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "You must be at least 18 years old to purchase our CBD products and 21+ for THC-containing products where legally available. Some products may require medical authorization depending on your location." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "Are your products legal?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "All our products comply with French and EU regulations, containing less than 0.2% THC. We verify the legal status in your region before shipping. Medical cannabis products require proper authorization." %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Information -->
+            <div class="bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                <h2 class="text-xl font-semibold text-cannabis-green mb-4">{% trans "Product Information" %}</h2>
+                
+                <div class="space-y-4">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "How do you test your cannabis products?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "All products undergo third-party laboratory testing for cannabinoid potency, terpene profiles, and contaminants (pesticides, heavy metals, microbes). Certificates of Analysis (COAs) are available for every batch." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "What's the difference between CBD and THC?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "CBD (cannabidiol) is non-intoxicating and legal in France when containing less than 0.2% THC. THC (tetrahydrocannabinol) is psychoactive and only available with medical authorization. Our products clearly indicate their cannabinoid content." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "What are terpenes and why are they important?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Terpenes are aromatic compounds that influence cannabis effects and flavors. Different strains have unique terpene profiles that contribute to their therapeutic properties and sensory experience." %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ordering & Shipping -->
+            <div class="bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                <h2 class="text-xl font-semibold text-cannabis-green mb-4">{% trans "Ordering & Shipping" %}</h2>
+                
+                <div class="space-y-4">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "Do I need medical authorization to order?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Our CBD products (under 0.2% THC) don't require authorization. For medical cannabis products with higher THC content, valid medical documentation is required as per French regulations." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "How discreet is your packaging?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "All orders are shipped in plain, unmarked packaging without any cannabis-related branding. We use odor-proof materials for complete discretion." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "Can I track my cannabis order?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Yes, you'll receive discreet tracking information via email. Our delivery partners are trained to handle cannabis products appropriately." %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Safety & Usage -->
+            <div class="bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                <h2 class="text-xl font-semibold text-cannabis-green mb-4">{% trans "Safety & Usage" %}</h2>
+                
+                <div class="space-y-4">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "How should I dose cannabis products?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Start with low doses, especially with THC products. Wait at least 2 hours before consuming more. Our products include suggested serving sizes, but individual tolerance varies. Consult a healthcare provider for medical use." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "Can cannabis interact with medications?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Yes, cannabis may interact with certain medications, especially blood thinners, antidepressants, and sedatives. Always consult your doctor before combining cannabis with other treatments." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "How should I store cannabis products?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Store in a cool, dark place (under 21°C) away from children and pets. Keep flowers in airtight containers. Most products have 6-12 month shelf life when stored properly." %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Returns & Support -->
+            <div class="bg-white rounded-lg shadow-lg p-6 border border-cannabis-light">
+                <h2 class="text-xl font-semibold text-cannabis-green mb-4">{% trans "Returns & Support" %}</h2>
+                
+                <div class="space-y-4">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "What is your return policy for cannabis products?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Due to legal restrictions, opened cannabis products cannot be returned. Unopened products in original packaging may be returned within 14 days. Medical cannabis products are non-returnable." %}
+                        </p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "How can I contact customer support?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "Our cannabis specialists are available via email, encrypted chat, or phone. We respond within 24 hours on weekdays. For medical cannabis questions, we have a dedicated support line." %}
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">{% trans "Do you provide cannabis consultation services?" %}</h3>
+                        <p class="text-gray-600">
+                            {% trans "We offer general product guidance but cannot provide medical advice. For therapeutic use, we recommend consulting with a cannabis-certified healthcare provider." %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cannabis Disclaimer -->
+        <div class="bg-cannabis-light border border-cannabis-green rounded-lg p-6 mt-8">
+            <h3 class="font-semibold text-cannabis-dark mb-2">
+                <i class="fas fa-cannabis mr-2"></i>{% trans "Important Cannabis Disclaimer" %}
+            </h3>
+            <p class="text-cannabis-dark text-sm">
+                {% trans "Cannabis products may cause drowsiness, dry mouth, or temporary changes in perception. Do not operate vehicles or machinery after consumption. Keep out of reach of children. These statements have not been evaluated by health authorities. Our products are not intended to diagnose, treat, cure or prevent any disease." %}
+            </p>
+        </div>
+
+        <!-- Contact CTA -->
+        <div class="text-center mt-8">
+            <p class="text-gray-600 mb-4">{% trans "Still have questions about cannabis?" %}</p>
+            <a href="{% url 'pages:contact' %}" 
+               class="bg-cannabis-green hover:bg-cannabis-dark text-white px-8 py-3 rounded-lg font-semibold transition duration-300">
+                {% trans "Contact Our Cannabis Specialists" %}
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

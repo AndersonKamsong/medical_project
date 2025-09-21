@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us - {{ site_settings.site_name }}{% endblock %}
+
+{% block content %}
+{% load i18n %}
+
+<div class="container mx-auto px-4 py-8">
+    <!-- Hero Section -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-cannabis-dark mb-4">{% trans "About"%} {{ site_settings.site_name }}</h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {% trans "Your trusted source for premium cannabis products with detailed information about cannabinoid profiles, terpenes, cultivation methods, and wellness benefits." %}
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <!-- Our Mission -->
+        <div>
+            <h2 class="text-2xl font-bold text-cannabis-dark mb-4">{% trans "Our Mission" %}</h2>
+            <p class="text-gray-600 mb-4">
+                {% trans "At Green Houses CBD, we're dedicated to providing access to high-quality cannabis products backed by scientific research and transparent information about their composition and effects." %}
+            </p>
+            <p class="text-gray-600 mb-4">
+                {% trans "We believe educated consumers make better wellness choices. That's why every product includes detailed cannabinoid profiles, terpene information, lab test results, and guidance on responsible consumption." %}
+            </p>
+        </div>
+
+        <!-- Our Values -->
+        <div>
+            <h2 class="text-2xl font-bold text-cannabis-dark mb-4">{% trans "Our Values" %}</h2>
+            <ul class="space-y-3">
+                <li class="flex items-start">
+                    <i class="fas fa-cannabis text-cannabis-green mr-3 mt-1"></i>
+                    <div>
+                        <strong>{% trans "Lab-Verified Quality:" %}</strong> {% trans "Every batch is third-party tested for potency and purity with published Certificates of Analysis." %}
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-cannabis text-cannabis-green mr-3 mt-1"></i>
+                    <div>
+                        <strong>{% trans "Transparency:" %}</strong> {% trans "Complete information about cannabinoid content, terpene profiles, and cultivation methods." %}
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-cannabis text-cannabis-green mr-3 mt-1"></i>
+                    <div>
+                        <strong>{% trans "Compliance:" %}</strong> {% trans "All products meet EU and French regulations with less than 0.2% THC unless medically authorized." %}
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-cannabis text-cannabis-green mr-3 mt-1"></i>
+                    <div>
+                        <strong>{% trans "Education:" %}</strong> {% trans "Resources to help consumers understand cannabis science and responsible use." %}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="bg-cannabis-light rounded-lg p-8 mb-16 border border-cannabis-light">
+        <h2 class="text-2xl font-bold text-center text-cannabis-dark mb-8">{% trans "Why Choose Green Houses CBD" %}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center">
+                <div class="bg-cannabis-green rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-flask text-2xl text-white"></i>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">{% trans "Lab Testing" %}</h3>
+                <p class="text-gray-600 text-sm">
+                    {% trans "Every product batch tested for cannabinoids, terpenes, pesticides, heavy metals, and microbial contaminants." %}
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="bg-cannabis-green rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-seedling text-2xl text-white"></i>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">{% trans "Sustainable Cultivation" %}</h3>
+                <p class="text-gray-600 text-sm">
+                    {% trans "Partnering with organic farms using sustainable growing practices and natural pest control." %}
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="bg-cannabis-green rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-book text-2xl text-white"></i>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">{% trans "Consumer Education" %}</h3>
+                <p class="text-gray-600 text-sm">
+                    {% trans "Resources on cannabinoids, terpenes, consumption methods, and responsible use." %}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="text-center mb-16">
+        <h2 class="text-2xl font-bold text-cannabis-dark mb-8">{% trans "Our Cannabis Expertise" %}</h2>
+        <div class="max-w-4xl mx-auto">
+            <p class="text-gray-600 mb-6">
+                {% trans "Our team includes cannabis cultivators, chemists, and wellness experts passionate about the therapeutic potential of cannabinoids. We collaborate with research institutions to advance cannabis science." %}
+            </p>
+            <p class="text-gray-600 mb-6">
+                {% trans "For medical cannabis products, we work with licensed healthcare providers to ensure proper guidance and dosing recommendations." %}
+            </p>
+        </div>
+    </div>
+
+    <!-- Legal Compliance -->
+    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8">
+        <h3 class="font-semibold text-yellow-800 mb-2">
+            <i class="fas fa-gavel mr-2"></i>{% trans "Legal Compliance" %}
+        </h3>
+        <p class="text-yellow-800 text-sm">
+            {% trans "All products comply with French and EU regulations (THC < 0.2%). Medical cannabis products require proper authorization. We verify age (18+) for all purchases." %}
+        </p>
+    </div>
+
+    <!-- Contact CTA -->
+    <div class="bg-cannabis-green text-white rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-bold mb-4">{% trans "Have Cannabis Questions?" %}</h2>
+        <p class="mb-6">
+            {% trans "Our cannabis specialists are here to help with product selection, usage guidance, and general inquiries." %}
+        </p>
+        <a href="{% url 'pages:contact' %}" 
+           class="bg-white text-cannabis-green px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+            {% trans "Contact Us" %}
+        </a>
+    </div>
+</div>
+{% endblock %}
