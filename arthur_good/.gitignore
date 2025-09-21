@@ -31,3 +31,12 @@ local_config.py
 config.json  # or other config file formats
 secret_key.txt
 # .env
+# Database
+*.sqlite3
+*.db
+*.sqlite
+*.sql
+db.sqlite3
+
+# Database migrations (optional - be careful with this!)
+# migrations/
