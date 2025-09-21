@@ -14,13 +14,11 @@ import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from django.conf import settings
-from django.views.decorators.csrf import csrf_exempt
 
 import smtplib
 import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
 from django.shortcuts import render, redirect
 from django.contrib import messages
@@ -80,7 +78,6 @@ def send_admin_order_email(order, cleaned_data):
     # Use direct SMTP instead of Django's EmailMessage
     return send_email_directly(subject, body, admin_email, is_html=True)
 
-@csrf_exempt
 def order_create(request):
     """Create a new order and handle bank payment email if needed"""
     cart = Cart(request)

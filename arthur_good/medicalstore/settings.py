@@ -24,11 +24,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$()71v#6!8o4fcg(8va+=wb)koq%j%4*_$wpf1h!t25glkxpda'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-# DEBUG = False
+# DEBUG = True
+DEBUG = False
 
+ALLOWED_HOSTS = ['greenhousescbd.com', 'www.greenhousescbd.com', '16.176.176.184']
+CSRF_TRUSTED_ORIGINS = ['https://greenhousescbd.com', 'https://www.greenhousescbd.com']
+# Security settings
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
 # ALLOWED_HOSTS = ['https://greenhousescbd.com','greenhousescbd.com']  # Allow all hosts for development
-ALLOWED_HOSTS = ['*']  # Allow all hosts for development
+# ALLOWED_HOSTS = ['*']  # Allow all hosts for development
 
 # CSRF trusted origins for development
 CSRF_TRUSTED_ORIGINS = [
@@ -187,8 +195,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Security settings for production
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_CONTENT_TYPE_NOSNIFF = True
+# SECURE_BROWSER_XSS_FILTER = True
+# SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Session settings
