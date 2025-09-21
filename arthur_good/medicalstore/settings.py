@@ -34,14 +34,14 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
 ]
-CSRF_TRUSTED_ORIGINS = ['https://greenhousescbd.com', 'https://www.greenhousescbd.com']
+# CSRF_TRUSTED_ORIGINS = ['https://greenhousescbd.com', 'https://www.greenhousescbd.com']
 # Security settings
-SECURE_HSTS_SECONDS = 31536000  # 1 year
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
-SECURE_SSL_REDIRECT = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+# SECURE_HSTS_SECONDS = 31536000  # 1 year
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
+# SECURE_SSL_REDIRECT = True
+# SESSION_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
