@@ -30,7 +30,9 @@ DEBUG = True  # Changed to False for production
 # DEBUG = False 
 
 ALLOWED_HOSTS = [
-    '.greenhousescbd.com',
+    'greenhousescbd.com',
+    'greenhousescbd.com,greenhousescbd.com'
+    'www.greenhousescbd.com,www.greenhousescbd.com'
     'www.greenhousescbd.com',
     '16.176.176.184',  
     'localhost',
