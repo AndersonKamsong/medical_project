@@ -219,3 +219,13 @@ SESSION_SAVE_EVERY_REQUEST = True
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+# TEMPORARY DEBUG - REMOVE AFTER FIXING
+import logging
+logger = logging.getLogger('django.security.DisallowedHost')
+
+def log_disallowed_host(record):
+    logger.error(f"Disallowed Host received: {record.getMessage()}")
+    return True
+
+logging.getLogger('django.security.DisallowedHost').addFilter(log_disallowed_host)
